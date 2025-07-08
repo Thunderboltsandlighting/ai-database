@@ -1,0 +1,629 @@
+Trans. #,Trans. Date,Settle Date,Gross Amt,Disc. Fee,Per Trans. Fee,Net Amt,Acct Type,Acct Details,Trans. Type,Payer Name,Client Name,Provider
+9690,01-04-2025,01-04-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9691,01-04-2025,01-04-2025,50,-1.5,-0.3,48.2,Visa,9416,CC,None None,Isabel Rehak,Tammy Maxey
+9692,01-04-2025,01-04-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9693,01-04-2025,01-04-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+9694,01-04-2025,01-04-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9695,01-04-2025,01-06-2025,-182.81,0,0,-182.81,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9696,01-06-2025,01-06-2025,25,-0.75,-0.3,23.95,Visa,8162,CC,None None,Benjamin Pruitt,Sidney Snipes
+9697,01-07-2025,01-07-2025,-23.95,0,0,-23.95,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9698,01-13-2025,01-13-2025,30,-0.9,-0.3,28.8,Visa,2082,CC,None None,Herbert Abendroth,Sidney Snipes
+9699,01-13-2025,01-13-2025,-28.8,0,0,-28.8,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9700,01-14-2025,01-14-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9701,01-14-2025,None,0,0,0,0,Amex,2000,CC Decline,None None,Melissa Duffy,Unknown
+9702,01-14-2025,None,0,0,0,0,Visa,6373,CC Decline,None None,Melissa Duffy,Unknown
+9703,01-14-2025,01-14-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9704,01-14-2025,01-14-2025,25,-0.75,-0.3,23.95,Visa,1920,CC,None None,Gina Nicholson,Tammy Maxey
+9705,01-14-2025,01-14-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9706,01-14-2025,01-14-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9707,01-14-2025,01-14-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9708,01-14-2025,01-14-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9709,01-14-2025,01-14-2025,60,-1.79,-0.3,57.91,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9710,01-14-2025,01-14-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+9711,01-14-2025,01-14-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+9712,01-14-2025,01-14-2025,94,-2.81,-0.3,90.89,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+9713,01-14-2025,01-14-2025,-486.79,0,0,-486.79,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9714,01-17-2025,01-17-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9715,01-17-2025,01-17-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9716,01-17-2025,01-17-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+9717,01-17-2025,01-17-2025,100,-2.99,-0.3,96.71,Discover,8419,CC,None None,Cynthia Barsky,Tammy Maxey
+9718,01-17-2025,01-17-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9719,01-17-2025,01-17-2025,25,-0.75,-0.3,23.95,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9720,01-17-2025,01-17-2025,25,-0.75,-0.3,23.95,Visa,985,CC,None None,Rachael Haynes-Wood,Tammy Maxey
+9721,01-17-2025,01-17-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9722,01-17-2025,01-17-2025,-341.81,0,0,-341.81,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9723,01-20-2025,01-20-2025,750,-22.43,-0.3,727.27,Visa,373,CC,None None,Marnie Hansen,Tammy Maxey
+9724,01-20-2025,01-20-2025,124.28,-3.72,-0.3,120.26,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9725,01-20-2025,01-20-2025,25,-0.75,-0.3,23.95,Visa,8162,CC,None None,Benjamin Pruitt,Sidney Snipes
+9726,01-20-2025,01-20-2025,-871.48,0,0,-871.48,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9727,01-22-2025,01-22-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9728,01-22-2025,01-22-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9729,01-22-2025,01-22-2025,50,-1.5,-0.3,48.2,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9730,01-22-2025,01-22-2025,40,-1.2,-0.3,38.5,Visa,8982,CC,None None,Josiah Simpson,Dustin Nisley
+9731,01-22-2025,01-22-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+9732,01-22-2025,01-22-2025,124.28,-3.72,-0.3,120.26,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9733,01-22-2025,01-22-2025,150,-4.49,-0.3,145.21,Visa,5758,CC,None None,Roman Langston,Dustin Nisley
+9734,01-22-2025,01-22-2025,124.28,-4.71,-0.3,119.27,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+9735,01-22-2025,01-22-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+9736,01-22-2025,01-22-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+9737,01-22-2025,01-22-2025,90,-2.69,-0.3,87.01,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+9738,01-22-2025,01-22-2025,75,-2.24,-0.3,72.46,Visa,8792,CC,None None,Melissa Tinkler,Dustin Nisley
+9739,01-22-2025,01-22-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9740,01-22-2025,01-22-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+9741,01-22-2025,01-22-2025,104.79,-3.13,-0.3,101.36,Visa,2471,CC,None None,Declan Glover,Dustin Nisley
+9742,01-22-2025,01-22-2025,"-1,093.94",0,0,"-1,093.94",Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9743,01-25-2025,01-25-2025,30,-0.9,-0.3,28.8,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+9744,01-25-2025,01-25-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9745,01-25-2025,01-25-2025,75,-2.24,-0.3,72.46,Discover,8419,CC,None None,Cynthia Barsky,Tammy Maxey
+9746,01-25-2025,01-25-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9747,01-25-2025,01-25-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9748,01-25-2025,01-25-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+9749,01-25-2025,01-25-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9750,01-25-2025,01-25-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9751,01-25-2025,01-25-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9752,01-25-2025,01-26-2025,60,-1.79,-0.3,57.91,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9753,01-26-2025,01-27-2025,-443.08,0,0,-443.08,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9754,01-27-2025,01-27-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Scott Keplinger,Dustin Nisley
+9755,01-27-2025,01-27-2025,25,-0.75,-0.3,23.95,Visa,8162,CC,None None,Benjamin Pruitt,Sidney Snipes
+9756,01-27-2025,01-27-2025,-169.16,0,0,-169.16,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9757,01-28-2025,01-28-2025,-75,0,0,-75,Discover,8419,-CC Refund,None None,Cynthia Barsky,Tammy Maxey
+9758,01-28-2025,01-28-2025,75,0,0,75,Checking,4894..8993,CK,"Hendersonville Counseling, PLL",,Unknown
+9759,01-31-2025,01-31-2025,60,-1.79,-0.3,57.91,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+9760,01-31-2025,01-31-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9761,01-31-2025,01-31-2025,56,-1.67,-0.3,54.03,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9762,01-31-2025,01-31-2025,35,-1.05,-0.3,33.65,MasterCard,7405,CC,None None,Benjamin Melton,Dustin Nisley
+9763,01-31-2025,01-31-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9764,01-31-2025,01-31-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+9765,01-31-2025,01-31-2025,124.28,-3.72,-0.3,120.26,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9766,01-31-2025,01-31-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9767,01-31-2025,01-31-2025,100,-2.99,-0.3,96.71,Visa,5630,CC,None None,Scott Keplinger,Dustin Nisley
+9768,01-31-2025,01-31-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9769,01-31-2025,01-31-2025,-618.12,0,0,-618.12,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9770,02-03-2025,02-03-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+9771,02-03-2025,02-03-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9772,02-03-2025,02-03-2025,100,-2.99,-0.3,96.71,MasterCard,1387,CC,None None,Amy Allen,Dustin Nisley
+9773,02-03-2025,02-03-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+9774,02-03-2025,None,0,0,0,0,Visa,8982,CC Decline,None None,Josiah Simpson,Unknown
+9775,02-03-2025,02-03-2025,75,-2.24,-0.3,72.46,Visa,5630,CC,None None,Scott Keplinger,Dustin Nisley
+9776,02-03-2025,02-03-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9777,02-03-2025,02-03-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+9778,02-03-2025,02-03-2025,136.89,-4.09,-0.3,132.5,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+9779,02-03-2025,02-03-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+9780,02-04-2025,02-04-2025,140.43,-5.32,-0.3,134.81,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+9781,02-04-2025,02-04-2025,186.42,-5.57,-0.3,180.55,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9782,02-04-2025,02-04-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9783,02-04-2025,02-04-2025,20.79,-0.62,-0.3,19.87,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+9784,02-04-2025,02-04-2025,28.2,-0.84,-0.3,27.06,Visa,985,CC,None None,Rachael Haynes-Wood,Tammy Maxey
+9785,02-04-2025,02-04-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9786,02-04-2025,02-04-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9787,02-04-2025,02-04-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9788,02-04-2025,02-04-2025,25,-0.75,-0.3,23.95,Visa,985,CC,None None,Rachael Haynes-Wood,Tammy Maxey
+9789,02-04-2025,02-04-2025,75,-2.24,-0.3,72.46,MasterCard,3717,CC,None None,Lisa Mangiardi,Tammy Maxey
+9790,02-04-2025,02-04-2025,-930.19,0,0,-930.19,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9791,02-04-2025,02-04-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9792,02-04-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+9793,02-04-2025,02-04-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9794,02-04-2025,02-04-2025,25,-0.75,-0.3,23.95,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9795,02-04-2025,02-04-2025,94,-2.81,-0.3,90.89,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+9796,02-04-2025,02-04-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9797,02-05-2025,02-05-2025,-494.04,0,0,-494.04,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9798,02-09-2025,02-09-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9799,02-09-2025,02-09-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+9800,02-09-2025,02-09-2025,19,-0.57,-0.3,18.13,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9801,02-09-2025,02-09-2025,60,-1.79,-0.3,57.91,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+9802,02-09-2025,None,0,0,0,0,MasterCard,5057,CC Decline,None None,Joceline Ordonez,Unknown
+9803,02-09-2025,02-09-2025,153.14,-4.58,-0.3,148.26,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9804,02-09-2025,02-09-2025,5,-0.15,-0.3,4.55,MasterCard,7405,CC,None None,Benjamin Melton,Dustin Nisley
+9805,02-09-2025,02-09-2025,124.28,-3.72,-0.3,120.26,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+9806,02-09-2025,02-09-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9807,02-09-2025,02-09-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9808,02-09-2025,02-09-2025,35,-1.05,-0.3,33.65,MasterCard,7405,CC,None None,Benjamin Melton,Dustin Nisley
+9809,02-09-2025,02-09-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+9810,02-09-2025,02-09-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9811,02-09-2025,02-09-2025,124.28,-3.72,-0.3,120.26,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9812,02-09-2025,02-09-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+9813,02-09-2025,02-09-2025,30,-0.9,-0.3,28.8,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+9814,02-09-2025,02-09-2025,25,-0.75,-0.3,23.95,MasterCard,8920,CC,None None,Rhett King,Dustin Nisley
+9815,02-09-2025,02-09-2025,20,-0.6,-0.3,19.1,Visa,8792,CC,None None,Melissa Tinkler,Dustin Nisley
+9816,02-09-2025,02-09-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9817,02-09-2025,02-09-2025,150,-4.49,-0.3,145.21,Visa,5758,CC,None None,Roman Langston,Dustin Nisley
+9818,02-09-2025,02-09-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9819,02-09-2025,02-09-2025,100,-2.99,-0.3,96.71,MasterCard,1387,CC,None None,Amy Allen,Dustin Nisley
+9820,02-09-2025,02-09-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+9821,02-09-2025,02-09-2025,138.61,-4.14,-0.3,134.17,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+9822,02-09-2025,02-09-2025,138.61,-4.14,-0.3,134.17,Visa,1756,CC,None None,Bryce Calton,Dustin Nisley
+9823,02-09-2025,02-10-2025,"-1,508.95",0,0,"-1,508.95",Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9824,02-12-2025,02-12-2025,62.14,-1.86,-0.3,59.98,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9825,02-12-2025,02-12-2025,124.28,-4.71,-0.3,119.27,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+9826,02-12-2025,02-12-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9827,02-12-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+9828,02-12-2025,02-12-2025,50,-1.5,-0.3,48.2,Visa,9416,CC,None None,Isabel Rehak,Tammy Maxey
+9829,02-12-2025,02-12-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9830,02-12-2025,02-12-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9831,02-12-2025,02-12-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9832,02-12-2025,02-12-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9833,02-12-2025,02-12-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9834,02-12-2025,02-12-2025,10,-0.3,-0.3,9.4,Visa,2092,CC,None None,Barbara Hale,Tammy Maxey
+9835,02-12-2025,02-12-2025,25,-0.75,-0.3,23.95,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9836,02-12-2025,02-12-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9837,02-12-2025,02-12-2025,-515.6,0,0,-515.6,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9838,02-13-2025,02-13-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9839,02-13-2025,02-13-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9840,02-13-2025,02-13-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9841,02-13-2025,02-13-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9842,02-13-2025,02-13-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9843,02-13-2025,None,0,0,0,0,Visa,985,CC Decline,None None,Rachael Haynes-Wood,Unknown
+9844,02-13-2025,02-13-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9845,02-13-2025,02-13-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9846,02-13-2025,02-13-2025,25,-0.75,-0.3,23.95,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+9847,02-13-2025,02-13-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9848,02-13-2025,02-13-2025,-331.81,0,0,-331.81,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9849,02-17-2025,02-17-2025,124.28,-4.71,-0.3,119.27,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+9850,02-17-2025,02-17-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9851,02-17-2025,02-17-2025,30,-0.9,-0.3,28.8,Visa,2082,CC,None None,Herbert Abendroth,Sidney Snipes
+9852,02-17-2025,None,0,0,0,0,MasterCard,5057,CC Decline,None None,Joceline Ordonez,Unknown
+9853,02-17-2025,02-17-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9854,02-17-2025,02-17-2025,20,-0.6,-0.3,19.1,Visa,8982,CC,None None,Josiah Simpson,Dustin Nisley
+9855,02-17-2025,02-17-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9856,02-17-2025,02-17-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9857,02-17-2025,02-17-2025,124.28,-4.71,-0.3,119.27,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+9858,02-17-2025,02-17-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+9859,02-17-2025,02-17-2025,138.61,-4.14,-0.3,134.17,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+9860,02-17-2025,02-17-2025,-530.66,0,0,-530.66,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9861,02-18-2025,02-18-2025,124.28,-3.72,-0.3,120.26,Visa,8162,CC,None None,Benjamin Pruitt,Sidney Snipes
+9862,02-18-2025,02-18-2025,-120.26,0,0,-120.26,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9863,02-20-2025,02-20-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9864,02-20-2025,02-20-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9865,02-20-2025,02-20-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9866,02-20-2025,02-20-2025,100,-2.99,-0.3,96.71,Discover,8419,CC,None None,Cynthia Barsky,Tammy Maxey
+9867,02-20-2025,02-20-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9868,02-20-2025,02-20-2025,30,-0.9,-0.3,28.8,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+9869,02-20-2025,02-20-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9870,02-20-2025,02-20-2025,94,-2.81,-0.3,90.89,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+9871,02-20-2025,02-20-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9872,02-21-2025,02-21-2025,-423,0,0,-423,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9873,02-25-2025,02-25-2025,124.28,-3.72,-0.3,120.26,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9874,02-25-2025,02-25-2025,124.28,-4.71,-0.3,119.27,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+9875,02-25-2025,02-25-2025,124.28,-3.72,-0.3,120.26,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9876,02-25-2025,02-25-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+9877,02-25-2025,02-25-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9878,02-25-2025,02-25-2025,35,-1.05,-0.3,33.65,MasterCard,7405,CC,None None,Benjamin Melton,Dustin Nisley
+9879,02-25-2025,02-25-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+9880,02-25-2025,02-25-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+9881,02-25-2025,02-25-2025,124.28,-3.72,-0.3,120.26,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9882,02-25-2025,02-25-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9883,02-25-2025,02-25-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9884,02-25-2025,02-25-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+9885,02-25-2025,02-25-2025,-359.79,0,0,-359.79,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9886,02-26-2025,02-26-2025,-124.28,0,0,-124.28,Visa,2854,-CC Refund,None None,Colin Gore,Sidney Snipes
+9887,02-26-2025,02-26-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9888,02-26-2025,02-26-2025,124.28,0,0,124.28,Checking,4894..8993,CK,"Hendersonville Counseling, PLL",,Unknown
+9889,02-26-2025,02-26-2025,-549.23,0,0,-549.23,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9890,03-03-2025,03-03-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+9891,03-03-2025,03-03-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+9892,03-03-2025,03-03-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9893,03-03-2025,03-03-2025,40,-1.2,-0.3,38.5,Visa,8982,CC,None None,Josiah Simpson,Dustin Nisley
+9894,03-03-2025,03-03-2025,80,-2.39,-0.3,77.31,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+9895,03-03-2025,03-03-2025,50,-1.5,-0.3,48.2,MasterCard,9382,CC,None None,Carey Barnett,Dustin Nisley
+9896,03-03-2025,03-03-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9897,03-03-2025,03-03-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9898,03-03-2025,03-03-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+9899,03-03-2025,03-03-2025,138.61,-4.14,-0.3,134.17,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+9900,03-03-2025,03-03-2025,-494.64,0,0,-494.64,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9901,03-08-2025,03-08-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9902,03-08-2025,03-08-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9903,03-08-2025,None,30,0,0,0,Visa,4049,CC Void,None None,Ashley Albers,Tammy Maxey
+9904,03-08-2025,03-08-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9905,03-08-2025,03-08-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9906,03-08-2025,03-08-2025,78.6,-2.35,-0.3,75.95,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+9907,03-08-2025,03-08-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9908,03-08-2025,03-08-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9909,03-08-2025,03-10-2025,-268.61,0,0,-268.61,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9910,03-09-2025,03-10-2025,-57.6,0,0,-57.6,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9911,03-11-2025,03-11-2025,124.28,-4.71,-0.3,119.27,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+9912,03-11-2025,03-11-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9913,03-12-2025,03-12-2025,-128.67,0,0,-128.67,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9914,03-13-2025,None,0,0,0,0,MasterCard,5057,CC Decline,None None,Joceline Ordonez,Unknown
+9915,03-13-2025,03-13-2025,99.28,-2.97,-0.3,96.01,MasterCard,8920,CC,None None,Rhett King,Dustin Nisley
+9916,03-13-2025,03-13-2025,188.56,-5.64,-0.3,182.62,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+9917,03-13-2025,03-13-2025,1.4,-0.04,-0.3,1.06,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+9918,03-13-2025,03-13-2025,124.28,-3.72,-0.3,120.26,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+9919,03-13-2025,03-13-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+9920,03-13-2025,03-13-2025,56,-1.67,-0.3,54.03,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9921,03-13-2025,03-13-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+9922,03-13-2025,03-13-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9923,03-13-2025,03-13-2025,30,-0.9,-0.3,28.8,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+9924,03-13-2025,None,0,0,0,0,Visa,4361,CC Decline,None None,Abbigaile Martin,Unknown
+9925,03-13-2025,03-13-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9926,03-13-2025,03-13-2025,75,-2.24,-0.3,72.46,Visa,8792,CC,None None,Melissa Tinkler,Dustin Nisley
+9927,03-13-2025,03-13-2025,48.56,-1.45,-0.3,46.81,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+9928,03-13-2025,03-13-2025,-10,0,0,-10,Visa,3168,-CC Refund,None None,Shannon Allison,Dustin Nisley
+9929,03-13-2025,None,0,0,0,0,Visa,8982,CC Decline,None None,Josiah Simpson,Unknown
+9930,03-13-2025,03-13-2025,10,0,0,10,Checking,4894..8993,CK,"Hendersonville Counseling, PLL",,Unknown
+9931,03-13-2025,03-13-2025,-804.56,0,0,-804.56,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9932,03-14-2025,None,0,0,0,0,Visa,8982,CC Decline,None None,Josiah Simpson,Unknown
+9933,03-18-2025,03-18-2025,124.28,-3.72,-0.3,120.26,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9934,03-18-2025,03-18-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9935,03-18-2025,03-18-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+9936,03-18-2025,03-18-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9937,03-18-2025,03-18-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9938,03-18-2025,03-18-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9939,03-18-2025,None,0,0,0,0,Visa,7338,CC Decline,None None,Elizabeth Pettengill,Unknown
+9940,03-18-2025,03-18-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9941,03-18-2025,03-18-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+9942,03-18-2025,03-18-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+9943,03-18-2025,03-18-2025,10,-0.3,-0.3,9.4,Visa,3168,CC,None None,Shannon Allison,Dustin Nisley
+9944,03-18-2025,None,0,0,0,0,MasterCard,7405,CC Decline,None None,Benjamin Melton,Unknown
+9945,03-18-2025,03-18-2025,75,-2.24,-0.3,72.46,Visa,8792,CC,None None,Melissa Tinkler,Dustin Nisley
+9946,03-18-2025,03-18-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+9947,03-18-2025,03-18-2025,-129.66,0,0,-129.66,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9948,03-19-2025,03-19-2025,-360.77,0,0,-360.77,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9949,03-24-2025,03-25-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9950,03-25-2025,03-25-2025,50,-1.5,-0.3,48.2,Visa,9416,CC,None None,Isabel Rehak,Tammy Maxey
+9951,03-25-2025,03-25-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9952,03-25-2025,03-25-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9953,03-25-2025,03-25-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+9954,03-25-2025,03-25-2025,30,-0.9,-0.3,28.8,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+9955,03-25-2025,03-25-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9956,03-25-2025,03-25-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9957,03-25-2025,03-25-2025,35,-1.05,-0.3,33.65,Discover,6147,CC,None None,Ashley McElroy,Tammy Maxey
+9958,03-25-2025,03-25-2025,50,-1.5,-0.3,48.2,MasterCard,4257,CC,None None,Reva Thompson,Tammy Maxey
+9959,03-25-2025,03-25-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+9960,03-25-2025,03-25-2025,124.28,-3.72,-0.3,120.26,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+9961,03-25-2025,03-25-2025,-9.4,0,0,-9.4,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9962,03-25-2025,03-25-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+9963,03-25-2025,03-25-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+9964,03-25-2025,03-25-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9965,03-25-2025,03-25-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+9966,03-25-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+9967,03-25-2025,03-25-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+9968,03-26-2025,03-26-2025,-616.34,0,0,-616.34,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9969,03-29-2025,03-29-2025,41.58,-1.24,-0.3,40.04,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+9970,03-29-2025,03-29-2025,9,-0.27,-0.3,8.43,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+9971,03-29-2025,03-29-2025,35,-1.05,-0.3,33.65,Discover,6147,CC,None None,Ashley McElroy,Tammy Maxey
+9972,03-29-2025,None,0,0,0,0,Visa,985,CC Decline,None None,Rachael Haynes-Wood,Unknown
+9973,03-29-2025,None,0,0,0,0,MasterCard,3051,CC Decline,None None,Rachael Haynes-Wood,Unknown
+9974,03-29-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+9975,03-29-2025,03-29-2025,105,-3.14,-0.3,101.56,Visa,8982,CC,None None,Josiah Simpson,Dustin Nisley
+9976,03-29-2025,None,0,0,0,0,MasterCard,5057,CC Decline,None None,Joceline Ordonez,Unknown
+9977,03-29-2025,None,0,0,0,0,MasterCard,7405,CC Decline,None None,Benjamin Melton,Unknown
+9978,03-29-2025,None,-183.68,0,0,-183.68,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+9979,03-30-2025,03-30-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+9980,03-30-2025,03-30-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+9981,03-30-2025,03-30-2025,10,-0.3,-0.3,9.4,Visa,2092,CC,None None,Barbara Hale,Tammy Maxey
+9982,03-30-2025,03-30-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+9983,03-30-2025,03-30-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+9984,03-30-2025,03-30-2025,125,-3.74,-0.3,120.96,Visa,5428,CC,None None,Amelie Weems,Tammy Maxey
+9985,03-30-2025,03-30-2025,20.79,-0.62,-0.3,19.87,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+9986,03-30-2025,03-30-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+9987,03-30-2025,None,0,0,0,0,MasterCard,4257,CC Decline,None None,Reva Thompson,Unknown
+9988,03-30-2025,03-30-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+9989,03-30-2025,03-30-2025,97,-2.9,-0.3,93.8,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+9990,03-31-2025,None,0,0,0,0,Visa,985,CC Decline,None None,Rachael Haynes-Wood,Unknown
+9991,03-31-2025,03-31-2025,124.28,-3.72,-0.3,120.26,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+9992,03-31-2025,03-31-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+9993,03-31-2025,03-31-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+9994,03-31-2025,03-31-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+9995,03-31-2025,03-31-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+9996,03-31-2025,03-31-2025,30,-0.9,-0.3,28.8,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+9997,03-31-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+9998,03-31-2025,None,0,0,0,0,Visa,6667,CC Decline,None None,Melissa Tinkler,Unknown
+9999,03-31-2025,03-31-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+10000,03-31-2025,03-31-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+10001,03-31-2025,03-31-2025,124.28,-4.71,-0.3,119.27,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10002,03-31-2025,None,0,0,0,0,Visa,4128,CC Decline,None None,Conrad Breitfeller,Unknown
+10003,03-31-2025,03-31-2025,75,-2.24,-0.3,72.46,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+10004,03-31-2025,03-31-2025,138.61,-4.14,-0.3,134.17,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+10005,03-31-2025,03-31-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10006,03-31-2025,03-31-2025,"-1,041.05",0,0,"-1,041.05",Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10007,04-01-2025,04-01-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+10008,04-01-2025,04-01-2025,-19.1,0,0,-19.1,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10009,04-10-2025,04-10-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10010,04-10-2025,None,30,0,0,0,Visa,4049,CC Void,None None,Ashley Albers,Tammy Maxey
+10011,04-10-2025,04-10-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10012,04-10-2025,04-10-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+10013,04-10-2025,04-10-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10014,04-10-2025,04-10-2025,35,-1.05,-0.3,33.65,Discover,6147,CC,None None,Ashley McElroy,Tammy Maxey
+10015,04-10-2025,04-10-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10016,04-10-2025,04-10-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10017,04-10-2025,04-10-2025,100,-2.99,-0.3,96.71,Discover,8419,CC,None None,Cynthia Barsky,Tammy Maxey
+10018,04-10-2025,None,0,0,0,0,MasterCard,4257,CC Decline,None None,Reva Thompson,Unknown
+10019,04-10-2025,04-10-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+10020,04-10-2025,04-10-2025,35,-1.05,-0.3,33.65,MasterCard,7849,CC,None None,Benjamin Melton,Dustin Nisley
+10021,04-10-2025,04-10-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10022,04-10-2025,04-10-2025,35,-1.05,-0.3,33.65,MasterCard,7862,CC,None None,Joseph Thomas,Dustin Nisley
+10023,04-10-2025,04-10-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+10024,04-10-2025,04-10-2025,-568.44,0,0,-568.44,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10025,04-14-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+10026,04-14-2025,None,0,0,0,0,Visa,6667,CC Decline,None None,Melissa Tinkler,Unknown
+10027,04-14-2025,04-14-2025,35,-1.05,-0.3,33.65,MasterCard,7849,CC,None None,Benjamin Melton,Dustin Nisley
+10028,04-14-2025,04-14-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+10029,04-14-2025,04-14-2025,124.28,-3.72,-0.3,120.26,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+10030,04-14-2025,04-14-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10031,04-14-2025,04-14-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+10032,04-14-2025,04-14-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+10033,04-14-2025,04-14-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10034,04-14-2025,04-14-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10035,04-14-2025,04-14-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10036,04-14-2025,None,0,0,0,0,MasterCard,7862,CC Decline,None None,Joseph Thomas,Unknown
+10037,04-14-2025,None,0,0,0,0,MasterCard,3654,CC Decline,None None,Joseph Thomas,Unknown
+10038,04-14-2025,04-14-2025,124.28,-4.71,-0.3,119.27,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10039,04-14-2025,04-14-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10040,04-14-2025,04-14-2025,124.28,-4.71,-0.3,119.27,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+10041,04-14-2025,04-14-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10042,04-14-2025,04-14-2025,124.28,-3.72,-0.3,120.26,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+10043,04-15-2025,04-15-2025,-722.82,0,0,-722.82,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10044,04-16-2025,04-16-2025,100,-2.99,-0.3,96.71,Visa,2694,CC,None None,Leah Cooper,Tammy Maxey
+10045,04-16-2025,04-16-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+10046,04-16-2025,04-16-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10047,04-16-2025,04-16-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10048,04-16-2025,None,0,0,0,0,MasterCard,4257,CC Decline,None None,Reva Thompson,Unknown
+10049,04-16-2025,04-16-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+10050,04-16-2025,04-16-2025,10,-0.3,-0.3,9.4,Visa,2092,CC,None None,Barbara Hale,Tammy Maxey
+10051,04-16-2025,04-16-2025,94,-2.81,-0.3,90.89,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+10052,04-16-2025,04-16-2025,-297.49,0,0,-297.49,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10053,04-18-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+10054,04-18-2025,04-18-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10055,04-18-2025,04-18-2025,30,-0.9,-0.3,28.8,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+10056,04-18-2025,None,0,0,0,0,Visa,985,CC Decline,None None,Rachael Haynes-Wood,Unknown
+10057,04-18-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+10058,04-18-2025,None,0,0,0,0,Visa,2047,CC Decline,None None,Marnie Hansen,Unknown
+10059,04-18-2025,04-18-2025,35,-1.05,-0.3,33.65,Discover,6147,CC,None None,Ashley McElroy,Tammy Maxey
+10060,04-18-2025,04-18-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10061,04-18-2025,04-18-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+10062,04-18-2025,04-18-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10063,04-18-2025,04-18-2025,100,-2.99,-0.3,96.71,MasterCard,6714,CC,None None,Cynthia Barsky,Tammy Maxey
+10064,04-18-2025,04-18-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10065,04-18-2025,None,0,0,0,0,MasterCard,4257,CC Decline,None None,Reva Thompson,Unknown
+10066,04-18-2025,04-18-2025,50,-1.5,-0.3,48.2,Visa,70,CC,None None,Reva Thompson,Tammy Maxey
+10067,04-18-2025,04-18-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+10068,04-18-2025,04-18-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10069,04-18-2025,04-18-2025,-505.82,0,0,-505.82,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10070,04-21-2025,04-21-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10071,04-21-2025,04-21-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10072,04-21-2025,04-21-2025,30,-0.9,-0.3,28.8,Visa,4588,CC,None None,Hunter Stamps,Dustin Nisley
+10073,04-21-2025,04-21-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10074,04-21-2025,04-21-2025,10,-0.3,-0.3,9.4,Visa,4492,CC,None None,Pete Martin,Dustin Nisley
+10075,04-21-2025,04-21-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+10076,04-21-2025,04-21-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10077,04-21-2025,None,0,0,0,0,MasterCard,7862,CC Decline,None None,Joseph Thomas,Unknown
+10078,04-21-2025,04-21-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+10079,04-21-2025,04-21-2025,138.61,-4.14,-0.3,134.17,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+10080,04-21-2025,04-21-2025,-334.88,0,0,-334.88,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10081,04-25-2025,04-25-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10082,04-25-2025,04-25-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10083,04-25-2025,04-25-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10084,04-25-2025,04-25-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10085,04-25-2025,04-25-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10086,04-25-2025,04-25-2025,50,-1.5,-0.3,48.2,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10087,04-25-2025,04-25-2025,-235.86,0,0,-235.86,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10088,04-26-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+10089,04-26-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+10090,04-26-2025,04-26-2025,31,-0.93,-0.3,29.77,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+10091,04-26-2025,04-26-2025,10,-0.3,-0.3,9.4,Visa,4492,CC,None None,Pete Martin,Dustin Nisley
+10092,04-26-2025,04-26-2025,128.26,-3.83,-0.3,124.13,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+10093,04-26-2025,04-26-2025,3.98,-0.15,-0.3,3.53,Amex,1009,CC,None None,William Weisgerber,Sidney Snipes
+10094,04-26-2025,04-28-2025,-166.83,0,0,-166.83,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10095,04-28-2025,None,0,0,0,0,Visa,3154,CC Decline,None None,Ashley Shumaker,Unknown
+10096,04-28-2025,04-28-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10097,04-28-2025,04-28-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10098,04-28-2025,04-28-2025,70,-2.09,-0.3,67.61,Visa,7810,CC,None None,Tina Brickell,Sidney Snipes
+10099,04-28-2025,04-28-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+10100,04-28-2025,04-28-2025,128.26,-3.83,-0.3,124.13,MasterCard,2778,CC,None None,Jacob Kandrak,Dustin Nisley
+10101,04-28-2025,04-28-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10102,04-28-2025,04-28-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10103,04-28-2025,04-28-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10104,04-28-2025,04-28-2025,128.26,-4.86,-0.3,123.1,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10105,04-28-2025,04-28-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+10106,04-28-2025,04-28-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+10107,04-29-2025,04-29-2025,-656.21,0,0,-656.21,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10108,05-06-2025,05-06-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10109,05-06-2025,05-06-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10110,05-06-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10111,05-06-2025,05-06-2025,12.83,-0.38,-0.3,12.15,MasterCard,5057,CC,None None,Joceline Ordonez,Dustin Nisley
+10112,05-06-2025,05-06-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+10113,05-06-2025,05-06-2025,56,-1.67,-0.3,54.03,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+10114,05-06-2025,05-06-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10115,05-06-2025,05-06-2025,35,-1.05,-0.3,33.65,MasterCard,7849,CC,None None,Benjamin Melton,Dustin Nisley
+10116,05-06-2025,05-06-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+10117,05-06-2025,05-06-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+10118,05-06-2025,05-06-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10119,05-06-2025,05-06-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+10120,05-06-2025,05-06-2025,37.65,-1.13,-0.3,36.22,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+10121,05-06-2025,05-06-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10122,05-06-2025,05-06-2025,100,-2.99,-0.3,96.71,MasterCard,1387,CC,None None,Amy Allen,Dustin Nisley
+10123,05-06-2025,05-06-2025,10,-0.3,-0.3,9.4,Visa,4492,CC,None None,Pete Martin,Dustin Nisley
+10124,05-06-2025,None,0,0,0,0,MasterCard,7862,CC Decline,None None,Joseph Thomas,Unknown
+10125,05-06-2025,05-06-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+10126,05-06-2025,05-06-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10127,05-06-2025,05-06-2025,-607.47,0,0,-607.47,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10128,05-12-2025,05-12-2025,35,-1.05,-0.3,33.65,Visa,7810,CC,None None,Tina Brickell,Sidney Snipes
+10129,05-12-2025,05-12-2025,-33.65,0,0,-33.65,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10130,05-13-2025,05-14-2025,35,-1.05,-0.3,33.65,Visa,7810,CC,None None,Tina Brickell,Sidney Snipes
+10131,05-13-2025,05-14-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10132,05-13-2025,05-14-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10133,05-13-2025,05-14-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10134,05-13-2025,05-14-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10135,05-13-2025,05-14-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10136,05-13-2025,05-14-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10137,05-13-2025,05-14-2025,128.26,-4.86,-0.3,123.1,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10138,05-13-2025,05-14-2025,20,-0.6,-0.3,19.1,Visa,4128,CC,None None,Conrad Breitfeller,Dustin Nisley
+10139,05-13-2025,05-14-2025,150,-4.49,-0.3,145.21,Visa,7230,CC,None None,Destiny Mills,Dustin Nisley
+10140,05-14-2025,05-14-2025,-498.12,0,0,-498.12,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10141,05-19-2025,05-19-2025,138.61,-4.14,-0.3,134.17,Visa,3085,CC,None None,Sherry Cotton,Sidney Snipes
+10142,05-19-2025,05-19-2025,35,-1.05,-0.3,33.65,Visa,7810,CC,None None,Tina Brickell,Sidney Snipes
+10143,05-19-2025,05-19-2025,128.26,-3.83,-0.3,124.13,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+10144,05-19-2025,05-19-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10145,05-19-2025,05-19-2025,-311.05,0,0,-311.05,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10146,05-21-2025,05-21-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+10147,05-21-2025,05-21-2025,56,-1.67,-0.3,54.03,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+10148,05-21-2025,05-21-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+10149,05-21-2025,05-21-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10150,05-21-2025,05-21-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10151,05-21-2025,05-21-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10152,05-21-2025,05-21-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10153,05-21-2025,05-21-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10154,05-21-2025,05-21-2025,75,-2.24,-0.3,72.46,Visa,4360,CC,None None,Christina Martin,Dustin Nisley
+10155,05-21-2025,05-21-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10156,05-21-2025,05-21-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10157,05-21-2025,05-21-2025,100,-2.99,-0.3,96.71,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+10158,05-21-2025,05-21-2025,55,-1.64,-0.3,53.06,Visa,3563,CC,None None,Kate Martin,Tammy Maxey
+10159,05-21-2025,05-21-2025,100,-2.99,-0.3,96.71,MasterCard,6714,CC,None None,Cynthia Barsky,Tammy Maxey
+10160,05-21-2025,05-21-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10161,05-21-2025,05-21-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10162,05-21-2025,05-21-2025,50,-1.5,-0.3,48.2,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10163,05-21-2025,05-21-2025,-979.71,0,0,-979.71,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10164,05-23-2025,05-23-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10165,05-23-2025,05-23-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10166,05-23-2025,05-23-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+10167,05-23-2025,05-23-2025,20.79,-0.62,-0.3,19.87,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+10168,05-23-2025,05-23-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+10169,05-23-2025,05-23-2025,50,-1.5,-0.3,48.2,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10170,05-23-2025,05-23-2025,50,-1.5,-0.3,48.2,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10171,05-23-2025,05-23-2025,-266.44,0,0,-266.44,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10172,05-28-2025,05-28-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10173,05-28-2025,05-28-2025,138.61,-4.14,-0.3,134.17,Visa,3085,CC,None None,Sherry Cotton,Sidney Snipes
+10174,05-28-2025,05-28-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10175,05-28-2025,05-28-2025,70,-2.09,-0.3,67.61,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10176,05-28-2025,05-28-2025,3.98,-0.15,-0.3,3.53,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10177,05-28-2025,05-28-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10178,05-28-2025,05-28-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10179,05-28-2025,05-28-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10180,05-28-2025,05-28-2025,35,-1.05,-0.3,33.65,MasterCard,7849,CC,None None,Benjamin Melton,Dustin Nisley
+10181,05-28-2025,05-28-2025,25,-0.75,-0.3,23.95,Visa,2624,CC,None None,Brandon Trivette,Dustin Nisley
+10182,05-28-2025,05-28-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10183,05-28-2025,05-28-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10184,05-28-2025,05-28-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10185,05-28-2025,05-28-2025,75,-2.24,-0.3,72.46,Visa,4492,CC,None None,Abbigaile Martin,Dustin Nisley
+10186,05-28-2025,05-28-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10187,05-28-2025,None,0,0,0,0,Visa,4872,CC Decline,None None,Christopher Bradley,Unknown
+10188,05-28-2025,05-28-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10189,05-28-2025,05-28-2025,128.26,-4.86,-0.3,123.1,Amex,1004,CC,None None,Michael Feige,Dustin Nisley
+10190,05-28-2025,05-28-2025,25,-0.75,-0.3,23.95,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10191,05-28-2025,05-28-2025,-832.69,0,0,-832.69,,8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10192,05-29-2025,05-29-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+10193,05-29-2025,05-29-2025,-23.95,0,0,-23.95,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10194,05-30-2025,05-30-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10195,05-30-2025,05-30-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10196,05-30-2025,05-30-2025,100,-2.99,-0.3,96.71,Visa,2694,CC,None None,Leah Cooper,Tammy Maxey
+10197,05-30-2025,05-30-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10198,05-30-2025,05-30-2025,50,-1.5,-0.3,48.2,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10199,05-30-2025,05-30-2025,30,-0.9,-0.3,28.8,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+10200,05-30-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+10201,05-30-2025,05-30-2025,41.58,-1.24,-0.3,40.04,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+10202,05-30-2025,05-30-2025,3,-0.09,-0.3,2.61,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+10203,05-30-2025,05-30-2025,19.8,-0.59,-0.3,18.91,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10204,05-30-2025,05-30-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10205,05-30-2025,05-30-2025,-398.98,0,0,-398.98,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10206,06-02-2025,06-02-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10207,06-02-2025,06-02-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10208,06-02-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10209,06-02-2025,06-02-2025,35,-1.05,-0.3,33.65,MasterCard,8978,CC,None None,Jessica Parce,Dustin Nisley
+10210,06-02-2025,06-02-2025,75,-2.24,-0.3,72.46,Visa,7571,CC,None None,Susan Wilson,Dustin Nisley
+10211,06-02-2025,06-02-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+10212,06-02-2025,06-02-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10213,06-02-2025,06-02-2025,150,-4.49,-0.3,145.21,Visa,5630,CC,None None,Tyrel Keplinger,Dustin Nisley
+10214,06-02-2025,06-02-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+10215,06-02-2025,06-02-2025,32.32,-0.97,-0.3,31.05,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+10216,06-02-2025,06-02-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10217,06-02-2025,06-02-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10218,06-02-2025,06-02-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10219,06-02-2025,06-02-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+10220,06-02-2025,06-02-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10221,06-02-2025,06-02-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10222,06-02-2025,06-02-2025,-680.84,0,0,-680.84,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10223,06-10-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10224,06-10-2025,06-10-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10225,06-10-2025,06-10-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10226,06-10-2025,06-10-2025,-28.5,0,0,-28.5,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10227,06-11-2025,06-11-2025,50,-1.5,-0.3,48.2,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10228,06-11-2025,06-11-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10229,06-11-2025,None,30,0,0,0,Visa,4049,CC Void,None None,Ashley Albers,Tammy Maxey
+10230,06-11-2025,06-11-2025,90,-2.69,-0.3,87.01,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10231,06-11-2025,06-11-2025,10,-0.3,-0.3,9.4,Visa,2092,CC,None None,Barbara Hale,Tammy Maxey
+10232,06-11-2025,06-11-2025,75,-2.24,-0.3,72.46,MasterCard,3717,CC,None None,Lisa Mangiardi,Tammy Maxey
+10233,06-11-2025,06-11-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10234,06-11-2025,06-11-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+10235,06-11-2025,06-11-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10236,06-11-2025,06-11-2025,75,-2.84,-0.3,71.86,Amex,2003,CC,None None,Andrew Jones,Dustin Nisley
+10237,06-11-2025,06-11-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10238,06-11-2025,06-11-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10239,06-11-2025,06-11-2025,50,-1.5,-0.3,48.2,Visa,9438,CC,None None,Tamekia Bediako,Tammy Maxey
+10240,06-11-2025,06-11-2025,-538.84,0,0,-538.84,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10241,06-13-2025,06-13-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10242,06-13-2025,06-13-2025,40.65,-1.22,-0.3,39.13,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10243,06-13-2025,06-13-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+10244,06-13-2025,None,30,0,0,0,Visa,4049,CC Void,None None,Ashley Albers,Tammy Maxey
+10245,06-13-2025,06-13-2025,97,-2.9,-0.3,93.8,Visa,7738,CC,None None,Nicole Boehrig,Tammy Maxey
+10246,06-13-2025,None,0,0,0,0,Visa,3563,CC Decline,None None,Kate Martin,Unknown
+10247,06-13-2025,06-13-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10248,06-13-2025,06-13-2025,25,-0.75,-0.3,23.95,Discover,187,CC,None None,Jackie Brogie,Tammy Maxey
+10249,06-13-2025,06-13-2025,25,-0.75,-0.3,23.95,Visa,9438,CC,None None,Tamekia Bediako,Tammy Maxey
+10250,06-13-2025,06-13-2025,90,-2.69,-0.3,87.01,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10251,06-13-2025,06-13-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10252,06-13-2025,06-13-2025,100,-2.99,-0.3,96.71,MasterCard,6714,CC,None None,Cynthia Barsky,Tammy Maxey
+10253,06-13-2025,06-13-2025,-505.18,0,0,-505.18,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10254,06-16-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10255,06-16-2025,06-16-2025,128.26,-3.83,-0.3,124.13,Discover,5656,CC,None None,David Wilson,Sidney Snipes
+10256,06-16-2025,06-16-2025,10,-0.3,-0.3,9.4,Visa,2854,CC,None None,Colin Gore,Sidney Snipes
+10257,06-16-2025,06-16-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10258,06-16-2025,06-16-2025,10,-0.3,-0.3,9.4,Visa,4492,CC,None None,Pete Martin,Dustin Nisley
+10259,06-16-2025,06-16-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10260,06-16-2025,06-16-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10261,06-16-2025,06-16-2025,50,-1.5,-0.3,48.2,Visa,9192,CC,None None,Karli Wood,Dustin Nisley
+10262,06-17-2025,06-17-2025,26.2,-0.78,-0.3,25.12,MasterCard,8140,CC,None None,Amanda Sigmon,Tammy Maxey
+10263,06-17-2025,None,0,0,0,0,Visa,985,CC Decline,None None,Rachael Haynes-Wood,Unknown
+10264,06-17-2025,06-17-2025,85,-2.54,-0.3,82.16,MasterCard,9736,CC,None None,Kay Speranza,Tammy Maxey
+10265,06-17-2025,None,0,0,0,0,Visa,8792,CC Decline,None None,Melissa Tinkler,Unknown
+10266,06-17-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10267,06-17-2025,06-17-2025,-442.82,0,0,-442.82,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10268,06-24-2025,06-24-2025,20,-0.6,-0.3,19.1,Visa,3154,CC,None None,Ashley Shumaker,Sidney Snipes
+10269,06-24-2025,06-24-2025,-19.1,0,0,-19.1,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10270,06-25-2025,06-25-2025,100,-2.99,-0.3,96.71,MasterCard,1676,CC,None None,Kurt Wuerfele,Tammy Maxey
+10271,06-25-2025,06-25-2025,37.65,-1.13,-0.3,36.22,Visa,4245,CC,None None,Reva Thompson,Tammy Maxey
+10272,06-25-2025,06-25-2025,10,-0.3,-0.3,9.4,Visa,6292,CC,None None,Jill Tulloch,Tammy Maxey
+10273,06-25-2025,06-25-2025,20.79,-0.62,-0.3,19.87,Visa,7338,CC,None None,Elizabeth Pettengill,Tammy Maxey
+10274,06-25-2025,06-25-2025,20,-0.76,-0.3,18.94,Amex,2000,CC,None None,Melissa Duffy,Tammy Maxey
+10275,06-25-2025,None,0,0,0,0,Visa,9438,CC Decline,None None,Tamekia Bediako,Unknown
+10276,06-25-2025,06-25-2025,30,-0.9,-0.3,28.8,Visa,637,CC,None None,Ezra Hardin,Tammy Maxey
+10277,06-25-2025,06-25-2025,10,-0.3,-0.3,9.4,MasterCard,6449,CC,None None,Leisl Vale,Tammy Maxey
+10278,06-25-2025,06-25-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10279,06-25-2025,06-25-2025,60,-1.79,-0.3,57.91,MasterCard,7849,CC,None None,Benjamin Melton,Dustin Nisley
+10280,06-25-2025,06-25-2025,12.83,-0.38,-0.3,12.15,MasterCard,5057,CC,None None,Joceline Ordonez,Dustin Nisley
+10281,06-25-2025,06-25-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10282,06-25-2025,06-25-2025,34.65,-1.04,-0.3,33.31,Visa,3917,CC,None None,Justin Lovelace,Dustin Nisley
+10283,06-25-2025,None,0,0,0,0,MasterCard,9382,CC Decline,None None,Carey Barnett,Unknown
+10284,06-25-2025,06-25-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10285,06-25-2025,06-25-2025,25,-0.75,-0.3,23.95,Visa,4872,CC,None None,Christopher Bradley,Dustin Nisley
+10286,06-25-2025,06-25-2025,30,-0.9,-0.3,28.8,MasterCard,6206,CC,None None,Jaxson Mateka,Dustin Nisley
+10287,06-25-2025,06-25-2025,35,-1.05,-0.3,33.65,Visa,9031,CC,None None,Joseph Thomas,Dustin Nisley
+10288,06-25-2025,06-25-2025,-543.82,0,0,-543.82,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10289,06-26-2025,06-26-2025,30,-0.9,-0.3,28.8,Visa,3017,CC,None None,Lola Wernke,Isabel Rehak
+10290,06-26-2025,06-26-2025,30,-0.9,-0.3,28.8,Visa,2721,CC,None None,Lauren Press,Isabel Rehak
+10291,06-26-2025,06-26-2025,138.47,-5.25,-0.3,132.92,Amex,1004,CC,None None,Jill Whitfield,Isabel Rehak
+10292,06-26-2025,06-26-2025,25,-0.75,-0.3,23.95,Discover,1254,CC,None None,Isabel Hughes,Isabel Rehak
+10293,06-26-2025,06-26-2025,35,-1.05,-0.3,33.65,MasterCard,4838,CC,None None,April Burgess-Johnson,Isabel Rehak
+10294,06-26-2025,06-26-2025,100,-2.99,-0.3,96.71,Visa,4845,CC,None None,Rachel Langdon,Isabel Rehak
+10295,06-26-2025,06-26-2025,60,-2.27,-0.3,57.43,Amex,3008,CC,None None,Shaunna Richard,Isabel Rehak
+10296,06-26-2025,06-26-2025,25,-0.75,-0.3,23.95,MasterCard,5831,CC,None None,Susannah Yost,Isabel Rehak
+10297,06-26-2025,06-26-2025,-426.21,0,0,-426.21,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10298,06-27-2025,06-27-2025,60,-1.79,-0.3,57.91,Visa,4049,CC,None None,Ashley Albers,Tammy Maxey
+10299,06-27-2025,None,0,0,0,0,Visa,373,CC Decline,None None,Marnie Hansen,Unknown
+10300,06-27-2025,None,0,0,0,0,Visa,3563,CC Decline,None None,Kate Martin,Unknown
+10301,06-27-2025,06-27-2025,50,-1.5,-0.3,48.2,Visa,9438,CC,None None,Tamekia Bediako,Tammy Maxey
+10302,06-27-2025,None,0,0,0,0,Visa,3563,CC Decline,None None,Kate Martin,Unknown
+10303,06-27-2025,06-27-2025,-106.11,0,0,-106.11,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
+10304,06-30-2025,06-30-2025,138.61,-4.14,-0.3,134.17,Visa,1756,CC,None None,Bryce Calton,Dustin Nisley
+10305,06-30-2025,None,0,0,0,0,Visa,7810,CC Decline,None None,Tina Brickell,Unknown
+10306,06-30-2025,06-30-2025,40,-1.2,-0.3,38.5,Visa,5412,CC,None None,Dale Patton,Sidney Snipes
+10307,06-30-2025,06-30-2025,10,-0.3,-0.3,9.4,Visa,3608,CC,None None,Michael Papach,Dustin Nisley
+10308,06-30-2025,06-30-2025,25,-0.75,-0.3,23.95,Visa,5874,CC,None None,Jeffrey Victor,Dustin Nisley
+10309,06-30-2025,06-30-2025,10,-0.3,-0.3,9.4,Visa,7096,CC,None None,Ashley Giordano,Dustin Nisley
+10310,06-30-2025,06-30-2025,25,-0.75,-0.3,23.95,Visa,5414,CC,None None,Matthew Dorman,Dustin Nisley
+10311,06-30-2025,06-30-2025,30,-0.9,-0.3,28.8,Visa,4386,CC,None None,Charles Whitehouse,Dustin Nisley
+10312,06-30-2025,06-30-2025,30,-0.9,-0.3,28.8,Visa,8195,CC,None None,William Tomlinson,Dustin Nisley
+10313,06-30-2025,06-30-2025,50,-1.5,-0.3,48.2,MasterCard,9382,CC,None None,Carey Barnett,Dustin Nisley
+10314,06-30-2025,06-30-2025,104.79,-3.13,-0.3,101.36,Visa,7100,CC,None None,Caleb Hill,Dustin Nisley
+10315,06-30-2025,06-30-2025,30,-0.9,-0.3,28.8,MasterCard,6206,CC,None None,Jaxson Mateka,Dustin Nisley
+10316,06-30-2025,06-30-2025,80,-2.39,-0.3,77.31,Visa,4174,CC,None None,Keith Holmes,Dustin Nisley
+10317,06-30-2025,06-30-2025,-552.64,0,0,-552.64,Checking,4894..8993,-CK,"Hendersonville Counseling, PLL",,Unknown
