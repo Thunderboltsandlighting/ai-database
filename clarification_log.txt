@@ -1,0 +1,6 @@
+{
+    "revenue": "amount",
+    "date": "date_of_service",
+    "provider": "provider_name",
+    "client": "patient_name"
+}
