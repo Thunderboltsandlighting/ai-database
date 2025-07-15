@@ -78,7 +78,9 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
 - **Next Steps:**
   1. Add robust input validation and clearer help messages.
   2. Consider developing a simple web UI for broader accessibility.
+  3. Implement light/dark mode theme support in the web UI.
 - **Completed:** 2025-07-14 - Implemented robust input validation in utils/input_validator.py, improved error messages and UI helpers in utils/ui_helper.py, and created a Flask-based web UI with data visualization capabilities.
+- **Updated:** 2025-07-15 - Added light/dark mode theme support to the web UI using Vuetify themes with localStorage persistence.
 
 ## Enhanced Features Implementation Plan
 
@@ -277,6 +279,7 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
 8. Enhanced Ollama integration with fallback mechanism
 9. Implemented report format detection system
 10. Created data quality monitoring dashboard
+11. Added light/dark mode theme support with user preference persistence
 
 **Next Steps:**
 1. Complete LangChain SQL Agent Integration
