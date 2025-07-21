@@ -1,0 +1,116 @@
+{
+  "file_path": "docs/DATA_PRIVACY.md",
+  "file_type": "markdown",
+  "filename": "DATA_PRIVACY.md",
+  "processed_time": 1752459094.864733,
+  "metadata": {
+    "title": "Data Privacy and Security Practices",
+    "headers": [
+      {
+        "level": 1,
+        "text": "Data Privacy and Security Practices"
+      },
+      {
+        "level": 2,
+        "text": "Data Types and Sensitivity"
+      },
+      {
+        "level": 3,
+        "text": "High Sensitivity"
+      },
+      {
+        "level": 3,
+        "text": "Medium Sensitivity"
+      },
+      {
+        "level": 3,
+        "text": "Low Sensitivity"
+      },
+      {
+        "level": 2,
+        "text": "Data Protection Measures"
+      },
+      {
+        "level": 3,
+        "text": "1. Data Storage"
+      },
+      {
+        "level": 3,
+        "text": "2. Data Access"
+      },
+      {
+        "level": 3,
+        "text": "3. Data Minimization"
+      },
+      {
+        "level": 3,
+        "text": "4. Data Quality Monitoring"
+      },
+      {
+        "level": 2,
+        "text": "Handling of Sensitive Information"
+      },
+      {
+        "level": 3,
+        "text": "Patient Data"
+      },
+      {
+        "level": 3,
+        "text": "Financial Data"
+      },
+      {
+        "level": 3,
+        "text": "Medical Information"
+      },
+      {
+        "level": 2,
+        "text": "Compliance Considerations"
+      },
+      {
+        "level": 3,
+        "text": "HIPAA Considerations"
+      },
+      {
+        "level": 3,
+        "text": "Data Retention"
+      },
+      {
+        "level": 2,
+        "text": "Security Practices"
+      },
+      {
+        "level": 3,
+        "text": "Database Security"
+      },
+      {
+        "level": 3,
+        "text": "Application Security"
+      },
+      {
+        "level": 3,
+        "text": "Operational Security"
+      },
+      {
+        "level": 2,
+        "text": "AI Model Considerations"
+      },
+      {
+        "level": 3,
+        "text": "Data Sent to AI Models"
+      },
+      {
+        "level": 3,
+        "text": "Model Outputs"
+      },
+      {
+        "level": 2,
+        "text": "Recommendations for Deployment"
+      },
+      {
+        "level": 2,
+        "text": "Future Enhancements"
+      }
+    ]
+  },
+  "full_text": "# Data Privacy and Security Practices\n\nThis document outlines the data privacy and security practices for the Medical Billing AI system. It covers how sensitive data is handled, protected, and the measures in place to ensure compliance with privacy regulations.\n\n## Data Types and Sensitivity\n\nThe Medical Billing AI system handles the following types of data with varying levels of sensitivity:\n\n### High Sensitivity\n- **Patient identifiers**: IDs, names (when present)\n- **Diagnosis codes**: Can reveal medical conditions\n- **Claim numbers**: Unique identifiers for insurance claims\n\n### Medium Sensitivity\n- **Provider information**: Names, specialties, NPI numbers\n- **Financial data**: Payment amounts, adjustments\n- **Service dates**: Dates when medical services were provided\n\n### Low Sensitivity\n- **Aggregated statistics**: Monthly summaries, revenue totals\n- **Performance metrics**: Provider rankings, averages\n\n## Data Protection Measures\n\n### 1. Data Storage\n- **Local database**: All data is stored in a local SQLite database file\n- **No cloud storage**: Data remains on local systems only\n- **Encrypted storage**: Database file should be stored on encrypted file systems when possible\n\n### 2. Data Access\n- **Limited access**: Only authorized users should have access to the application\n- **No external API**: The application does not expose data via external APIs\n- **Authentication**: System relies on operating system authentication\n\n### 3. Data Minimization\n- **Sampling**: Large datasets are sampled when sending to AI models\n- **Aggregation**: Where possible, aggregated data is used instead of individual records\n- **Filtering**: Only necessary fields are included in queries and reports\n\n### 4. Data Quality Monitoring\n- **Issue tracking**: Data quality issues are logged to `data_quality_issues.log`\n- **Validation**: Data validation occurs during import to identify potential issues\n- **Auditing**: All data imports are tracked in the `data_uploads` table\n\n## Handling of Sensitive Information\n\n### Patient Data\n- **Deidentification**: When possible, patient data should be de-identified before analysis\n- **No unnecessary display**: Patient IDs are only displayed when explicitly needed\n- **Masking**: For display purposes, consider masking portions of identifiers\n\n### Financial Data\n- **Aggregation**: Financial data is typically aggregated by provider, month, or service\n- **Limited precision**: Dollar amounts don't need more than 2 decimal places of precision\n- **Relative values**: Where possible, use percentages and relative comparisons\n\n### Medical Information\n- **Code translation**: Consider translating diagnosis codes to general categories\n- **Grouping**: Group similar medical services together for reporting\n- **Minimal exposure**: Only expose diagnosis codes when specifically required\n\n## Compliance Considerations\n\n### HIPAA Considerations\n- The system is designed with HIPAA compliance in mind, but full compliance requires proper operational procedures\n- Any deployment should ensure:\n  - Proper access controls are in place\n  - Data transmission is encrypted\n  - Audit logging is enabled\n  - Backup procedures maintain security\n\n### Data Retention\n- **Data aging**: Consider implementing a data retention policy\n- **Historical data**: Older data can be archived or aggregated further\n- **Deletion capabilities**: The system should support deletion of outdated records\n\n## Security Practices\n\n### Database Security\n- **Parameterized queries**: All database queries use parameterized statements to prevent SQL injection\n- **Validation**: Input validation occurs before database operations\n- **Error handling**: Errors are logged but details are not exposed to users\n\n### Application Security\n- **Dependency management**: Keep all dependencies updated\n- **Logging**: Security-relevant events are logged\n- **Configuration**: Sensitive configuration is stored in a separate file\n\n### Operational Security\n- **Backups**: Regular backups should be encrypted\n- **Updates**: Keep the application and its environment updated\n- **Access review**: Regularly review who has access to the system\n\n## AI Model Considerations\n\n### Data Sent to AI Models\n- **No PHI**: Personally Identifiable Health Information should not be sent to external AI models\n- **Aggregated data**: Use aggregated or sample data when possible\n- **Context awareness**: Be mindful of context that might reveal sensitive information\n\n### Model Outputs\n- **Content review**: AI responses should be reviewed for inadvertent exposure of sensitive data\n- **Caching**: AI responses are cached but should not contain sensitive patient details\n- **Usage logging**: All AI queries are logged in the query log\n\n## Recommendations for Deployment\n\n1. **Regular audits**: Conduct regular privacy audits\n2. **User training**: Train all users on proper data handling\n3. **Access controls**: Implement proper file system access controls\n4. **Encryption**: Enable disk encryption on all systems running the application\n5. **Policy documentation**: Create specific policies for your organization\n6. **Incident response**: Have a plan for potential data breaches\n\n## Future Enhancements\n\nThe following privacy enhancements are planned for future versions:\n\n1. **Role-based access**: Implement user roles with different access levels\n2. **Field-level encryption**: Encrypt sensitive fields in the database\n3. **Audit logging**: Enhanced audit logging for all data access\n4. **Anonymization tools**: Built-in tools to anonymize datasets\n5. **Data retention policies**: Automated enforcement of retention policies"
+}

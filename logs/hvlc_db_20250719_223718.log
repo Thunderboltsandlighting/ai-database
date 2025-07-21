@@ -1,0 +1,8 @@
+2025-07-19 22:37:18,099 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-19 22:37:18,261 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-19 22:37:18,261 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 11:38:17,858 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:38:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-20 11:38:18,005 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:38:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-07-20 11:38:18,009 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:38:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-07-20 11:38:18,011 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:38:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

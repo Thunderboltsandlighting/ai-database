@@ -31,7 +31,16 @@
                     v-model="appSettings.theme"
                     :items="themeOptions"
                     label="Theme"
-                  ></v-select>
+                  >
+                    <template v-slot:prepend>
+                      <v-icon>
+                        {{ themeIcon }}
+                      </v-icon>
+                    </template>
+                    <template v-slot:hint>
+                      {{ themeHint }}
+                    </template>
+                  </v-select>
                 </v-col>
                 <v-col cols="12" md="6">
                   <v-select
@@ -446,9 +455,9 @@ export default {
       },
       
       themeOptions: [
-        'light',
-        'dark',
-        'system'
+        { title: 'Light Mode', value: 'light' },
+        { title: 'Dark Mode', value: 'dark' },
+        { title: 'System Default', value: 'system' }
       ],
       
       dateFormatOptions: [
@@ -719,6 +728,27 @@ export default {
       } catch (error) {
         this.showSnackbar(`Error loading settings: ${error.message}`, 'error');
       }
+    }
+  },
+  computed: {
+    themeIcon() {
+      switch (this.appSettings.theme) {
+        case 'light':
+          return 'mdi-white-balance-sunny'
+        case 'dark':
+          return 'mdi-moon-waning-crescent'
+        case 'system':
+          return 'mdi-theme-light-dark'
+        default:
+          return 'mdi-theme-light-dark'
+      }
+    },
+    themeHint() {
+      if (this.appSettings.theme === 'system') {
+        const currentSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        return `Currently using ${currentSystemTheme} mode based on system preference`
+      }
+      return ''
     }
   },
   mounted() {

@@ -1,0 +1,87 @@
+2025-07-19 15:20:34,682 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-19 15:20:34,806 - hvlc_db - INFO - Loaded 3 format profiles from registry
+2025-07-19 15:20:34,806 - hvlc_db - INFO - Transforming file csv_folder/billing/9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,818 - hvlc_db - INFO - Connecting to database at medical_billing.db
+2025-07-19 15:20:34,819 - hvlc_db - INFO - Database connection established and tables verified
+2025-07-19 15:20:34,820 - hvlc_db - INFO - Loaded 3 format profiles from registry
+2025-07-19 15:20:34,820 - hvlc_db - INFO - Transforming file csv_folder/billing/9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,829 - hvlc_db - INFO - Starting upload of CSV data from 9-30-23 Payments-Hendersonville - Dustin Nisley.csv with 230 records
+2025-07-19 15:20:34,845 - hvlc_db - WARNING - Row 36: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,845 - hvlc_db - ERROR - Error processing row 36 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,845 - hvlc_db - WARNING - Row 37: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,845 - hvlc_db - ERROR - Error processing row 37 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,857 - hvlc_db - WARNING - Row 65: Negative payment -108.49 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,871 - hvlc_db - WARNING - Row 105: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,871 - hvlc_db - ERROR - Error processing row 105 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,871 - hvlc_db - WARNING - Row 106: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,871 - hvlc_db - ERROR - Error processing row 106 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,871 - hvlc_db - WARNING - Row 107: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,872 - hvlc_db - ERROR - Error processing row 107 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,872 - hvlc_db - WARNING - Row 108: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,872 - hvlc_db - ERROR - Error processing row 108 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,872 - hvlc_db - WARNING - Row 109: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,872 - hvlc_db - ERROR - Error processing row 109 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,872 - hvlc_db - WARNING - Row 110: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,873 - hvlc_db - ERROR - Error processing row 110 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,873 - hvlc_db - WARNING - Row 111: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,873 - hvlc_db - ERROR - Error processing row 111 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,894 - hvlc_db - WARNING - Row 164: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,895 - hvlc_db - ERROR - Error processing row 164 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,915 - hvlc_db - WARNING - Row 226: Missing cash_applied value in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:20:34,916 - hvlc_db - ERROR - Error processing row 226 in 9-30-23 Payments-Hendersonville - Dustin Nisley.csv: NOT NULL constraint failed: payment_transactions.cash_applied
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.cash_applied
+
+2025-07-19 15:20:34,919 - hvlc_db - INFO - CSV upload completed: 219 successful, 11 failed, 23 issues

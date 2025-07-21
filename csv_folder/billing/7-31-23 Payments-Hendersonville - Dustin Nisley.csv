@@ -1,0 +1,154 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+4180,5/25/2023,7/5/2023,,Johnathon Corn,Paid at session,25,,Dustin Nisley
+4181,,,,Johnathon Corn,Sess:05-25-2023(Johnathon Corn),,25,Dustin Nisley
+4182,6/20/2023,7/5/2023,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+4183,,,,Jeffrey Victor,Sess:06-20-2023(Jeffrey Victor),,25,Dustin Nisley
+4184,6/22/2023,7/5/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4185,,,,Joseph Thomas,Sess:06-22-2023(Joseph Thomas),,35,Dustin Nisley
+4186,6/23/2023,7/5/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4187,,,,Charles Whitehouse,Sess:06-23-2023(Charles Whitehouse),,30,Dustin Nisley
+4188,6/23/2023,7/5/2023,,Justin Lovelace,Paid at session,43.16,,Dustin Nisley
+4189,,,,Justin Lovelace,Sess:06-23-2023(Justin Lovelace),,43.16,Dustin Nisley
+4190,6/29/2023,7/3/2023,,Joseph Thomas,Paid at session,60,,Dustin Nisley
+4191,,,,Joseph Thomas,Sess:06-29-2023(Joseph Thomas),,60,Dustin Nisley
+4192,7/3/2023,7/5/2023,23180B100013333300,BCBS NC (North Carolina),ERAM_BCBS_NC_23180B100013333300_063023_0147.MCP.xm,77.93,,Dustin Nisley
+4193,,,,BCBS NC (North Carolina),Sess:06-23-2023(Justin Lovelace),,77.93,Dustin Nisley
+4194,7/5/2023,7/5/2023,23181B100009530200,BCBS NC (North Carolina),ERAM_BCBS_NC_23181B100009530200_070223_0031.MCP.xm,169.82,,Dustin Nisley
+4195,,,,BCBS NC (North Carolina),Sess:06-23-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4196,,,,BCBS NC (North Carolina),Sess:06-20-2023(Jeffrey Victor),,87.41,Dustin Nisley
+4197,7/5/2023,7/5/2023,23181B100002317300,BCBS NC (North Carolina),ERAM_BCBS_NC_23181B100002317300_070223_0133.MCP.xm,189.82,,Dustin Nisley
+4198,,,,BCBS NC (North Carolina),Sess:06-22-2023(Joseph Thomas),,77.41,Dustin Nisley
+4199,,,,BCBS NC (North Carolina),Sess:06-22-2023(Bryce Calton),,112.41,Dustin Nisley
+4200,7/6/2023,7/5/2023,23184B100024928400,BCBS NC (North Carolina),ERAM_BCBS_NC_23184B100024928400_070423_0237.MCP.xm,112.41,,Dustin Nisley
+4201,,,,BCBS NC (North Carolina),Sess:05-25-2023(Johnathon Corn),,112.41,Dustin Nisley
+4202,6/20/2023,7/14/2023,,Daniel Luna,Paid at session,55,,Dustin Nisley
+4203,,,,Daniel Luna,Sess:06-20-2023(Daniel Luna),,55,Dustin Nisley
+4204,6/20/2023,7/14/2023,,Shannon Allison,Paid at session,10,,Dustin Nisley
+4205,,,,Shannon Allison,Sess:06-20-2023(Shannon Allison),,10,Dustin Nisley
+4206,6/21/2023,7/14/2023,,Abbigaile Martin,Paid at session,10,,Dustin Nisley
+4207,,,,Abbigaile Martin,Sess:06-21-2023(Abbigaile Martin),,10,Dustin Nisley
+4208,6/22/2023,7/10/2023,,Josiah Simpson,Paid at session,20,,Dustin Nisley
+4209,,,,Josiah Simpson,Sess:06-22-2023(Josiah Simpson),,20,Dustin Nisley
+4210,6/24/2023,7/14/2023,,Sydney Sewell,Paid at session,10,,Dustin Nisley
+4211,,,,Sydney Sewell,Sess:06-24-2023(Sydney Sewell),,10,Dustin Nisley
+4212,6/26/2023,7/10/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4213,,,,Justin Lovelace,Sess:06-26-2023(Justin Lovelace),,34.48,Dustin Nisley
+4214,6/27/2023,7/10/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4215,,,,Ashley Giordano,Sess:06-27-2023(Ashley Giordano),,10,Dustin Nisley
+4216,6/30/2023,7/10/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4217,,,,Charles Whitehouse,Sess:06-30-2023(Charles Whitehouse),,30,Dustin Nisley
+4218,7/5/2023,7/10/2023,23183B100013324700,BCBS NC (North Carolina),ERAM_BCBS_NC_23183B100013324700_070723_0227.MCP.xm,114.54,,Dustin Nisley
+4219,,,,BCBS NC (North Carolina),Sess:06-24-2023(Katherine Henderson),,114.54,Dustin Nisley
+4220,7/5/2023,7/14/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4221,,,,Ashley Giordano,Sess:07-05-2023(Ashley Giordano),,10,Dustin Nisley
+4222,7/6/2023,7/10/2023,,Aubrey Williams,Paid at session,150,,Dustin Nisley
+4223,,,,Aubrey Williams,Sess:07-06-2023(Aubrey Williams),,150,Dustin Nisley
+4224,7/7/2023,7/10/2023,23186B100009785900,BCBS NC (North Carolina),ERAM_BCBS_NC_23186B100009785900_070623_0090.MCP.xm,92.41,,Dustin Nisley
+4225,,,,BCBS NC (North Carolina),Sess:06-22-2023(Josiah Simpson),,92.41,Dustin Nisley
+4226,7/10/2023,7/10/2023,4749797,BCBS NC (North Carolina),ERAM_BCBS_NC_4749797_070723_0308.MCP.xml,102.41,,Dustin Nisley
+4227,,,,BCBS NC (North Carolina),Sess:06-27-2023(Ashley Giordano),,102.41,Dustin Nisley
+4228,7/10/2023,7/10/2023,23187B100013481700,BCBS NC (North Carolina),ERAM_BCBS_NC_23187B100013481700_070723_0032.MCP.xm,167.86,,Dustin Nisley
+4229,,,,BCBS NC (North Carolina),Sess:06-30-2023(Taylor Purdy),,89.93,Dustin Nisley
+4230,,,,BCBS NC (North Carolina),Sess:06-26-2023(Justin Lovelace),,77.93,Dustin Nisley
+4231,7/10/2023,7/10/2023,,Jocelin Ordonez,Amber,133.44,,Dustin Nisley
+4232,,,,Jocelin Ordonez,Sess:06-28-2023(Jocelin Ordonez),,133.44,Dustin Nisley
+4233,7/11/2023,7/10/2023,23188B100009231000,BCBS NC (North Carolina),ERAM_BCBS_NC_23188B100009231000_070923_0026.MCP.xm,82.41,,Dustin Nisley
+4234,,,,BCBS NC (North Carolina),Sess:06-30-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4235,7/11/2023,7/10/2023,23188B100001614300,BCBS NC (North Carolina),ERAM_BCBS_NC_23188B100001614300_070923_0041.MCP.xm,0,,Dustin Nisley
+4236,,,,BCBS NC (North Carolina),Sess:06-28-2023(Jocelin Ordonez),,0,Dustin Nisley
+4237,7/12/2023,7/14/2023,23191B100007144700,BCBS NC (North Carolina),ERAM_BCBS_NC_23191B100007144700_071123_0309.MCP.xm,313.57,,Dustin Nisley
+4238,,,,BCBS NC (North Carolina),Sess:06-21-2023(Abbigaile Martin),,66.36,Dustin Nisley
+4239,,,,BCBS NC (North Carolina),Sess:06-24-2023(Sydney Sewell),,66.36,Dustin Nisley
+4240,,,,BCBS NC (North Carolina),Sess:06-20-2023(Daniel Luna),,57.41,Dustin Nisley
+4241,,,,BCBS NC (North Carolina),Sess:06-20-2023(Shannon Allison),,123.44,Dustin Nisley
+4242,7/14/2023,7/14/2023,4770217,BCBS NC (North Carolina),ERAM_BCBS_NC_4770217_071323_0170.MCP.xml,102.41,,Dustin Nisley
+4243,,,,BCBS NC (North Carolina),Sess:07-05-2023(Ashley Giordano),,102.41,Dustin Nisley
+4244,6/27/2023,7/19/2023,,Shannon Allison,Paid at session,10,,Dustin Nisley
+4245,,,,Shannon Allison,Sess:06-27-2023(Shannon Allison),,10,Dustin Nisley
+4246,6/29/2023,7/19/2023,,Johnathon Corn,Paid at session,25,,Dustin Nisley
+4247,,,,Johnathon Corn,Sess:06-29-2023(Johnathon Corn),,25,Dustin Nisley
+4248,6/29/2023,7/19/2023,,Melissa Tinkler,Paid at session,4,,Dustin Nisley
+4249,,,,Melissa Tinkler,Sess:06-29-2023(Melissa Tinkler),,4,Dustin Nisley
+4250,7/3/2023,7/17/2023,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+4251,,,,Jeffrey Victor,Sess:07-03-2023(Jeffrey Victor),,25,Dustin Nisley
+4252,7/3/2023,7/17/2023,,Justin Lovelace,Paid at session,25.8,,Dustin Nisley
+4253,,,,Justin Lovelace,Sess:07-03-2023(Justin Lovelace),,25.8,Dustin Nisley
+4254,7/5/2023,7/17/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4255,,,,Aurora Palmer,Sess:07-05-2023(Aurora Palmer),,30,Dustin Nisley
+4256,7/6/2023,7/17/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4257,,,,Joseph Thomas,Sess:07-06-2023(Joseph Thomas),,35,Dustin Nisley
+4258,7/7/2023,7/17/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4259,,,,Charles Whitehouse,Sess:07-07-2023(Charles Whitehouse),,30,Dustin Nisley
+4260,7/17/2023,7/17/2023,23194B100013636400,BCBS NC (North Carolina),ERAM_BCBS_NC_23194B100013636400_071423_0161.MCP.xm,77.93,,Dustin Nisley
+4261,,,,BCBS NC (North Carolina),Sess:07-03-2023(Justin Lovelace),,77.93,Dustin Nisley
+4262,7/18/2023,7/17/2023,23195B100009792200,BCBS NC (North Carolina),ERAM_BCBS_NC_23195B100009792200_071623_0037.MCP.xm,252.23,,Dustin Nisley
+4263,,,,BCBS NC (North Carolina),Sess:07-05-2023(Aurora Palmer),,82.41,Dustin Nisley
+4264,,,,BCBS NC (North Carolina),Sess:07-07-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4265,,,,BCBS NC (North Carolina),Sess:07-03-2023(Jeffrey Victor),,87.41,Dustin Nisley
+4266,7/18/2023,7/17/2023,23195B100002212600,BCBS NC (North Carolina),ERAM_BCBS_NC_23195B100002212600_071623_0006.MCP.xm,189.82,,Dustin Nisley
+4267,,,,BCBS NC (North Carolina),Sess:07-06-2023(Joseph Thomas),,77.41,Dustin Nisley
+4268,,,,BCBS NC (North Carolina),Sess:07-07-2023(Bryce Calton),,112.41,Dustin Nisley
+4269,,,,BCBS NC (North Carolina),Sess:07-05-2023(Jocelin Ordonez),,0,Dustin Nisley
+4270,7/18/2023,7/18/2023,23197B100012578200,BCBS NC (North Carolina),ERAM_BCBS_NC_23197B100012578200_071723_0085.MCP.xm,114.54,,Dustin Nisley
+4271,,,,BCBS NC (North Carolina),Sess:07-01-2023(Katherine Henderson),,114.54,Dustin Nisley
+4272,7/19/2023,7/19/2023,,Jocelin Ordonez,Amber,112.41,,Dustin Nisley
+4273,,,,Jocelin Ordonez,Sess:07-05-2023(Jocelin Ordonez),,112.41,Dustin Nisley
+4274,7/19/2023,7/19/2023,23198B100021846400,BCBS NC (North Carolina),ERAM_BCBS_NC_23198B100021846400_071823_0201.MCP.xm,76.57,,Dustin Nisley
+4275,,,,BCBS NC (North Carolina),Sess:06-29-2023(Johnathon Corn),,76.57,Dustin Nisley
+4276,7/19/2023,7/19/2023,23198B100005978500,BCBS NC (North Carolina),ERAM_BCBS_NC_23198B100005978500_071823_0320.MCP.xm,210.82,,Dustin Nisley
+4277,,,,BCBS NC (North Carolina),Sess:06-29-2023(Melissa Tinkler),,108.41,Dustin Nisley
+4278,,,,BCBS NC (North Carolina),Sess:06-27-2023(Shannon Allison),,102.41,Dustin Nisley
+4279,7/3/2023,7/25/2023,,Josiah Simpson,Paid at session,20,,Dustin Nisley
+4280,,,,Josiah Simpson,Sess:07-03-2023(Josiah Simpson),,20,Dustin Nisley
+4281,7/5/2023,7/26/2023,,Shannon Allison,Paid at session,10,,Dustin Nisley
+4282,,,,Shannon Allison,Sess:07-05-2023(Shannon Allison),,10,Dustin Nisley
+4283,7/5/2023,7/27/2023,,Melissa Martin,Paid at session,10,,Dustin Nisley
+4284,,,,Melissa Martin,Sess:07-05-2023(Melissa Martin),,10,Dustin Nisley
+4285,7/6/2023,7/26/2023,,Melissa Tinkler,Paid at session,4,,Dustin Nisley
+4286,,,,Melissa Tinkler,Sess:07-06-2023(Melissa Tinkler),,4,Dustin Nisley
+4287,7/8/2023,7/26/2023,,Sydney Sewell,Paid at session,10,,Dustin Nisley
+4288,,,,Sydney Sewell,Sess:07-08-2023(Sydney Sewell),,10,Dustin Nisley
+4289,7/10/2023,7/25/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4290,,,,Justin Lovelace,Sess:07-10-2023(Justin Lovelace),,34.48,Dustin Nisley
+4291,7/11/2023,7/25/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4292,,,,Ashley Giordano,Sess:07-11-2023(Ashley Giordano),,10,Dustin Nisley
+4293,7/14/2023,7/25/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4294,,,,Charles Whitehouse,Sess:07-14-2023(Charles Whitehouse),,30,Dustin Nisley
+4295,7/18/2023,7/31/2023,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+4296,,,,Jeffrey Victor,Sess:07-18-2023(Jeffrey Victor),,25,Dustin Nisley
+4297,7/19/2023,7/28/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4298,,,,Ashley Giordano,Sess:07-19-2023(Ashley Giordano),,10,Dustin Nisley
+4299,7/19/2023,7/31/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4300,,,,Aurora Palmer,Sess:07-19-2023(Aurora Palmer),,30,Dustin Nisley
+4301,7/20/2023,7/24/2023,,Aubrey Williams,Paid at session,150,,Dustin Nisley
+4302,,,,Aubrey Williams,Sess:07-20-2023(Aubrey Williams),,150,Dustin Nisley
+4303,7/20/2023,7/31/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4304,,,,Joseph Thomas,Sess:07-20-2023(Joseph Thomas),,35,Dustin Nisley
+4305,7/20/2023,7/31/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4306,,,,Justin Lovelace,Sess:07-20-2023(Justin Lovelace),,34.48,Dustin Nisley
+4307,7/21/2023,7/25/2023,23200B100009367300,BCBS NC (North Carolina),ERAM_BCBS_NC_23200B100009367300_072023_0119.MCP.xm,56.36,,Dustin Nisley
+4308,,,,BCBS NC (North Carolina),Sess:07-03-2023(Josiah Simpson),,56.36,Dustin Nisley
+4309,7/21/2023,7/25/2023,4781795,BCBS NC (North Carolina),ERAM_BCBS_NC_4781795_072023_0148.MCP.xml,102.41,,Dustin Nisley
+4310,,,,BCBS NC (North Carolina),Sess:07-11-2023(Ashley Giordano),,102.41,Dustin Nisley
+4311,7/24/2023,7/25/2023,23201B100013081300,BCBS NC (North Carolina),ERAM_BCBS_NC_23201B100013081300_072123_0111.MCP.xm,167.86,,Dustin Nisley
+4312,,,,BCBS NC (North Carolina),Sess:07-14-2023(Taylor Purdy),,89.93,Dustin Nisley
+4313,,,,BCBS NC (North Carolina),Sess:07-10-2023(Justin Lovelace),,77.93,Dustin Nisley
+4314,7/25/2023,7/25/2023,23202B100008928500,BCBS NC (North Carolina),ERAM_BCBS_NC_23202B100008928500_072323_0017.MCP.xm,82.41,,Dustin Nisley
+4315,,,,BCBS NC (North Carolina),Sess:07-14-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4316,7/26/2023,7/26/2023,23205B100006776700,BCBS NC (North Carolina),ERAM_BCBS_NC_23205B100006776700_072523_0077.MCP.xm,241.13,,Dustin Nisley
+4317,,,,BCBS NC (North Carolina),Sess:07-06-2023(Melissa Tinkler),,72.36,Dustin Nisley
+4318,,,,BCBS NC (North Carolina),Sess:07-08-2023(Sydney Sewell),,66.36,Dustin Nisley
+4319,,,,BCBS NC (North Carolina),Sess:07-05-2023(Shannon Allison),,102.41,Dustin Nisley
+4320,7/27/2023,7/27/2023,23206B100003021200,BCBS NC (North Carolina),ERAM_BCBS_NC_23206B100003021200_072623_0070.MCP.xm,66.57,,Dustin Nisley
+4321,,,,BCBS NC (North Carolina),Sess:07-05-2023(Melissa Martin),,66.57,Dustin Nisley
+4322,7/28/2023,7/28/2023,4803431,BCBS NC (North Carolina),ERAM_BCBS_NC_4803431_072723_0172.MCP.xml,102.41,,Dustin Nisley
+4323,,,,BCBS NC (North Carolina),Sess:07-19-2023(Ashley Giordano),,102.41,Dustin Nisley
+4324,7/31/2023,7/31/2023,23208B100014469700,BCBS NC (North Carolina),ERAM_BCBS_NC_23208B100014469700_072823_0237.MCP.xm,77.93,,Dustin Nisley
+4325,,,,BCBS NC (North Carolina),Sess:07-20-2023(Justin Lovelace),,77.93,Dustin Nisley
+4326,8/1/2023,7/31/2023,23209B100002105500,BCBS NC (North Carolina),ERAM_BCBS_NC_23209B100002105500_072923_0088.MCP.xm,189.82,,Dustin Nisley
+4327,,,,BCBS NC (North Carolina),Sess:07-20-2023(Joseph Thomas),,77.41,Dustin Nisley
+4328,,,,BCBS NC (North Carolina),Sess:07-20-2023(Bryce Calton),,112.41,Dustin Nisley
+4329,,,,BCBS NC (North Carolina),Sess:07-19-2023(Jocelin Ordonez),,0,Dustin Nisley
+4330,8/1/2023,7/31/2023,23209B100007677100,BCBS NC (North Carolina),ERAM_BCBS_NC_23209B100007677100_072923_0062.MCP.xm,169.82,,Dustin Nisley
+4331,,,,BCBS NC (North Carolina),Sess:07-19-2023(Aurora Palmer),,82.41,Dustin Nisley
+4332,,,,BCBS NC (North Carolina),Sess:07-18-2023(Jeffrey Victor),,87.41,Dustin Nisley

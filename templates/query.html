@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card mb-4">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs" id="queryTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link {% if query_type == 'sql' %}active{% endif %}" id="sql-tab" data-bs-toggle="tab" data-bs-target="#sql" type="button" role="tab" aria-controls="sql" aria-selected="{{ 'true' if query_type == 'sql' else 'false' }}">SQL Query</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link {% if query_type == 'natural' %}active{% endif %}" id="natural-tab" data-bs-toggle="tab" data-bs-target="#natural" type="button" role="tab" aria-controls="natural" aria-selected="{{ 'true' if query_type == 'natural' else 'false' }}">Natural Language</button>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <div class="tab-content" id="queryTabsContent">
+            <div class="tab-pane fade {% if query_type == 'sql' %}show active{% endif %}" id="sql" role="tabpanel" aria-labelledby="sql-tab">
+                <form method="post" action="{{ url_for('query') }}">
+                    <input type="hidden" name="query_type" value="sql">
+                    <div class="mb-3">
+                        <label for="sqlQuery" class="form-label">SQL Query</label>
+                        <textarea class="form-control" id="sqlQuery" name="query" rows="5" placeholder="SELECT * FROM providers LIMIT 10">{{ query_text if query_type == 'sql' else '' }}</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Execute</button>
+                </form>
+            </div>
+            <div class="tab-pane fade {% if query_type == 'natural' %}show active{% endif %}" id="natural" role="tabpanel" aria-labelledby="natural-tab">
+                <form method="post" action="{{ url_for('query') }}">
+                    <input type="hidden" name="query_type" value="natural">
+                    <div class="mb-3">
+                        <label for="naturalQuery" class="form-label">Ask a Question</label>
+                        <textarea class="form-control" id="naturalQuery" name="query" rows="3" placeholder="What was the total revenue for last month?">{{ query_text if query_type == 'natural' else '' }}</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ask</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if result %}
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Results</h5>
+    </div>
+    <div class="card-body">
+        {% if result.type == 'dataframe' %}
+            <div class="table-responsive">
+                {{ result.html|safe }}
+            </div>
+            <p class="text-muted">{{ result.shape[0] }} rows × {{ result.shape[1] }} columns</p>
+        {% elif result.type == 'dict' %}
+            <pre>{{ result.data|pprint }}</pre>
+        {% else %}
+            <pre>{{ result.data }}</pre>
+        {% endif %}
+    </div>
+</div>
+
+{% if visualization %}
+<div class="card mt-4">
+    <div class="card-header">
+        <h5 class="card-title">Visualization</h5>
+    </div>
+    <div class="card-body">
+        <div id="visualization" style="height: 400px;"></div>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if visualization %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const data = {{ visualization|tojson }};
+        Plotly.newPlot('visualization', data.data, data.layout);
+    });
+</script>
+{% endif %}
+
+<script>
+    // Set active tab based on query type
+    document.addEventListener('DOMContentLoaded', function() {
+        const queryType = "{{ query_type }}";
+        const tabEl = document.querySelector(`#queryTabs button[data-bs-target="#${queryType}"]`);
+        if (tabEl) {
+            const tab = new bootstrap.Tab(tabEl);
+            tab.show();
+        }
+        
+        // Update hidden input when tab changes
+        const tabs = document.querySelectorAll('#queryTabs button');
+        tabs.forEach(tab => {
+            tab.addEventListener('shown.bs.tab', function(event) {
+                const target = event.target.getAttribute('data-bs-target').substring(1);
+                document.querySelector(`#${target} form input[name="query_type"]`).value = target;
+            });
+        });
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,36 @@
+✅ Loaded configuration from config.json
+2025-07-20 21:56:26,268 - utils.ada_memory - INFO - Logger initialized with level INFO
+Starting HVLC_DB API Server at http://127.0.0.1:5001
+Running in development mode
+Debug mode: disabled
+Press Ctrl+C to stop
+ * Serving Flask app 'api.app'
+ * Debug mode: off
+2025-07-20 21:56:26,412 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-20 21:56:26,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+DEBUG: Processing question: Is Dustin pulling his weight to cover our monthly overhead expenses?
+2025-07-20 21:56:33,598 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:56:33,599 - api.app - INFO - Dustin routing check - Dustin terms: True, Overhead terms: True
+2025-07-20 21:56:33,599 - api.app - INFO - Routing to Dustin overhead coverage analysis
+2025-07-20 21:57:14,249 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:57:14] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:03:10,073 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:03:10] "[33mGET /api/analytics/dustin-overhead-analysis HTTP/1.1[0m" 404 -
+2025-07-20 22:03:14,275 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:03:14] "[33mGET /api/analytics/dustin-overhead-analysis HTTP/1.1[0m" 404 -
+2025-07-20 22:03:42,926 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:03:42] "[33mGET /api/analytics/dustin-overhead-analysis HTTP/1.1[0m" 404 -
+2025-07-20 22:03:47,477 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:03:47] "[33mGET /api/analytics/dustin-overhead-analysis HTTP/1.1[0m" 404 -
+2025-07-20 22:04:07,783 - utils.ada_memory - INFO - Multi-office operations tables initialized
+2025-07-20 22:04:07,783 - utils.ada_memory - INFO - Provider analytics tables initialized
+2025-07-20 22:04:07,784 - utils.ada_memory - ERROR - Error calculating comfort zones: Execution failed on sql '
+                    SELECT 
+                        provider_id,
+                        AVG(session_count) as avg_sessions,
+                        MIN(session_count) as min_sessions,
+                        MAX(session_count) as max_sessions,
+                        COUNT(*) as data_points,
+                        STDDEV(session_count) as session_variance
+                    FROM office_provider_revenue
+                    
+                    GROUP BY provider_id
+                    HAVING COUNT(*) >= 5
+                ': no such function: STDDEV
+2025-07-20 22:04:07,784 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:04:07] "GET /api/analytics/provider-comfort-zones HTTP/1.1" 200 -

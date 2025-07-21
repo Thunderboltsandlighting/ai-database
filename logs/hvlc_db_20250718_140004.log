@@ -1,0 +1,11 @@
+2025-07-18 14:00:04,684 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-18 14:00:04,860 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-18 14:00:04,860 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-18 14:00:08,562 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 14:00:08] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-18 14:00:12,255 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 14:00:12] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 14:15:52,607 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:15:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-19 14:15:52,663 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:15:52] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-07-19 14:15:52,841 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:15:52] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-07-19 14:15:52,892 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-19 14:17:37,466 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:17:37] "POST /api/ai/chat HTTP/1.1" 200 -

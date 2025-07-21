@@ -1,0 +1,215 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+8484,5/10/2023,6/1/2023,,Paul Ramsey,Paid at session,10,,Katie Young
+8485,,,,Paul Ramsey,Sess:05-10-2023(Paul Ramsey),,10,Katie Young
+8486,5/15/2023,6/6/2023,,Meade Whitaker,Paid at session,25,,Katie Young
+8487,,,,Xaymara Herrara,Sess:05-15-2023(Xaymara Herrara),,25,Katie Young
+8488,5/15/2023,6/8/2023,,Sarah Schreibman,Paid at session,10,,Katie Young
+8489,,,,Sarah Schreibman,Sess:05-15-2023(Sarah Schreibman),,10,Katie Young
+8490,5/22/2023,6/6/2023,,Lola Wernke,Paid at session,25,,Katie Young
+8491,,,,Lola Wernke,Sess:05-22-2023(Lola Wernke),,25,Katie Young
+8492,5/22/2023,6/6/2023,,Xaymara Herrara,Paid at session,25,,Katie Young
+8493,,,,Xaymara Herrara,Sess:05-22-2023(Xaymara Herrara),,25,Katie Young
+8494,5/22/2023,6/7/2023,,Megan Hall,Paid at session,25,,Katie Young
+8495,,,,Megan Hall,Sess:05-22-2023(Megan Hall),,25,Katie Young
+8496,5/22/2023,6/8/2023,,Megan McCabe,Paid at session,94,,Katie Young
+8497,,,,Megan McCabe,Sess:05-22-2023(Megan McCabe),,94,Katie Young
+8498,5/23/2023,6/6/2023,,Amanda Millwood,Paid at session,25,,Katie Young
+8499,,,,Amanda Millwood,Sess:05-23-2023(Amanda Millwood),,25,Katie Young
+8500,5/23/2023,6/7/2023,,Amy Corral,Paid at session,40,,Katie Young
+8501,,,,Amy Corral,Sess:05-23-2023(Amy Corral),,40,Katie Young
+8502,5/23/2023,6/7/2023,,Mya Greene,Paid at session,40,,Katie Young
+8503,,,,Mya Greene,Sess:05-23-2023(Mya Greene),,40,Katie Young
+8504,5/26/2023,6/7/2023,,Jeremy Larsson,Paid at session,35,,Katie Young
+8505,,,,Jeremy Larsson,Sess:05-26-2023(Jeremy Larsson),,35,Katie Young
+8506,5/31/2023,6/6/2023,,Morgan Hjelsand,Paid at session,150,,Katie Young
+8507,,,,Morgan Hjelsand,Sess:05-31-2023(Morgan Hjelsand),,150,Katie Young
+8508,6/1/2023,6/1/2023,23150B100003035500,BCBS NC (North Carolina),ERAM_BCBS_NC_23150B100003035500_053123_0093.MCP.xm,235.85,,Katie Young
+8509,,,,BCBS NC (North Carolina),Sess:05-10-2023(Paul Ramsey),,123.44,Katie Young
+8510,,,,BCBS NC (North Carolina),Sess:05-09-2023(Cynthia Dentremont),,112.41,Katie Young
+8511,6/1/2023,6/1/2023,,Jess Hedrick,,0,,Katie Young
+8512,,,,Jess Hedrick,Sess:05-23-2023(Jess Hedrick),,0,Katie Young
+8513,6/1/2023,6/1/2023,,Macie Cowan,Jituzu electronic payment,50,,Katie Young
+8514,,,,Macie Cowan,Sess:05-08-2023(Macie Cowan),,25,Katie Young
+8515,,,,Macie Cowan,Sess:05-01-2023(Macie Cowan),,25,Katie Young
+8516,6/1/2023,6/1/2023,,Landon Dipple,,0,,Katie Young
+8517,,,,Landon Dipple,Sess:05-16-2023(Landon Dipple),,0,Katie Young
+8518,6/1/2023,6/1/2023,,Morgan Hjelsand,,0,,Katie Young
+8519,,,,Morgan Hjelsand,Sess:05-17-2023(Morgan Hjelsand),,0,Katie Young
+8520,,,,Morgan Hjelsand,Sess:05-24-2023(Morgan Hjelsand),,0,Katie Young
+8521,6/6/2023,6/5/2023,4673695,BCBS NC (North Carolina),ERAM_BCBS_NC_4673695_060423_0166.MCP.xml,349.64,,Katie Young
+8522,,,,BCBS NC (North Carolina),Sess:05-22-2023(Lola Wernke),,87.41,Katie Young
+8523,,,,BCBS NC (North Carolina),Sess:05-23-2023(Amanda Millwood),,87.41,Katie Young
+8524,,,,BCBS NC (North Carolina),Sess:05-15-2023(Xaymara Herrara),,87.41,Katie Young
+8525,,,,BCBS NC (North Carolina),Sess:05-22-2023(Xaymara Herrara),,87.41,Katie Young
+8526,6/7/2023,6/7/2023,23156B100024468300,BCBS NC (North Carolina),ERAM_BCBS_NC_23156B100024468300_060623_0180.MCP.xm,164.82,,Katie Young
+8527,,,,BCBS NC (North Carolina),Sess:05-26-2023(Jeremy Larsson),,77.41,Katie Young
+8528,,,,BCBS NC (North Carolina),Sess:05-22-2023(Megan Hall),,87.41,Katie Young
+8529,6/7/2023,6/7/2023,23156B100012820900,BCBS NC (North Carolina),ERAM_BCBS_NC_23156B100012820900_060623_0040.MCP.xm,257.23,,Katie Young
+8530,,,,BCBS NC (North Carolina),Sess:05-25-2023(Haley Putnam),,112.41,Katie Young
+8531,,,,BCBS NC (North Carolina),Sess:05-23-2023(Amy Corral),,72.41,Katie Young
+8532,,,,BCBS NC (North Carolina),Sess:05-23-2023(Mya Greene),,72.41,Katie Young
+8533,6/7/2023,6/8/2023,230607190128410,CIGNA,ERAM_CIGNA_HEALTH_AND_LIF_230607190128410_060723_0,0,,Katie Young
+8534,,,,CIGNA,Sess:05-22-2023(Megan McCabe),,0,Katie Young
+8535,6/8/2023,6/8/2023,23157B100003281800,BCBS NC (North Carolina),ERAM_BCBS_NC_23157B100003281800_060723_0181.MCP.xm,327.23,,Katie Young
+8536,,,,BCBS NC (North Carolina),Sess:05-15-2023(Haley Heatherly),,112.41,Katie Young
+8537,,,,BCBS NC (North Carolina),Sess:05-15-2023(Sarah Schreibman),,102.41,Katie Young
+8538,,,,BCBS NC (North Carolina),Sess:05-17-2023(Cynthia Dentremont),,112.41,Katie Young
+8539,6/8/2023,6/8/2023,,Victoria Belue,paid by insurance,82.41,,Katie Young
+8540,,,,Victoria Belue,Sess:03-14-2023(Victoria Belue),,-30,Katie Young
+8541,,,,Victoria Belue,Sess:04-18-2023(Victoria Belue),,112.41,Katie Young
+8542,6/8/2023,6/8/2023,,Bryana Melander,Jituzu electronic payment,60,,Katie Young
+8543,,,,Bryana Melander,Sess:05-02-2023(Bryana Melander),,60,Katie Young
+8544,4/10/2023,6/15/2023,,Kimberly Purdy,Paid at session,105.38,,Katie Young
+8545,,,,Kimberly Purdy,Sess:04-10-2023(Kimberly Purdy),,105.38,Katie Young
+8546,4/24/2023,6/15/2023,,Kimberly Purdy,Paid at session,110.89,,Katie Young
+8547,,,,Kimberly Purdy,Sess:04-24-2023(Kimberly Purdy),,110.89,Katie Young
+8548,5/29/2023,6/12/2023,,Xaymara Herrara,Paid at session,25,,Katie Young
+8549,,,,Xaymara Herrara,Sess:05-29-2023(Xaymara Herrara),,25,Katie Young
+8550,5/29/2023,6/15/2023,,Megan McCabe,Paid at session,94,,Katie Young
+8551,,,,Megan McCabe,Sess:05-29-2023(Megan McCabe),,94,Katie Young
+8552,5/30/2023,6/13/2023,,Amy Corral,Paid at session,40,,Katie Young
+8553,,,,Amy Corral,Sess:05-30-2023(Amy Corral),,40,Katie Young
+8554,5/30/2023,6/15/2023,,Victoria Belue,Paid at session,30,,Katie Young
+8555,,,,Victoria Belue,Sess:05-30-2023(Victoria Belue),,30,Katie Young
+8556,5/30/2023,6/15/2023,,Megan Hall,Paid at session,25,,Katie Young
+8557,,,,Megan Hall,Sess:05-30-2023(Megan Hall),,25,Katie Young
+8558,5/31/2023,6/12/2023,,Lola Wernke,Paid at session,25,,Katie Young
+8559,,,,Lola Wernke,Sess:05-31-2023(Lola Wernke),,25,Katie Young
+8560,6/7/2023,6/12/2023,,Morgan Hjelsand,Paid at session,125,,Katie Young
+8561,,,,Morgan Hjelsand,Sess:06-07-2023(Morgan Hjelsand),,125,Katie Young
+8562,6/9/2023,6/12/2023,23158B100010667300,BCBS NC (North Carolina),ERAM_BCBS_NC_23158B100010667300_060923_0378.MCP.xm,112.41,,Katie Young
+8563,,,,BCBS NC (North Carolina),Sess:05-23-2023(Hickory  Ham),,112.41,Katie Young
+8564,6/12/2023,6/12/2023,4684085,BCBS NC (North Carolina),ERAM_BCBS_NC_4684085_060923_0169.MCP.xml,174.82,,Katie Young
+8565,,,,BCBS NC (North Carolina),Sess:05-31-2023(Lola Wernke),,87.41,Katie Young
+8566,,,,BCBS NC (North Carolina),Sess:05-29-2023(Xaymara Herrara),,87.41,Katie Young
+8567,6/13/2023,6/13/2023,23162B100011129800,BCBS NC (North Carolina),ERAM_BCBS_NC_23162B100011129800_061223_0055.MCP.xm,283.15,,Katie Young
+8568,,,,BCBS NC (North Carolina),Sess:05-22-2023(Audrey Perkins),,168.61,Katie Young
+8569,,,,BCBS NC (North Carolina),Sess:05-22-2023(Jackson Perkins),,114.54,Katie Young
+8570,6/13/2023,6/13/2023,23161B100001393800,BCBS NC (North Carolina),ERAM_BCBS_NC_23161B100001393800_061223_0018.MCP.xm,72.41,,Katie Young
+8571,,,,BCBS NC (North Carolina),Sess:05-30-2023(Amy Corral),,72.41,Katie Young
+8572,6/13/2023,6/13/2023,,Madason King,Jituzu electronic payment,75,,Katie Young
+8573,,,,Madason King,Sess:06-06-2023(Madason King),,75,Katie Young
+8574,6/14/2023,6/15/2023,23163B1000211010,BCBS NC (North Carolina),Paris,89.93,,Katie Young
+8575,,,,BCBS NC (North Carolina),Sess:04-24-2023(Kimberly Purdy),,89.93,Katie Young
+8576,6/14/2023,6/15/2023,23163B100021101000,BCBS NC (North Carolina),ERAM_BCBS_NC_23163B100021101000_061323_0273.MCP.xm,284.13,,Katie Young
+8577,,,,BCBS NC (North Carolina),Sess:06-01-2023(Hickory  Ham),,112.41,Katie Young
+8578,,,,BCBS NC (North Carolina),Sess:04-10-2023(Kimberly Purdy),,84.31,Katie Young
+8579,,,,BCBS NC (North Carolina),Sess:05-30-2023(Megan Hall),,87.41,Katie Young
+8580,,,,BCBS NC (North Carolina),Sess:05-30-2023(Victoria Belue),,0,Katie Young
+8581,6/14/2023,6/15/2023,230614190127972,CIGNA,ERAM_CIGNA_HEALTH_AND_LIF_230614190127972_061423_1,0,,Katie Young
+8582,,,,CIGNA,Sess:05-29-2023(Megan McCabe),,0,Katie Young
+8583,5/23/2023,6/22/2023,,Christina McGinnis,Paid at session,10,,Katie Young
+8584,,,,Christina McGinnis,Sess:05-23-2023(Christina McGinnis),,10,Katie Young
+8585,5/25/2023,6/22/2023,,Sarah Schreibman,Paid at session,10,,Katie Young
+8586,,,,Sarah Schreibman,Sess:05-25-2023(Sarah Schreibman),,10,Katie Young
+8587,5/30/2023,6/22/2023,,Christina McGinnis,Paid at session,10,,Katie Young
+8588,,,,Christina McGinnis,Sess:05-30-2023(Christina McGinnis),,10,Katie Young
+8589,6/6/2023,6/22/2023,,Lola Wernke,Paid at session,25,,Katie Young
+8590,,,,Lola Wernke,Sess:06-06-2023(Lola Wernke),,25,Katie Young
+8591,6/6/2023,6/22/2023,,Amy Corral,Paid at session,40,,Katie Young
+8592,,,,Amy Corral,Sess:06-06-2023(Amy Corral),,40,Katie Young
+8593,6/6/2023,6/22/2023,,Megan Hall,Paid at session,25,,Katie Young
+8594,,,,Megan Hall,Sess:06-06-2023(Megan Hall),,25,Katie Young
+8595,6/7/2023,6/22/2023,,Molly Cowan,Paid at session,25,,Katie Young
+8596,,,,Molly Cowan,Sess:06-07-2023(Molly Cowan),,25,Katie Young
+8597,6/7/2023,6/22/2023,,Macie Cowan,Paid at session,25,,Katie Young
+8598,,,,Macie Cowan,Sess:06-07-2023(Macie Cowan),,25,Katie Young
+8599,6/14/2023,6/19/2023,,Morgan Hjelsand,Paid at session,125,,Katie Young
+8600,,,,Morgan Hjelsand,Sess:06-14-2023(Morgan Hjelsand),,125,Katie Young
+8601,6/16/2023,6/22/2023,4704321,BCBS NC (North Carolina),ERAM_BCBS_NC_4704321_061523_0205.MCP.xml,174.82,,Katie Young
+8602,,,,BCBS NC (North Carolina),Sess:06-06-2023(Lola Wernke),,87.41,Katie Young
+8603,,,,BCBS NC (North Carolina),Sess:06-06-2023(Amanda Millwood),,87.41,Katie Young
+8604,6/16/2023,6/22/2023,23165B100003161500,BCBS NC (North Carolina),ERAM_BCBS_NC_23165B100003161500_061523_0158.MCP.xm,450.67,,Katie Young
+8605,,,,BCBS NC (North Carolina),Sess:05-23-2023(Christina McGinnis),,102.41,Katie Young
+8606,,,,BCBS NC (North Carolina),Sess:05-25-2023(Sarah Schreibman),,102.41,Katie Young
+8607,,,,BCBS NC (North Carolina),Sess:05-24-2023(Cynthia Dentremont),,112.41,Katie Young
+8608,,,,BCBS NC (North Carolina),Sess:05-26-2023(Lori Kilby),,133.44,Katie Young
+8609,6/18/2023,6/18/2023,,Megan McCabe,,-64,,Katie Young
+8610,,,,Megan McCabe,Sess:05-22-2023(Megan McCabe),,-32,Katie Young
+8611,,,,Megan McCabe,Sess:05-29-2023(Megan McCabe),,-32,Katie Young
+8612,6/20/2023,6/22/2023,23169B100014482400,BCBS NC (North Carolina),ERAM_BCBS_NC_23169B100014482400_061923_0147.MCP.xm,906.15,,Katie Young
+8613,,,,BCBS NC (North Carolina),Sess:05-31-2023(Audrey Perkins),,168.61,Katie Young
+8614,,,,BCBS NC (North Carolina),Sess:05-29-2023(Jacob Pace),,168.61,Katie Young
+8615,,,,BCBS NC (North Carolina),Sess:06-07-2023(Jacob Pace),,168.61,Katie Young
+8616,,,,BCBS NC (North Carolina),Sess:06-08-2023(Cara Luknight),,200.16,Katie Young
+8617,,,,BCBS NC (North Carolina),Sess:06-08-2023(Jamey Freeman),,200.16,Katie Young
+8618,6/21/2023,6/22/2023,23170B100022114400,BCBS NC (North Carolina),ERAM_BCBS_NC_23170B100022114400_062023_0274.MCP.xm,112.41,,Katie Young
+8619,,,,BCBS NC (North Carolina),Sess:06-09-2023(Hickory  Ham),,112.41,Katie Young
+8620,6/21/2023,6/22/2023,23167B100009512700,BCBS NC (North Carolina),ERAM_BCBS_NC_23167B100009512700_061823_0152.MCP.xm,87.41,,Katie Young
+8621,,,,BCBS NC (North Carolina),Sess:06-06-2023(Megan Hall),,87.41,Katie Young
+8622,6/21/2023,6/22/2023,23167B100002136400,BCBS NC (North Carolina),ERAM_BCBS_NC_23167B100002136400_061823_0005.MCP.xm,137.93,,Katie Young
+8623,,,,BCBS NC (North Carolina),Sess:06-06-2023(Amy Corral),,72.41,Katie Young
+8624,,,,BCBS NC (North Carolina),Sess:06-07-2023(Molly Cowan),,32.76,Katie Young
+8625,,,,BCBS NC (North Carolina),Sess:06-07-2023(Macie Cowan),,32.76,Katie Young
+8626,6/22/2023,6/22/2023,23171B100002857200,BCBS NC (North Carolina),ERAM_BCBS_NC_23171B100002857200_062123_0011.MCP.xm,389.64,,Katie Young
+8627,,,,BCBS NC (North Carolina),Sess:05-30-2023(Christina McGinnis),,102.41,Katie Young
+8628,,,,BCBS NC (North Carolina),Sess:06-01-2023(Haley Putnam),,62.41,Katie Young
+8629,,,,BCBS NC (North Carolina),Sess:05-31-2023(Cynthia Dentremont),,112.41,Katie Young
+8630,,,,BCBS NC (North Carolina),Sess:05-31-2023(Lori Kilby),,112.41,Katie Young
+8631,6/22/2023,6/22/2023,,Amanda Millwood,Teri,25,,Katie Young
+8632,,,,Amanda Millwood,Sess:06-06-2023(Amanda Millwood),,25,Katie Young
+8633,6/22/2023,6/22/2023,,Haley Putnam,Teri,0,,Katie Young
+8634,,,,Haley Putnam,Sess:05-17-2023(Haley Putnam),,-40,Katie Young
+8635,,,,Haley Putnam,Sess:06-01-2023(Haley Putnam),,40,Katie Young
+8636,5/16/2023,6/26/2023,,Victoria Belue,Paid at session,30,,Katie Young
+8637,,,,Victoria Belue,Sess:05-16-2023(Victoria Belue),,30,Katie Young
+8638,6/1/2023,6/30/2023,,Sarah Schreibman,Paid at session,10,,Katie Young
+8639,,,,Sarah Schreibman,Sess:06-01-2023(Sarah Schreibman),,10,Katie Young
+8640,6/6/2023,6/28/2023,,Christina McGinnis,Paid at session,10,,Katie Young
+8641,,,,Christina McGinnis,Sess:06-06-2023(Christina McGinnis),,10,Katie Young
+8642,6/7/2023,6/28/2023,,Paul Ramsey,Paid at session,10,,Katie Young
+8643,,,,Paul Ramsey,Sess:06-07-2023(Paul Ramsey),,10,Katie Young
+8644,6/8/2023,6/30/2023,,Sarah Schreibman,Paid at session,10,,Katie Young
+8645,,,,Sarah Schreibman,Sess:06-08-2023(Sarah Schreibman),,10,Katie Young
+8646,6/12/2023,6/26/2023,,Mya Greene,Paid at session,40,,Katie Young
+8647,,,,Mya Greene,Sess:06-12-2023(Mya Greene),,40,Katie Young
+8648,6/12/2023,6/26/2023,,Amanda Millwood,Paid at session,25,,Katie Young
+8649,,,,Amanda Millwood,Sess:06-12-2023(Amanda Millwood),,25,Katie Young
+8650,6/13/2023,6/26/2023,,Amy Corral,Paid at session,40,,Katie Young
+8651,,,,Amy Corral,Sess:06-13-2023(Amy Corral),,40,Katie Young
+8652,6/13/2023,6/26/2023,,Xaymara Herrara,Paid at session,25,,Katie Young
+8653,,,,Xaymara Herrara,Sess:06-13-2023(Xaymara Herrara),,25,Katie Young
+8654,6/13/2023,6/28/2023,,Megan Hall,Paid at session,25,,Katie Young
+8655,,,,Megan Hall,Sess:06-13-2023(Megan Hall),,25,Katie Young
+8656,6/16/2023,6/26/2023,,Sophie Stepp,Paid at session,25,,Katie Young
+8657,,,,Sophie Stepp,Sess:06-16-2023(Sophie Stepp),,25,Katie Young
+8658,6/19/2023,6/26/2023,,Ty Keplinger,Paid at session,150,,Katie Young
+8659,,,,Ty Keplinger,Sess:06-19-2023(Ty Keplinger),,150,Katie Young
+8660,6/20/2023,6/26/2023,,Jess Hedrick,Paid at session,125,,Katie Young
+8661,,,,Jess Hedrick,Sess:06-20-2023(Jess Hedrick),,125,Katie Young
+8662,6/23/2023,6/26/2023,23172B100008805300,BCBS NC (North Carolina),ERAM_BCBS_NC_23172B100008805300_062223_0143.MCP.xm,82.41,,Katie Young
+8663,,,,BCBS NC (North Carolina),Sess:05-16-2023(Victoria Belue),,82.41,Katie Young
+8664,6/23/2023,6/26/2023,4716857,BCBS NC (North Carolina),ERAM_BCBS_NC_4716857_062223_0135.MCP.xml,262.23,,Katie Young
+8665,,,,BCBS NC (North Carolina),Sess:06-12-2023(Lola Wernke),,87.41,Katie Young
+8666,,,,BCBS NC (North Carolina),Sess:06-12-2023(Amanda Millwood),,87.41,Katie Young
+8667,,,,BCBS NC (North Carolina),Sess:06-13-2023(Xaymara Herrara),,87.41,Katie Young
+8668,6/27/2023,6/26/2023,23174B100002440400,BCBS NC (North Carolina),ERAM_BCBS_NC_23174B100002440400_062523_0126.MCP.xm,253.26,,Katie Young
+8669,,,,BCBS NC (North Carolina),Sess:06-13-2023(Amy Corral),,72.41,Katie Young
+8670,,,,BCBS NC (North Carolina),Sess:06-12-2023(Mya Greene),,72.41,Katie Young
+8671,,,,BCBS NC (North Carolina),Sess:06-16-2023(Sophie Stepp),,108.44,Katie Young
+8672,6/27/2023,6/27/2023,23176B100013411000,BCBS NC (North Carolina),ERAM_BCBS_NC_23176B100013411000_062623_0003.MCP.xm,674.44,,Katie Young
+8673,,,,BCBS NC (North Carolina),Sess:06-12-2023(Audrey Perkins),,168.61,Katie Young
+8674,,,,BCBS NC (North Carolina),Sess:06-12-2023(Jacob Pace),,168.61,Katie Young
+8675,,,,BCBS NC (North Carolina),Sess:06-13-2023(Cara Luknight),,168.61,Katie Young
+8676,,,,BCBS NC (North Carolina),Sess:06-16-2023(Jamey Freeman),,168.61,Katie Young
+8677,6/28/2023,6/28/2023,23177B100027016400,BCBS NC (North Carolina),ERAM_BCBS_NC_23177B100027016400_062723_0338.MCP.xm,51.36,,Katie Young
+8678,,,,BCBS NC (North Carolina),Sess:06-13-2023(Megan Hall),,51.36,Katie Young
+8679,6/28/2023,6/28/2023,23177B100007719400,BCBS NC (North Carolina),ERAM_BCBS_NC_23177B100007719400_062723_0030.MCP.xm,379.64,,Katie Young
+8680,,,,BCBS NC (North Carolina),Sess:06-06-2023(Christina McGinnis),,102.41,Katie Young
+8681,,,,BCBS NC (North Carolina),Sess:06-08-2023(Haley Putnam),,62.41,Katie Young
+8682,,,,BCBS NC (North Carolina),Sess:06-07-2023(Paul Ramsey),,102.41,Katie Young
+8683,,,,BCBS NC (North Carolina),Sess:06-09-2023(Lori Kilby),,112.41,Katie Young
+8684,6/29/2023,6/29/2023,,Lola Wernke,Jituzu electronic payment,25,,Katie Young
+8685,,,,Lola Wernke,Sess:06-12-2023(Lola Wernke),,25,Katie Young
+8686,6/29/2023,6/29/2023,,Haley Putnam,Jituzu electronic payment,60,,Katie Young
+8687,,,,Haley Putnam,Sess:06-08-2023(Haley Putnam),,50,Katie Young
+8688,,,,Haley Putnam,Sess:06-01-2023(Haley Putnam),,10,Katie Young
+8689,6/29/2023,6/29/2023,,Jess Hedrick,,0,,Katie Young
+8690,,,,Jess Hedrick,Sess:06-20-2023(Jess Hedrick),,0,Katie Young
+8691,6/30/2023,6/30/2023,4736920,BCBS NC (North Carolina),ERAM_BCBS_NC_4736920_062923_0161.MCP.xml,87.41,,Katie Young
+8692,,,,BCBS NC (North Carolina),Sess:06-22-2023(Lola Wernke),,87.41,Katie Young
+8693,6/30/2023,6/30/2023,23179B100002991600,BCBS NC (North Carolina),ERAM_BCBS_NC_23179B100002991600_062923_0003.MCP.xm,204.82,,Katie Young
+8694,,,,BCBS NC (North Carolina),Sess:06-01-2023(Sarah Schreibman),,102.41,Katie Young
+8695,,,,BCBS NC (North Carolina),Sess:06-08-2023(Sarah Schreibman),,102.41,Katie Young
+8696,6/30/2023,6/30/2023,,Lola Wernke,Jituzu electronic payment,25,,Katie Young
+8697,,,,Lola Wernke,Sess:06-22-2023(Lola Wernke),,25,Katie Young

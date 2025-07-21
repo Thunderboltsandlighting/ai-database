@@ -1,0 +1,43 @@
+2025-07-20 13:31:39,741 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-20 13:31:39,894 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-20 13:31:39,894 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 13:31:44,308 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:31:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:50:57,191 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:50:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-20 13:51:32,326 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:51:32] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-20 13:51:39,305 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:51:39] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-20 13:59:37,201 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:59:37] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:59:40,700 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:59:40] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:59:44,133 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:59:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 18:40:05,538 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:40:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-20 18:40:33,177 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:40:33] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 18:41:28,368 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:41:28] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 18:48:38,377 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:48:38] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 18:49:12,902 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:49:12] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 18:49:57,070 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 18:49:57] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:05:21,313 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:05:21] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:05:27,359 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:05:27] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:05:42,340 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:05:42] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:06:01,282 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:06:01] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:06:16,375 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:06:16] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:06:30,553 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:06:30] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:06:35,322 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:06:35] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:07:11,519 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:07:11] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:07:24,922 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:07:24] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:08:00,528 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:08:00] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:18:25,484 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:18:25] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 19:18:43,409 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 19:18:43] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:38:03,665 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:38:03] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:40:44,242 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:40:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:40:53,825 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:40:53] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:49:17,967 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:49:17] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:56:51,364 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:56:51] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:56:58,748 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:56:58] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:57:04,729 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:57:04] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:57:21,025 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:57:21] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:57:25,967 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:57:25] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:57:33,291 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:57:33] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:57:37,959 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:57:37] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:58:09,072 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:58:09] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:58:37,995 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:58:37] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 20:59:31,782 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 20:59:31] "POST /api/ai/chat HTTP/1.1" 200 -

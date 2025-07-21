@@ -1,0 +1,44 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+1346,1/23/2024,2/12/2024,,Chrisele Nelson,Paid at session,133.44,,Ardelle Bland
+1347,,,,Chrisele Nelson,Sess:01-23-2024(Chrisele Nelson),,133.44,Ardelle Bland
+1348,1/31/2024,2/12/2024,,Joanne Watkins,Paid at session,25,,Ardelle Bland
+1349,,,,Joanne Watkins,Sess:01-31-2024(Joanne Watkins),,25,Ardelle Bland
+1350,2/6/2024,2/12/2024,24036B100026851200,BCBS NC (North Carolina),ERAM_BCBS_NC_24036B100026851200_020624_0129.MCP.xm,0,,Ardelle Bland
+1351,,,,BCBS NC (North Carolina),Sess:01-23-2024(Chrisele Nelson),,0,Ardelle Bland
+1352,2/6/2024,2/12/2024,24035B100015156800,BCBS NC (North Carolina),ERAM_BCBS_NC_24035B100015156800_020524_0028.MCP.xm,200.16,,Ardelle Bland
+1353,,,,BCBS NC (North Carolina),Sess:01-23-2024(Richele Dunavent),,200.16,Ardelle Bland
+1354,2/12/2024,2/12/2024,24039B100015743500,BCBS NC (North Carolina),ERAM_BCBS_NC_24039B100015743500_020924_0012.MCP.xm,94.43,,Ardelle Bland
+1355,,,,BCBS NC (North Carolina),Sess:01-31-2024(Joanne Watkins),,94.43,Ardelle Bland
+1356,2/13/2024,2/15/2024,NC77000434,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77000434_021224_0001.MCP.xml,0,,Ardelle Bland
+1357,,,,BCBS NC (North Carolina),Sess:02-01-2024(Deajsha Richardson),,0,Ardelle Bland
+1358,2/15/2024,2/15/2024,,Deajsha Richardson,Jituzu electronic payment,141.78,,Ardelle Bland
+1359,,,,Deajsha Richardson,Sess:02-01-2024(Deajsha Richardson),,141.78,Ardelle Bland
+1360,2/8/2024,2/19/2024,,Joanne Watkins,Paid at session,25,,Ardelle Bland
+1361,,,,Joanne Watkins,Sess:02-08-2024(Joanne Watkins),,25,Ardelle Bland
+1362,2/20/2024,2/19/2024,24046B100015387300,BCBS NC (North Carolina),ERAM_BCBS_NC_24046B100015387300_021624_0139.MCP.xm,94.43,,Ardelle Bland
+1363,,,,BCBS NC (North Carolina),Sess:02-08-2024(Joanne Watkins),,94.43,Ardelle Bland
+1364,2/1/2024,2/29/2024,,Chrisele Nelson,Paid at session,112.41,,Ardelle Bland
+1365,,,,Chrisele Nelson,Sess:02-01-2024(Chrisele Nelson),,112.41,Ardelle Bland
+1366,2/7/2024,2/29/2024,,Lara Gminder,Paid at session,30,,Ardelle Bland
+1367,,,,Lara Gminder,Sess:02-07-2024(Lara Gminder),,30,Ardelle Bland
+1368,2/8/2024,2/29/2024,,Deajsha Richardson,Paid at session,119.43,,Ardelle Bland
+1369,,,,Deajsha Richardson,Sess:02-08-2024(Deajsha Richardson),,119.43,Ardelle Bland
+1370,2/12/2024,2/29/2024,,Lara Gminder,Paid at session,30,,Ardelle Bland
+1371,,,,Lara Gminder,Sess:02-12-2024(Lara Gminder),,30,Ardelle Bland
+1372,2/19/2024,2/29/2024,,Lara Gminder,Paid at session,30,,Ardelle Bland
+1373,,,,Lara Gminder,Sess:02-19-2024(Lara Gminder),,30,Ardelle Bland
+1374,2/20/2024,2/27/2024,NC77000584,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77000584_021924_0003.MCP.xml,0,,Ardelle Bland
+1375,,,,BCBS NC (North Carolina),Sess:02-08-2024(Deajsha Richardson),,0,Ardelle Bland
+1376,2/21/2024,2/27/2024,24050B100026262200,BCBS NC (North Carolina),ERAM_BCBS_NC_24050B100026262200_022024_0093.MCP.xm,101.78,,Ardelle Bland
+1377,,,,BCBS NC (North Carolina),Sess:02-01-2024(Chrisele Nelson),,0,Ardelle Bland
+1378,,,,BCBS NC (North Carolina),Sess:02-07-2024(Lara Gminder),,101.78,Ardelle Bland
+1379,2/23/2024,2/27/2024,24052B100014228800,BCBS NC (North Carolina),ERAM_BCBS_NC_24052B100014228800_022224_0159.MCP.xm,79.43,,Ardelle Bland
+1380,,,,BCBS NC (North Carolina),Sess:02-12-2024(Lara Gminder),,79.43,Ardelle Bland
+1381,2/27/2024,2/27/2024,24054B100013098800,BCBS NC (North Carolina),ERAM_BCBS_NC_24054B100013098800_022524_0154.MCP.xm,79.43,,Ardelle Bland
+1382,,,,BCBS NC (North Carolina),Sess:02-19-2024(Lara Gminder),,79.43,Ardelle Bland
+1383,2/29/2024,2/29/2024,,Lara Gminder,Jituzu electronic payment,30,,Ardelle Bland
+1384,,,,Lara Gminder,Sess:02-07-2024(Lara Gminder),,10,Ardelle Bland
+1385,,,,Lara Gminder,Sess:02-19-2024(Lara Gminder),,10,Ardelle Bland
+1386,,,,Lara Gminder,Sess:02-12-2024(Lara Gminder),,10,Ardelle Bland
+1387,2/29/2024,2/29/2024,,Chrisele Nelson,Jituzu electronic payment,7.02,,Ardelle Bland
+1388,,,,Chrisele Nelson,Sess:02-01-2024(Chrisele Nelson),,7.02,Ardelle Bland

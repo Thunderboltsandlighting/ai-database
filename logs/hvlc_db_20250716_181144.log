@@ -1,0 +1,3 @@
+2025-07-16 18:11:44,836 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-16 18:11:44,839 - hvlc_db - INFO - Loaded 11 expense records from csv_folder/expenses/hvlc_expenses_2024.csv
+2025-07-16 18:11:44,844 - hvlc_db - INFO - Monthly expense summaries updated successfully

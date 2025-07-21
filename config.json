@@ -1,0 +1,52 @@
+{
+    "database": {
+        "db_path": "medical_billing.db",
+        "enable_foreign_keys": true,
+        "migration": {
+            "use_sqlalchemy": false,
+            "migration_enabled": true,
+            "track_performance": true,
+            "fallback_on_error": true
+        },
+        "sqlalchemy": {
+            "database_url": null,
+            "echo": false,
+            "pool_size": 5,
+            "max_overflow": 10
+        }
+    },
+    "ollama": {
+        "homelab_url": "http://ada.tailf21bf8.ts.net:11434",
+        "homelab_model": "llama3.3:70b",
+        "homelab_max_tokens": 4000,
+        "homelab_max_chars": 32000,
+        "laptop_url": "http://localhost:11434",
+        "laptop_model": "llama3.1:8b",
+        "laptop_max_tokens": 2000,
+        "laptop_max_chars": 16000,
+        "timeout": 60,
+        "retry_timeout": 30,
+        "final_timeout": 15,
+        "cache_timeout": 600,
+        "temperature": 0.7,
+        "use_chat_api": true,
+        "conversation_memory": 5
+    },
+    "paths": {
+        "csv_root": "csv_folder",
+        "meta_dir": "csv_folder/meta",
+        "log_dir": "logs",
+        "knowledge_file": "medical_billing_knowledge.md",
+        "docs_dir": "docs",
+        "processed_docs_dir": "docs/processed"
+    },
+    "logging": {
+        "log_file": "medical_billing.log",
+        "query_log": "query_log.txt",
+        "clarification_log": "clarification_log.txt",
+        "data_quality_log": "data_quality_issues.log",
+        "log_level": "INFO",
+        "max_log_size_mb": 5,
+        "backup_count": 10
+    }
+}

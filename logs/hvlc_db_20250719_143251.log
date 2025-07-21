@@ -1,0 +1,32 @@
+2025-07-19 14:32:51,849 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-19 14:32:51,988 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-19 14:32:51,988 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 14:32:58,340 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:32:58] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 14:33:23,382 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 14:33:23] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:14:04,263 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:14:04] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:15:24,985 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:15:24] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:17:18,738 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:18] "GET /api/ada/presets HTTP/1.1" 200 -
+2025-07-19 15:17:18,756 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-19 15:17:18,758 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:18] "GET /api/ada/personality HTTP/1.1" 200 -
+2025-07-19 15:17:18,767 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:18] "GET /api/ada/user-context HTTP/1.1" 200 -
+2025-07-19 15:17:18,775 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:18] "GET /api/ada/instructions HTTP/1.1" 200 -
+2025-07-19 15:17:18,826 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:18] "GET /api/ada/memories?limit=10 HTTP/1.1" 200 -
+2025-07-19 15:17:24,354 - utils.ada_memory - INFO - Updated personality: communication.tone = technical_detailed
+2025-07-19 15:17:24,355 - utils.ada_memory - INFO - Updated personality: analysis.depth = deep_analytical
+2025-07-19 15:17:24,355 - utils.ada_memory - INFO - Updated personality: analysis.proactivity = high
+2025-07-19 15:17:24,356 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "POST /api/ada/presets/technical HTTP/1.1" 200 -
+2025-07-19 15:17:24,365 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "GET /api/ada/presets HTTP/1.1" 200 -
+2025-07-19 15:17:24,375 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "GET /api/ada/personality HTTP/1.1" 200 -
+2025-07-19 15:17:24,383 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "GET /api/ada/user-context HTTP/1.1" 200 -
+2025-07-19 15:17:24,391 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "GET /api/ada/instructions HTTP/1.1" 200 -
+2025-07-19 15:17:24,410 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:17:24] "GET /api/ada/memories?limit=10 HTTP/1.1" 200 -
+2025-07-19 15:18:00,936 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:18:00] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:20:48,619 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:20:48] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:21:06,514 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:21:06] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:22:05,496 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:22:05] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:24:41,606 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:24:41] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:28:26,441 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:28:26] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 15:40:30,874 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 15:40:30] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 16:16:32,485 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 16:16:32] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-19 22:01:11,871 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 22:01:11] "POST /api/ai/chat HTTP/1.1" 200 -

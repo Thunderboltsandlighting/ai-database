@@ -1,0 +1,344 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+4460,3/19/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4461,,,,Reva Thompson,Sess:03-19-2025(Reva Thompson),,50,Tammy Maxey
+4462,4/7/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4463,,,,Reva Thompson,Sess:04-07-2025(Reva Thompson),,50,Tammy Maxey
+4464,4/15/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4465,,,,Reva Thompson,Sess:04-15-2025(Reva Thompson),,50,Tammy Maxey
+4466,4/21/2025,6/2/2025,,Jill Tulloch,Paid at session,10,,Tammy Maxey
+4467,,,,Jill Tulloch,Sess:04-21-2025(Jill Tulloch),,10,Tammy Maxey
+4468,4/23/2025,6/2/2025,,Leisl Vale,Paid at session,10,,Tammy Maxey
+4469,,,,Leisl Vale,Sess:04-23-2025(Leisl Vale),,10,Tammy Maxey
+4470,4/23/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4471,,,,Reva Thompson,Sess:04-23-2025(Reva Thompson),,50,Tammy Maxey
+4472,5/12/2025,6/2/2025,,Jill Tulloch,Paid at session,10,,Tammy Maxey
+4473,,,,Jill Tulloch,Sess:05-12-2025(Jill Tulloch),,10,Tammy Maxey
+4474,5/14/2025,6/11/2025,,Kay Speranza,Paid at session,50,,Tammy Maxey
+4475,,,,Kay Speranza,Sess:05-14-2025(Kay Speranza),,50,Tammy Maxey
+4476,5/14/2025,6/2/2025,,Leisl Vale,Paid at session,10,,Tammy Maxey
+4477,,,,Leisl Vale,Sess:05-14-2025(Leisl Vale),,10,Tammy Maxey
+4478,5/14/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4479,,,,Reva Thompson,Sess:05-14-2025(Reva Thompson),,50,Tammy Maxey
+4480,5/19/2025,6/2/2025,,Amanda Sigmon,Paid at session,26.2,,Tammy Maxey
+4481,,,,Amanda Sigmon,Sess:05-19-2025(Amanda Sigmon),,26.2,Tammy Maxey
+4482,5/19/2025,6/2/2025,,Jill Tulloch,Paid at session,10,,Tammy Maxey
+4483,,,,Jill Tulloch,Sess:05-19-2025(Jill Tulloch),,10,Tammy Maxey
+4484,5/21/2025,6/5/2025,,Melissa Duffy,Paid at session,20,,Tammy Maxey
+4485,,,,Melissa Duffy,Sess:05-21-2025(Melissa Duffy),,20,Tammy Maxey
+4486,5/21/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4487,,,,Reva Thompson,Sess:05-21-2025(Reva Thompson),,50,Tammy Maxey
+4488,5/22/2025,6/11/2025,,Kay Speranza,Paid at session,50,,Tammy Maxey
+4489,,,,Kay Speranza,Sess:05-22-2025(Kay Speranza),,50,Tammy Maxey
+4490,5/27/2025,6/11/2025,,Jackie Brogie,Paid at session,25,,Tammy Maxey
+4491,,,,Jackie Brogie,Sess:05-27-2025(Jackie Brogie),,25,Tammy Maxey
+4492,5/29/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4493,,,,Reva Thompson,Sess:05-29-2025(Reva Thompson),,50,Tammy Maxey
+4494,6/2/2025,6/5/2025,25149B100015031500,BCBS NC (North Carolina),ERAM_BCBS_NC_25149B100015031500_053025_0054.MCP.xm,108.26,,Tammy Maxey
+4495,,,,BCBS NC (North Carolina),Sess:05-21-2025(Melissa Duffy),,108.26,Tammy Maxey
+4496,6/2/2025,6/5/2025,25149B100008013700,BCBS NC (North Carolina),ERAM_BCBS_NC_25149B100008013700_053025_0066.MCP.xm,103.26,,Tammy Maxey
+4497,,,,BCBS NC (North Carolina),Sess:05-19-2025(Cassandra Young),,103.26,Tammy Maxey
+4498,6/2/2025,6/2/2025,,UBH - United Behavioral Health,DB,157.18,,Tammy Maxey
+4499,,,,UBH - United Behavioral Health,Sess:04-17-2025(Amanda Sigmon),,78.59,Tammy Maxey
+4500,,,,UBH - United Behavioral Health,Sess:05-19-2025(Amanda Sigmon),,78.59,Tammy Maxey
+4501,6/2/2025,6/25/2025,,Reva Thompson,Paid at session,50,,Tammy Maxey
+4502,,,,Reva Thompson,Sess:06-02-2025(Reva Thompson),,50,Tammy Maxey
+4503,6/4/2025,6/11/2025,,Kay Speranza,Paid at session,90,,Tammy Maxey
+4504,,,,Kay Speranza,Sess:06-04-2025(Kay Speranza),,90,Tammy Maxey
+4505,6/4/2025,6/11/2025,,Lisa Mangiardi,Paid at session,75,,Tammy Maxey
+4506,,,,Lisa Mangiardi,Sess:06-04-2025(Lisa Mangiardi),,75,Tammy Maxey
+4507,6/4/2025,6/27/2025,,Barbara Hale,Paid at session,10,,Tammy Maxey
+4508,,,,Barbara Hale,Sess:06-04-2025(Barbara Hale),,10,Tammy Maxey
+4509,6/6/2025,6/11/2025,25155B100002590400,BCBS NC (North Carolina),ERAM_BCBS_NC_25155B100002590400_060525_0036.MCP.xm,78.26,,Tammy Maxey
+4510,,,,BCBS NC (North Carolina),Sess:05-14-2025(Kay Speranza),,78.26,Tammy Maxey
+4511,6/6/2025,6/11/2025,683040019,MedCost Inc,ERAM_RELAY_HEALTH_683040019_060625_0000.MCP.xml,158.08,,Tammy Maxey
+4512,,,,MedCost Inc,Sess:05-13-2025(Tamekia Bediako),,79.04,Tammy Maxey
+4513,,,,MedCost Inc,Sess:05-20-2025(Tamekia Bediako),,79.04,Tammy Maxey
+4514,6/9/2025,6/2/2025,,CIGNA,DB,435,,Tammy Maxey
+4515,,,,CIGNA,Sess:04-21-2025(Jill Tulloch),,87,Tammy Maxey
+4516,,,,CIGNA,Sess:05-12-2025(Jill Tulloch),,87,Tammy Maxey
+4517,,,,CIGNA,Sess:05-19-2025(Jill Tulloch),,87,Tammy Maxey
+4518,,,,CIGNA,Sess:04-23-2025(Leisl Vale),,87,Tammy Maxey
+4519,,,,CIGNA,Sess:05-14-2025(Leisl Vale),,87,Tammy Maxey
+4520,6/9/2025,6/13/2025,,Kurt Wuerfele,Paid at session,100,,Tammy Maxey
+4521,,,,Kurt Wuerfele,Sess:06-09-2025(Kurt Wuerfele),,100,Tammy Maxey
+4522,6/9/2025,6/25/2025,,Reva Thompson,Paid at session,40.65,,Tammy Maxey
+4523,,,,Reva Thompson,Sess:06-09-2025(Reva Thompson),,40.65,Tammy Maxey
+4524,6/10/2025,6/11/2025,825156000193521,Aetna,ERAM_AVAILITY_825156000193521_060525_1026.MCP.xml,113.61,,Tammy Maxey
+4525,,,,Aetna,Sess:05-27-2025(Jackie Brogie),,113.61,Tammy Maxey
+4526,6/10/2025,6/25/2025,,Jackie Brogie,Paid at session,25,,Tammy Maxey
+4527,,,,Jackie Brogie,Sess:06-10-2025(Jackie Brogie),,25,Tammy Maxey
+4528,6/10/2025,6/27/2025,,Nicole Boehrig,Paid at session,97,,Tammy Maxey
+4529,,,,Nicole Boehrig,Sess:06-10-2025(Nicole Boehrig),,97,Tammy Maxey
+4530,6/10/2025,6/30/2025,,Tamekia Bediako,Paid at session,25,,Tammy Maxey
+4531,,,,Tamekia Bediako,Sess:06-10-2025(Tamekia Bediako),,25,Tammy Maxey
+4532,6/11/2025,6/11/2025,25160B100006583800,BCBS NC (North Carolina),ERAM_BCBS_NC_25160B100006583800_061025_0250.MCP.xm,196.52,,Tammy Maxey
+4533,,,,BCBS NC (North Carolina),Sess:05-22-2025(Kay Speranza),,78.26,Tammy Maxey
+4534,,,,BCBS NC (North Carolina),Sess:05-20-2025(Barbara Hale),,118.26,Tammy Maxey
+4535,6/11/2025,6/13/2025,,Kay Speranza,Paid at session,90,,Tammy Maxey
+4536,,,,Kay Speranza,Sess:06-11-2025(Kay Speranza),,90,Tammy Maxey
+4537,6/11/2025,6/11/2025,,Tamekia Bediako,AMBER,50,,Tammy Maxey
+4538,,,,Tamekia Bediako,Sess:04-05-2022(Tamekia Bediako),,-25,Tammy Maxey
+4539,,,,Tamekia Bediako,Sess:04-19-2022(Tamekia Bediako),,-25,Tammy Maxey
+4540,,,,Tamekia Bediako,Sess:01-14-2025(Tamekia Bediako),,25,Tammy Maxey
+4541,,,,Tamekia Bediako,Sess:01-20-2025(Tamekia Bediako),,25,Tammy Maxey
+4542,,,,Tamekia Bediako,Sess:01-28-2025(Tamekia Bediako),,25,Tammy Maxey
+4543,,,,Tamekia Bediako,Sess:02-04-2025(Tamekia Bediako),,25,Tammy Maxey
+4544,6/11/2025,6/13/2025,,Cynthia Barsky,Paid at session,100,,Tammy Maxey
+4545,,,,Cynthia Barsky,Sess:06-11-2025(Cynthia Barsky),,100,Tammy Maxey
+4546,6/16/2025,6/25/2025,,Kurt Wuerfele,Paid at session,100,,Tammy Maxey
+4547,,,,Kurt Wuerfele,Sess:06-16-2025(Kurt Wuerfele),,100,Tammy Maxey
+4548,6/17/2025,6/17/2025,,Amanda Sigmon,Jituzu electronic payment,26.2,,Tammy Maxey
+4549,,,,Amanda Sigmon,Sess:04-17-2025(Amanda Sigmon),,26.2,Tammy Maxey
+4550,6/17/2025,6/17/2025,,Cassandra Young,write off,25,,Tammy Maxey
+4551,,,,Cassandra Young,Sess:05-19-2025(Cassandra Young),,25,Tammy Maxey
+4552,6/17/2025,6/17/2025,,Kay Speranza,Jituzu electronic payment,85,,Tammy Maxey
+4553,,,,Kay Speranza,Sess:06-04-2025(Kay Speranza),,85,Tammy Maxey
+4554,6/18/2025,6/25/2025,25167B100021175300,BCBS NC (North Carolina),ERAM_BCBS_NC_25167B100021175300_061825_0311.MCP.xm,103.26,,Tammy Maxey
+4555,,,,BCBS NC (North Carolina),Sess:06-02-2025(Cassandra Young),,103.26,Tammy Maxey
+4556,6/18/2025,6/25/2025,250614090064747,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_250614090064747_061725_0,67,,Tammy Maxey
+4557,,,,CIGNA,Sess:06-02-2025(Ashley Albers),,67,Tammy Maxey
+4558,6/23/2025,6/25/2025,25169B100015060500,BCBS NC (North Carolina),ERAM_BCBS_NC_25169B100015060500_061925_0038.MCP.xm,578.34,,Tammy Maxey
+4559,,,,BCBS NC (North Carolina),Sess:03-26-2025(Reva Thompson),,87.43,Tammy Maxey
+4560,,,,BCBS NC (North Carolina),Sess:03-19-2025(Reva Thompson),,37.86,Tammy Maxey
+4561,,,,BCBS NC (North Carolina),Sess:04-02-2025(Reva Thompson),,90.61,Tammy Maxey
+4562,,,,BCBS NC (North Carolina),Sess:04-07-2025(Reva Thompson),,90.61,Tammy Maxey
+4563,,,,BCBS NC (North Carolina),Sess:04-15-2025(Reva Thompson),,90.61,Tammy Maxey
+4564,,,,BCBS NC (North Carolina),Sess:04-23-2025(Reva Thompson),,0,Tammy Maxey
+4565,,,,BCBS NC (North Carolina),Sess:05-14-2025(Reva Thompson),,0,Tammy Maxey
+4566,,,,BCBS NC (North Carolina),Sess:05-21-2025(Reva Thompson),,90.61,Tammy Maxey
+4567,,,,BCBS NC (North Carolina),Sess:05-29-2025(Reva Thompson),,0,Tammy Maxey
+4568,,,,BCBS NC (North Carolina),Sess:06-02-2025(Reva Thompson),,0,Tammy Maxey
+4569,,,,BCBS NC (North Carolina),Sess:06-09-2025(Reva Thompson),,90.61,Tammy Maxey
+4570,6/23/2025,6/25/2025,25170B100008958500,BCBS NC (North Carolina),ERAM_BCBS_NC_25170B100008958500_062025_0053.MCP.xm,103.26,,Tammy Maxey
+4571,,,,BCBS NC (North Carolina),Sess:06-09-2025(Cassandra Young),,103.26,Tammy Maxey
+4572,6/23/2025,6/25/2025,603100724914,CIGNA,ERAM_GREATWESTHEALTHCARE_603100724914_062325_0000.,42,,Tammy Maxey
+4573,,,,CIGNA,Sess:06-10-2025(Kate Martin),,42,Tammy Maxey
+4574,6/24/2025,6/25/2025,825170000229137,Aetna,ERAM_AVAILITY_825170000229137_061925_1082.MCP.xml,113.61,,Tammy Maxey
+4575,,,,Aetna,Sess:06-10-2025(Jackie Brogie),,113.61,Tammy Maxey
+4576,6/25/2025,6/25/2025,250621090063593,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_250621090063593_062425_0,67,,Tammy Maxey
+4577,,,,CIGNA,Sess:06-09-2025(Ashley Albers),,67,Tammy Maxey
+4578,6/25/2025,6/26/2025,250625190136276,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_250625190136276_062525_0,0,,Tammy Maxey
+4579,,,,CIGNA,Sess:06-10-2025(Nicole Boehrig),,0,Tammy Maxey
+4580,6/25/2025,6/25/2025,,Cassandra Young,Amber-write off copay per Tammy,0,,Tammy Maxey
+4581,,,,Cassandra Young,Sess:06-02-2025(Cassandra Young),,0,Tammy Maxey
+4582,,,,Cassandra Young,Sess:06-09-2025(Cassandra Young),,0,Tammy Maxey
+4583,6/27/2025,6/27/2025,25176B100004852400,BCBS NC (North Carolina),ERAM_BCBS_NC_25176B100004852400_062625_0053.MCP.xm,128.26,,Tammy Maxey
+4584,,,,BCBS NC (North Carolina),Sess:06-04-2025(Barbara Hale),,128.26,Tammy Maxey
+4585,6/27/2025,6/30/2025,694832007,MedCost Inc,ERAM_RELAY_HEALTH_694832007_062725_0000.MCP.xml,158.08,,Tammy Maxey
+4586,,,,MedCost Inc,Sess:06-03-2025(Tamekia Bediako),,79.04,Tammy Maxey
+4587,,,,MedCost Inc,Sess:06-10-2025(Tamekia Bediako),,79.04,Tammy Maxey
+4588,6/27/2025,6/27/2025,,Ashley Albers,Jituzu electronic payment,60,,Tammy Maxey
+4589,,,,Ashley Albers,Sess:06-09-2025(Ashley Albers),,30,Tammy Maxey
+4590,,,,Ashley Albers,Sess:06-02-2025(Ashley Albers),,30,Tammy Maxey
+4591,6/27/2025,6/27/2025,,Leah Carlson,Amber,60,,Tammy Maxey
+4592,,,,Leah Carlson,Sess:01-02-2024(Leah Carlson),,60,Tammy Maxey
+4593,6/27/2025,6/27/2025,,Tamekia Bediako,Amber,50,,Tammy Maxey
+4594,,,,Tamekia Bediako,Sess:05-20-2025(Tamekia Bediako),,25,Tammy Maxey
+4595,,,,Tamekia Bediako,Sess:05-13-2025(Tamekia Bediako),,25,Tammy Maxey
+4596,6/27/2025,6/27/2025,,Kennedy Bajek,Amber,-110.89,,Tammy Maxey
+4597,,,,Kennedy Bajek,Sess:08-02-2022(Kennedy Bajek),,-110.89,Tammy Maxey
+4598,6/27/2025,6/27/2025,,Rachael Haynes-Wood,Amber,75,,Tammy Maxey
+4599,,,,Rachael Haynes-Wood,Sess:10-29-2024(Rachael Haynes-Wood),,25,Tammy Maxey
+4600,,,,Rachael Haynes-Wood,Sess:01-02-2025(Rachael Haynes-Wood),,25,Tammy Maxey
+4601,,,,Rachael Haynes-Wood,Sess:02-11-2025(Rachael Haynes-Wood),,25,Tammy Maxey
+4602,6/27/2025,6/27/2025,,Claire Woodrow,Amber,-20,,Tammy Maxey
+4603,,,,Claire Woodrow,Sess:04-05-2023(Claire Woodrow),,-20,Tammy Maxey
+4604,6/27/2025,6/27/2025,,Sara Mills,Amber,-105,,Tammy Maxey
+4605,,,,Sara Mills,Sess:02-22-2022(Sara Mills),,-35,Tammy Maxey
+4606,,,,Sara Mills,Sess:03-15-2022(Sara Mills),,-35,Tammy Maxey
+4607,,,,Sara Mills,Sess:04-05-2022(Sara Mills),,-35,Tammy Maxey
+4608,6/27/2025,6/27/2025,,Sarah Patton,Amber,-94,,Tammy Maxey
+4609,,,,Sarah Patton,Sess:10-10-2022(Sarah Patton),,-94,Tammy Maxey
+4610,6/27/2025,6/27/2025,,Marnie Hansen,Amber,75,,Tammy Maxey
+4611,,,,Marnie Hansen,Sess:01-29-2025(Marnie Hansen),,75,Tammy Maxey
+4612,6/27/2025,6/27/2025,,Barbara Hale,Amber,0,,Tammy Maxey
+4613,,,,Barbara Hale,Sess:06-04-2025(Barbara Hale),,-10,Tammy Maxey
+4614,,,,Barbara Hale,Sess:05-20-2025(Barbara Hale),,10,Tammy Maxey
+4615,,,,Barbara Hale,Sess:03-17-2025(Barbara Hale),,10,Tammy Maxey
+4616,,,,Barbara Hale,Sess:09-10-2024(Barbara Hale),,-10,Tammy Maxey
+4617,6/27/2025,6/27/2025,,Barbara Hale,Amber,-20,,Tammy Maxey
+4618,,,,Barbara Hale,Sess:07-16-2024(Barbara Hale),,-10,Tammy Maxey
+4619,,,,Barbara Hale,Sess:07-30-2024(Barbara Hale),,-10,Tammy Maxey
+4620,6/27/2025,6/27/2025,,Joseph Tulloch,Amber,25,,Tammy Maxey
+4621,,,,Joseph Tulloch,Sess:12-04-2024(Joseph Tulloch),,25,Tammy Maxey
+4371,5/14/2025,6/5/2025,,Ashley Shumaker,Paid at session,20,,Sidney Snipes
+4372,,,,Ashley Shumaker,Sess:05-14-2025(Ashley Shumaker),,20,Sidney Snipes
+4373,5/19/2025,6/10/2025,,Sherry Cotton,Paid at session,138.61,,Sidney Snipes
+4374,,,,Sherry Cotton,Sess:05-19-2025(Sherry Cotton),,138.61,Sidney Snipes
+4375,5/22/2025,6/16/2025,,Ashley Shumaker,Paid at session,20,,Sidney Snipes
+4376,,,,Ashley Shumaker,Sess:05-22-2025(Ashley Shumaker),,20,Sidney Snipes
+4377,5/26/2025,6/10/2025,,Tina Brickell,Paid at session,35,,Sidney Snipes
+4378,,,,Tina Brickell,Sess:05-26-2025(Tina Brickell),,35,Sidney Snipes
+4379,5/28/2025,6/24/2025,,Ashley Shumaker,Paid at session,20,,Sidney Snipes
+4380,,,,Ashley Shumaker,Sess:05-28-2025(Ashley Shumaker),,20,Sidney Snipes
+4381,5/29/2025,6/24/2025,,Colin Gore,Paid at session,10,,Sidney Snipes
+4382,,,,Colin Gore,Sess:05-29-2025(Colin Gore),,10,Sidney Snipes
+4383,6/4/2025,6/5/2025,25153B100009876100,BCBS NC (North Carolina),ERAM_BCBS_NC_25153B100009876100_060325_0172.MCP.xm,108.26,,Sidney Snipes
+4384,,,,BCBS NC (North Carolina),Sess:05-14-2025(Ashley Shumaker),,108.26,Sidney Snipes
+4385,6/5/2025,6/30/2025,,Colin Gore,Paid at session,10,,Sidney Snipes
+4386,,,,Colin Gore,Sess:06-05-2025(Colin Gore),,10,Sidney Snipes
+4387,6/6/2025,6/10/2025,6557808,BCBS NC (North Carolina),ERAM_BCBS_NC_6557808_060525_0114.MCP.xml,93.26,,Sidney Snipes
+4388,,,,BCBS NC (North Carolina),Sess:05-26-2025(Tina Brickell),,93.26,Sidney Snipes
+4389,6/6/2025,6/30/2025,,Ashley Shumaker,Paid at session,20,,Sidney Snipes
+4390,,,,Ashley Shumaker,Sess:06-06-2025(Ashley Shumaker),,20,Sidney Snipes
+4391,6/9/2025,6/10/2025,25156B100015450500,BCBS NC (North Carolina),ERAM_BCBS_NC_25156B100015450500_060625_0029.MCP.xm,0,,Sidney Snipes
+4392,,,,BCBS NC (North Carolina),Sess:05-28-2025(David Wilson),,0,Sidney Snipes
+4393,6/10/2025,6/10/2025,825156000193521,Aetna,ERAM_AVAILITY_825156000193521_060525_1026.MCP.xml,138.61,,Sidney Snipes
+4394,,,,Aetna,Sess:05-22-2025(Michael Dages),,138.61,Sidney Snipes
+4395,,,,Aetna,Sess:05-19-2025(Sherry Cotton),,0,Sidney Snipes
+4396,6/10/2025,6/10/2025,,David Wilson,Amber-write off every other per Brent,0,,Sidney Snipes
+4397,,,,David Wilson,Sess:05-28-2025(David Wilson),,0,Sidney Snipes
+4398,6/11/2025,6/24/2025,,David Wilson,Paid at session,128.26,,Sidney Snipes
+4399,,,,David Wilson,Sess:06-11-2025(David Wilson),,128.26,Sidney Snipes
+4400,6/13/2025,6/16/2025,25162B100002602800,BCBS NC (North Carolina),ERAM_BCBS_NC_25162B100002602800_061225_0100.MCP.xm,108.26,,Sidney Snipes
+4401,,,,BCBS NC (North Carolina),Sess:05-22-2025(Ashley Shumaker),,108.26,Sidney Snipes
+4402,6/16/2025,6/16/2025,6585363,BCBS NC (North Carolina),ERAM_BCBS_NC_6585363_061325_0193.MCP.xml,93.26,,Sidney Snipes
+4403,,,,BCBS NC (North Carolina),Sess:06-02-2025(Tina Brickell),,93.26,Sidney Snipes
+4404,6/17/2025,6/17/2025,,Aetna,,0,,Sidney Snipes
+4405,,,,Aetna,Sess:12-17-2024(Dale Patton),,0,Sidney Snipes
+4406,6/17/2025,6/17/2025,,Dale Patton,Brent said he paid hendersonville directly for sp,138.61,,Sidney Snipes
+4407,,,,Dale Patton,Sess:12-17-2024(Dale Patton),,138.61,Sidney Snipes
+4408,6/18/2025,6/24/2025,25167B100012694100,BCBS NC (North Carolina),ERAM_BCBS_NC_25167B100012694100_061825_0127.MCP.xm,226.52,,Sidney Snipes
+4409,,,,BCBS NC (North Carolina),Sess:05-29-2025(Colin Gore),,118.26,Sidney Snipes
+4410,,,,BCBS NC (North Carolina),Sess:05-28-2025(Ashley Shumaker),,108.26,Sidney Snipes
+4411,6/20/2025,6/24/2025,25170B100014721300,BCBS NC (North Carolina),ERAM_BCBS_NC_25170B100014721300_062025_0010.MCP.xm,0,,Sidney Snipes
+4412,,,,BCBS NC (North Carolina),Sess:06-11-2025(David Wilson),,0,Sidney Snipes
+4415,6/26/2025,6/30/2025,25175B100005102700,BCBS NC (North Carolina),ERAM_BCBS_NC_25175B100005102700_062525_0104.MCP.xm,226.52,,Sidney Snipes
+4416,,,,BCBS NC (North Carolina),Sess:06-05-2025(Colin Gore),,118.26,Sidney Snipes
+4417,,,,BCBS NC (North Carolina),Sess:06-06-2025(Ashley Shumaker),,108.26,Sidney Snipes
+4418,6/30/2025,6/30/2025,,Dale Patton,Jituzu electronic payment,40,,Sidney Snipes
+4419,,,,Dale Patton,Sess:04-08-2025(Dale Patton),,10,Sidney Snipes
+4420,,,,Dale Patton,Sess:03-25-2025(Dale Patton),,10,Sidney Snipes
+4421,,,,Dale Patton,Sess:03-11-2025(Dale Patton),,10,Sidney Snipes
+4422,,,,Dale Patton,Sess:02-11-2025(Dale Patton),,10,Sidney Snipes
+4423,7/1/2025,6/30/2025,825177000244837,Aetna,ERAM_AVAILITY_825177000244837_062625_1211.MCP.xml,138.61,,Sidney Snipes
+4424,,,,Aetna,Sess:06-19-2025(Michael Dages),,138.61,Sidney Snipes
+767,6/18/2025,6/26/2025,,Rachel Langdon,Paid at session,100,,Isabel Rehak
+768,,,,Rachel Langdon,Sess:06-18-2025(Rachel Langdon),,100,Isabel Rehak
+640,5/13/2025,6/5/2025,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+641,,,,Matthew Dorman,Sess:05-13-2025(Matthew Dorman),,25,Dustin Nisley
+642,5/15/2025,6/11/2025,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+643,,,,Joseph Thomas,Sess:05-15-2025(Joseph Thomas),,35,Dustin Nisley
+644,5/19/2025,6/16/2025,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+645,,,,Joseph Thomas,Sess:05-19-2025(Joseph Thomas),,35,Dustin Nisley
+646,5/19/2025,6/5/2025,,Benjamin Melton,Paid at session,35,,Dustin Nisley
+647,,,,Benjamin Melton,Sess:05-19-2025(Benjamin Melton),,35,Dustin Nisley
+648,5/19/2025,6/5/2025,,Michael Papach,Paid at session,10,,Dustin Nisley
+649,,,,Michael Papach,Sess:05-19-2025(Michael Papach),,10,Dustin Nisley
+650,5/20/2025,6/11/2025,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+651,,,,Matthew Dorman,Sess:05-20-2025(Matthew Dorman),,25,Dustin Nisley
+652,5/20/2025,6/5/2025,,Brandon Trivette,Paid at session,25,,Dustin Nisley
+653,,,,Brandon Trivette,Sess:05-20-2025(Brandon Trivette),,25,Dustin Nisley
+654,5/21/2025,6/5/2025,,Andrew Jones,Paid at session,75,,Dustin Nisley
+655,,,,Andrew Jones,Sess:05-21-2025(Andrew Jones),,75,Dustin Nisley
+656,5/21/2025,6/16/2025,,William Tomlinson,Paid at session,30,,Dustin Nisley
+657,,,,William Tomlinson,Sess:05-21-2025(William Tomlinson),,30,Dustin Nisley
+658,5/22/2025,6/16/2025,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+659,,,,Joseph Thomas,Sess:05-22-2025(Joseph Thomas),,35,Dustin Nisley
+660,5/22/2025,6/5/2025,,Christopher Bradley,Paid at session,25,,Dustin Nisley
+661,,,,Christopher Bradley,Sess:05-22-2025(Christopher Bradley),,25,Dustin Nisley
+662,5/22/2025,6/5/2025,,Caleb Hill,Paid at session,104.79,,Dustin Nisley
+663,,,,Caleb Hill,Sess:05-22-2025(Caleb Hill),,104.79,Dustin Nisley
+664,5/23/2025,6/16/2025,,Michael Feige,Paid at session,128.26,,Dustin Nisley
+665,,,,Michael Feige,Sess:05-23-2025(Michael Feige),,128.26,Dustin Nisley
+666,5/26/2025,6/11/2025,,Jessica Parce,Paid at session,35,,Dustin Nisley
+667,,,,Jessica Parce,Sess:05-26-2025(Jessica Parce),,35,Dustin Nisley
+668,5/26/2025,6/2/2025,,Susan Wilson,Paid at session,75,,Dustin Nisley
+669,,,,Susan Wilson,Sess:05-26-2025(Susan Wilson),,75,Dustin Nisley
+670,5/27/2025,6/16/2025,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+671,,,,Charles Whitehouse,Sess:05-27-2025(Charles Whitehouse),,30,Dustin Nisley
+672,5/27/2025,6/11/2025,,Justin Lovelace,Paid at session,32.32,,Dustin Nisley
+673,,,,Justin Lovelace,Sess:05-27-2025(Justin Lovelace),,32.32,Dustin Nisley
+674,5/27/2025,6/11/2025,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+675,,,,Ashley Giordano,Sess:05-27-2025(Ashley Giordano),,10,Dustin Nisley
+676,5/27/2025,6/2/2025,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+677,,,,Tyrel Keplinger,Sess:05-27-2025(Tyrel Keplinger),,150,Dustin Nisley
+678,5/27/2025,6/25/2025,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+679,,,,Matthew Dorman,Sess:05-27-2025(Matthew Dorman),,25,Dustin Nisley
+680,5/28/2025,6/11/2025,,Andrew Jones,Paid at session,75,,Dustin Nisley
+681,,,,Andrew Jones,Sess:05-28-2025(Andrew Jones),,75,Dustin Nisley
+682,5/28/2025,6/25/2025,,William Tomlinson,Paid at session,30,,Dustin Nisley
+683,,,,William Tomlinson,Sess:05-28-2025(William Tomlinson),,30,Dustin Nisley
+684,5/29/2025,6/25/2025,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+685,,,,Joseph Thomas,Sess:05-29-2025(Joseph Thomas),,35,Dustin Nisley
+686,5/29/2025,6/11/2025,,Christopher Bradley,Paid at session,25,,Dustin Nisley
+687,,,,Christopher Bradley,Sess:05-29-2025(Christopher Bradley),,25,Dustin Nisley
+688,5/29/2025,6/16/2025,,Caleb Hill,Paid at session,104.79,,Dustin Nisley
+689,,,,Caleb Hill,Sess:05-29-2025(Caleb Hill),,104.79,Dustin Nisley
+690,5/30/2025,6/2/2025,,Karli Wood,Paid at session,50,,Dustin Nisley
+691,,,,Karli Wood,Sess:05-30-2025(Karli Wood),,50,Dustin Nisley
+692,6/2/2025,6/25/2025,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+693,,,,Jeffrey Victor,Sess:06-02-2025(Jeffrey Victor),,25,Dustin Nisley
+694,6/3/2025,6/5/2025,6544353,BCBS NC (North Carolina),ERAM_BCBS_NC_6544353_060225_0232.MCP.xml,51.61,,Dustin Nisley
+695,,,,BCBS NC (North Carolina),Sess:05-19-2025(Benjamin Melton),,51.61,Dustin Nisley
+696,6/3/2025,6/30/2025,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+697,,,,Matthew Dorman,Sess:06-03-2025(Matthew Dorman),,25,Dustin Nisley
+698,6/4/2025,6/5/2025,95003219,BCBS NC (North Carolina),ERAM_BCBS_NC_95003219_060325_0309.MCP.xml,61.61,,Dustin Nisley
+699,,,,BCBS NC (North Carolina),Sess:05-13-2025(Matthew Dorman),,61.61,Dustin Nisley
+700,6/4/2025,6/5/2025,25153B100017210700,BCBS NC (North Carolina),ERAM_BCBS_NC_25153B100017210700_060325_0152.MCP.xm,103.26,,Dustin Nisley
+701,,,,BCBS NC (North Carolina),Sess:05-22-2025(Christopher Bradley),,103.26,Dustin Nisley
+702,6/4/2025,6/5/2025,601100770892,CIGNA,ERAM_GREATWESTHEALTHCARE_601100770892_060425_0000.,22,,Dustin Nisley
+703,,,,CIGNA,Sess:05-21-2025(Andrew Jones),,22,Dustin Nisley
+704,6/4/2025,6/5/2025,250531090062958,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_250531090062958_060425_0,72,,Dustin Nisley
+705,,,,CIGNA,Sess:05-20-2025(Brandon Trivette),,72,Dustin Nisley
+706,6/4/2025,6/5/2025,250531090062959,CIGNA,ERAM_CIGNA_HEALTH_AND_LIF_250531090062959_060425_0,87,,Dustin Nisley
+707,,,,CIGNA,Sess:05-19-2025(Michael Papach),,87,Dustin Nisley
+708,6/4/2025,6/25/2025,,Andrew Jones,Paid at session,75,,Dustin Nisley
+709,,,,Andrew Jones,Sess:06-04-2025(Andrew Jones),,75,Dustin Nisley
+710,6/5/2025,6/25/2025,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+711,,,,Joseph Thomas,Sess:06-05-2025(Joseph Thomas),,35,Dustin Nisley
+712,6/5/2025,6/25/2025,,Caleb Hill,Paid at session,104.79,,Dustin Nisley
+713,,,,Caleb Hill,Sess:06-05-2025(Caleb Hill),,104.79,Dustin Nisley
+714,6/6/2025,6/11/2025,6557796,BCBS NC (North Carolina),ERAM_BCBS_NC_6557796_060525_0113.MCP.xml,211.52,,Dustin Nisley
+715,,,,BCBS NC (North Carolina),Sess:05-27-2025(Ashley Giordano),,118.26,Dustin Nisley
+716,,,,BCBS NC (North Carolina),Sess:05-26-2025(Jessica Parce),,93.26,Dustin Nisley
+717,6/6/2025,6/5/2025,W325123420,UBH - United Behavioral Health,ERAM_OPTUM_W325123420_060425_0000.MCP.xml,0,,Dustin Nisley
+718,,,,UBH - United Behavioral Health,Sess:05-22-2025(Caleb Hill),,0,Dustin Nisley
+719,6/9/2025,6/11/2025,25156B100015450500,BCBS NC (North Carolina),ERAM_BCBS_NC_25156B100015450500_060625_0029.MCP.xm,57.29,,Dustin Nisley
+720,,,,BCBS NC (North Carolina),Sess:05-27-2025(Justin Lovelace),,57.29,Dustin Nisley
+721,6/9/2025,6/11/2025,90003293,BCBS NC (North Carolina),ERAM_BCBS_NC_90003293_060625_0002.MCP.xml,93.26,,Dustin Nisley
+722,,,,BCBS NC (North Carolina),Sess:05-15-2025(Joseph Thomas),,93.26,Dustin Nisley
+723,6/9/2025,6/11/2025,600501232560,CIGNA,ERAM_GREATWESTHEALTHCARE_600501232560_060925_0000.,22,,Dustin Nisley
+724,,,,CIGNA,Sess:05-28-2025(Andrew Jones),,22,Dustin Nisley
+725,6/9/2025,6/25/2025,,Michael Papach,Paid at session,10,,Dustin Nisley
+726,,,,Michael Papach,Sess:06-09-2025(Michael Papach),,10,Dustin Nisley
+727,6/10/2025,6/11/2025,25157B100002282900,BCBS NC (North Carolina),ERAM_BCBS_NC_25157B100002282900_060925_0104.MCP.xm,103.26,,Dustin Nisley
+728,,,,BCBS NC (North Carolina),Sess:05-29-2025(Christopher Bradley),,103.26,Dustin Nisley
+729,6/11/2025,6/11/2025,95003379,BCBS NC (North Carolina),ERAM_BCBS_NC_95003379_061025_0266.MCP.xml,103.26,,Dustin Nisley
+730,,,,BCBS NC (North Carolina),Sess:05-20-2025(Matthew Dorman),,103.26,Dustin Nisley
+731,6/12/2025,6/16/2025,90003416,BCBS NC (North Carolina),ERAM_BCBS_NC_90003416_061125_0005.MCP.xml,186.52,,Dustin Nisley
+732,,,,BCBS NC (North Carolina),Sess:05-19-2025(Joseph Thomas),,93.26,Dustin Nisley
+733,,,,BCBS NC (North Carolina),Sess:05-22-2025(Joseph Thomas),,93.26,Dustin Nisley
+734,6/13/2025,6/16/2025,25162B100002602800,BCBS NC (North Carolina),ERAM_BCBS_NC_25162B100002602800_061225_0100.MCP.xm,98.26,,Dustin Nisley
+735,,,,BCBS NC (North Carolina),Sess:05-23-2025(Michael Feige),,0,Dustin Nisley
+736,,,,BCBS NC (North Carolina),Sess:05-21-2025(William Tomlinson),,98.26,Dustin Nisley
+737,6/13/2025,6/16/2025,W325831787,UBH - United Behavioral Health,ERAM_OPTUM_W325831787_061125_0000.MCP.xml,74.79,,Dustin Nisley
+738,,,,UBH - United Behavioral Health,Sess:05-27-2025(Charles Whitehouse),,74.79,Dustin Nisley
+739,6/13/2025,6/16/2025,W325831788,UBH - United Behavioral Health,ERAM_OPTUM_W325831788_061125_0000.MCP.xml,0,,Dustin Nisley
+740,,,,UBH - United Behavioral Health,Sess:05-29-2025(Caleb Hill),,0,Dustin Nisley
+741,6/13/2025,6/16/2025,,Karli Wood,Paid at session,50,,Dustin Nisley
+742,,,,Karli Wood,Sess:06-13-2025(Karli Wood),,50,Dustin Nisley
+743,6/16/2025,6/25/2025,,Benjamin Melton,Paid at session,60,,Dustin Nisley
+744,,,,Benjamin Melton,Sess:06-16-2025(Benjamin Melton),,60,Dustin Nisley
+745,6/18/2025,6/25/2025,90003522,BCBS NC (North Carolina),ERAM_BCBS_NC_90003522_061725_0012.MCP.xml,93.26,,Dustin Nisley
+746,,,,BCBS NC (North Carolina),Sess:05-29-2025(Joseph Thomas),,93.26,Dustin Nisley
+747,6/18/2025,6/25/2025,95003551,BCBS NC (North Carolina),ERAM_BCBS_NC_95003551_061725_0011.MCP.xml,103.26,,Dustin Nisley
+748,,,,BCBS NC (North Carolina),Sess:05-27-2025(Matthew Dorman),,103.26,Dustin Nisley
+749,6/18/2025,6/25/2025,25167B100012694100,BCBS NC (North Carolina),ERAM_BCBS_NC_25167B100012694100_061825_0127.MCP.xm,98.26,,Dustin Nisley
+750,,,,BCBS NC (North Carolina),Sess:05-28-2025(William Tomlinson),,98.26,Dustin Nisley
+751,6/18/2025,6/25/2025,25167B100030841400,BCBS NC (North Carolina),ERAM_BCBS_NC_25167B100030841400_061825_0326.MCP.xm,61.11,,Dustin Nisley
+752,,,,BCBS NC (North Carolina),Sess:06-02-2025(Jeffrey Victor),,61.11,Dustin Nisley
+753,6/18/2025,6/25/2025,602200773625,CIGNA,ERAM_GREATWESTHEALTHCARE_602200773625_061825_0000.,22,,Dustin Nisley
+754,,,,CIGNA,Sess:06-04-2025(Andrew Jones),,22,Dustin Nisley
+755,6/23/2025,6/25/2025,W326553181,UBH - United Behavioral Health,ERAM_OPTUM_W326553181_061825_0000.MCP.xml,0,,Dustin Nisley
+756,,,,UBH - United Behavioral Health,Sess:06-05-2025(Caleb Hill),,0,Dustin Nisley
+757,6/24/2025,6/25/2025,825170000229137,Aetna,ERAM_AVAILITY_825170000229137_061925_1082.MCP.xml,0,,Dustin Nisley
+758,,,,Aetna,Sess:06-13-2025(Bryce Calton),,0,Dustin Nisley
+759,6/25/2025,6/25/2025,90003642,BCBS NC (North Carolina),ERAM_BCBS_NC_90003642_062425_0253.MCP.xml,93.26,,Dustin Nisley
+760,,,,BCBS NC (North Carolina),Sess:06-05-2025(Joseph Thomas),,93.26,Dustin Nisley
+761,6/25/2025,6/25/2025,250621090063594,CIGNA,ERAM_CIGNA_HEALTH_AND_LIF_250621090063594_062425_0,87,,Dustin Nisley
+762,,,,CIGNA,Sess:06-09-2025(Michael Papach),,87,Dustin Nisley
+763,6/26/2025,6/30/2025,95003745,BCBS NC (North Carolina),ERAM_BCBS_NC_95003745_062525_0002.MCP.xml,103.26,,Dustin Nisley
+764,,,,BCBS NC (North Carolina),Sess:06-03-2025(Matthew Dorman),,103.26,Dustin Nisley
+765,6/30/2025,6/30/2025,,Bryce Calton,Jituzu electronic payment,138.61,,Dustin Nisley
+766,,,,Bryce Calton,Sess:06-13-2025(Bryce Calton),,138.61,Dustin Nisley

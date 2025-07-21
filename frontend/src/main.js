@@ -13,8 +13,20 @@ const savedTheme = localStorage.getItem('theme') || 'light'
 
 // Helper function to apply theme to HTML element
 const applyThemeToDOM = (theme) => {
-  document.documentElement.setAttribute('data-theme', theme)
+  // If theme is 'system', use the OS preference
+  let effectiveTheme = theme
+  if (theme === 'system') {
+    effectiveTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+  
+  document.documentElement.setAttribute('data-theme', effectiveTheme)
   document.documentElement.setAttribute('data-v-app', '')
+}
+
+// Determine the effective theme for Vuetify
+let effectiveTheme = savedTheme
+if (savedTheme === 'system') {
+  effectiveTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 
 // Create Vuetify instance
@@ -22,7 +34,7 @@ const vuetify = createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: savedTheme,
+    defaultTheme: effectiveTheme,
     themes: {
       light: {
         dark: false,
@@ -71,6 +83,17 @@ themeStore.initTheme()
 
 // Apply theme to DOM
 applyThemeToDOM(themeStore.currentTheme)
+
+// Listen for system theme changes
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  if (themeStore.currentTheme === 'system') {
+    const newTheme = e.matches ? 'dark' : 'light'
+    // Update Vuetify theme
+    vuetify.theme.global.name.value = newTheme
+    // Update DOM
+    applyThemeToDOM('system')
+  }
+})
 
 // Mount app
 app.mount('#app')

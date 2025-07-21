@@ -1,0 +1,12 @@
+expense_date,category,subcategory,amount,budgeted_amount,is_variable,usage_count,rate_per_unit,due_date,frequency,status,notes
+2024-01-01,Utilities,Dominion,35.00,35.00,0,,,2024-01-15,monthly,active,Monthly electric bill
+2024-01-01,Utilities,Duke Energy,60.00,60.00,0,,,2024-01-21,monthly,active,Monthly gas bill  
+2024-01-01,Utilities,T-Mobile,30.00,30.00,0,,,2024-01-10,monthly,active,Monthly phone bill
+2024-01-01,Services,QR,3.50,5.00,1,7,0.50,2024-01-31,monthly,active,QR code usage
+2024-01-01,Services,EMR,100.00,100.00,1,200,0.50,2024-01-31,monthly,active,EMR usage estimate
+2024-01-01,Property,Mortgage,800.00,800.00,0,,,2024-01-01,monthly,active,Monthly mortgage payment
+2024-01-01,Property,POA,300.00,300.00,0,,,2024-01-15,monthly,active,Property Owners Association
+2024-01-01,Property,Insurance,45.00,45.00,0,,,2024-01-01,monthly,active,Property insurance
+2024-01-01,Property,Property Tax,280.00,280.00,0,,,2024-01-31,monthly,active,Monthly property tax
+2024-01-01,Property,Property Income,-1325.00,-1325.00,0,,,2024-01-01,monthly,active,Rental income credit
+2024-01-01,Other,Loan Payment,1000.00,1000.00,0,,,2024-01-01,monthly,active,Monthly loan payment 

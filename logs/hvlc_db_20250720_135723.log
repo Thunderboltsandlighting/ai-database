@@ -1,0 +1,3 @@
+2025-07-20 13:57:23,629 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-20 13:57:23,801 - hvlc_db - INFO - Connecting to database at medical_billing.db
+2025-07-20 13:57:23,802 - hvlc_db - INFO - Database connection established and tables verified

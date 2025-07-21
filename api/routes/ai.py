@@ -1,7 +1,7 @@
 """
 AI API Routes.
 
-This module provides API endpoints for AI assistant interactions.
+This module provides AI endpoints for AI assistant interactions.
 """
 
 import time
@@ -890,20 +890,22 @@ Please analyze this data and provide a conversational, business-focused response
         return "I encountered an issue accessing your data. Please try your question again."
 
 def extract_provider_names_universal(message, cursor):
-    """Extract any provider names mentioned in the message."""
+    """Extract provider names from message using universal provider detection"""
     try:
-        cursor.execute("SELECT provider_name FROM providers WHERE provider_name NOT LIKE '%$%' AND provider_name != 'Unknown'")
-        all_providers = [row[0] for row in cursor.fetchall()]
+        cursor.execute("SELECT provider_name FROM providers WHERE active = 1")
+        all_providers = cursor.fetchall()
         
+        all_providers = sorted([p[0] for p in all_providers], key=len, reverse=True)
         provider_names = []
+        
         message_lower = message.lower()
         
-        # Check for full names first
+        # Check for exact matches first
         for provider in all_providers:
             if provider.lower() in message_lower:
                 provider_names.append(provider)
         
-        # Check for partial names (first/last names)
+        # Check for partial matches (first names)
         if len(provider_names) < 2:
             for provider in all_providers:
                 if provider not in provider_names:
@@ -915,7 +917,7 @@ def extract_provider_names_universal(message, cursor):
                 if len(provider_names) >= 2:
                     break
         
-        return provider_names[:2]  # Return max 2 for comparisons
+        return provider_names[:2]  # Return max 2 providers
     except Exception as e:
         current_app.logger.error(f"Error extracting provider names: {e}")
         return []
@@ -1144,11 +1146,81 @@ def get_expense_summary(cursor):
         current_app.logger.error(f"Error retrieving expense data: {e}")
         return f"Error retrieving expense data: {e}"
 
-def call_ollama_with_enhanced_context(user_prompt, conversation_context, memory):
-    """Enhanced Ollama call with comprehensive medical billing context."""
+def call_ollama_optimized(prompt, system_message, config):
+    """Call Ollama API with optimized configuration for better responses"""
+    # Get Ollama config with fallback
+    ollama_url = config.get("homelab_url") or get_config().get("ollama.laptop_url", "http://localhost:11434")
+    timeout = get_config().get("ollama.timeout", 60)
+    
+    # Create messages array
+    messages = []
+    
+    # Add system message
+    if system_message:
+        messages.append({"role": "system", "content": system_message})
+    
+    # Add the user prompt
+    messages.append({"role": "user", "content": prompt})
+    
     try:
-        # Build comprehensive system prompt
-        system_prompt = f"""You are Ada, an intelligent medical billing AI assistant with deep expertise in healthcare revenue analysis.
+        # Make the request to Ollama with optimized config
+        response = requests.post(
+            f"{ollama_url}/api/chat",
+            json={
+                "model": config.get("model", "llama3.1:8b"),
+                "messages": messages,
+                "stream": False,
+                "options": {
+                    "temperature": config.get("temperature", 0.7),
+                    "top_p": config.get("top_p", 0.9),
+                    "top_k": config.get("options", {}).get("top_k", 40),
+                    "repeat_penalty": config.get("options", {}).get("repeat_penalty", 1.1),
+                    "presence_penalty": config.get("options", {}).get("presence_penalty", 0.1),
+                    "frequency_penalty": config.get("options", {}).get("frequency_penalty", 0.2)
+                }
+            },
+            timeout=timeout
+        )
+        
+        # Check if request was successful
+        if response.status_code == 200:
+            return response.json()["message"]["content"]
+        else:
+            current_app.logger.error(f"Ollama API error: {response.status_code} - {response.text}")
+            return None
+    except Exception as e:
+        current_app.logger.error(f"Error calling Ollama: {e}")
+        return None
+
+def call_ollama_with_enhanced_context(user_prompt, conversation_context, memory):
+    """Enhanced Ollama call with optimized configuration and comprehensive medical billing context."""
+    try:
+        # Import the optimization manager
+        from utils.ai_optimization_config import get_optimization_manager
+        
+        optimizer = get_optimization_manager()
+        
+        # Get optimized Ollama configuration
+        ollama_config = optimizer.get_optimized_ollama_config(user_prompt)
+        
+        # Get optimized system prompt with conversation history
+        conversation_history = []
+        if conversation_context:
+            # Parse conversation context into history format
+            lines = conversation_context.strip().split('\n')
+            for line in lines:
+                if line.startswith('User: '):
+                    conversation_history.append({'role': 'user', 'content': line[6:]})
+                elif line.startswith('Ada: '):
+                    conversation_history.append({'role': 'assistant', 'content': line[5:]})
+        
+        system_prompt = optimizer.get_enhanced_system_prompt(
+            question_context=user_prompt,
+            conversation_history=conversation_history
+        )
+        
+        # Add critical data accuracy instructions
+        system_prompt += """
 
 ## CRITICAL INSTRUCTIONS - DATA ACCURACY:
 - ONLY use the data provided in the user's prompt
@@ -1157,32 +1229,10 @@ def call_ollama_with_enhanced_context(user_prompt, conversation_context, memory)
 - ALWAYS cite the exact numbers from the provided data
 - Do NOT create fictional expense totals or breakdowns
 
-## Your Expertise:
-- Medical billing and revenue cycle management
-- Provider performance analysis and optimization
-- Healthcare payer relationships and reimbursement patterns
-- Business intelligence and financial forecasting
-- Healthcare practice management
-
-## Communication Style:
-- Conversational and engaging, never robotic
-- Provide actionable business insights based on PROVIDED DATA ONLY
-- Explain what the PROVIDED numbers mean for the practice
-- Vary your language to avoid repetitive responses
-- Ask relevant follow-up questions
-- Focus on practical recommendations based on ACTUAL DATA
-
-## Context Awareness:
-- Remember previous conversation topics
-- Build on earlier discussions
-- Provide personalized responses based on their ACTUAL data
-- Connect insights across different aspects of their practice
-
-{memory.build_system_prompt(conversation_context) if memory else ''}
-
 IMPORTANT: Use ONLY the data provided in the user's message. Do not invent or hallucinate any financial figures."""
 
-        response = call_ollama(user_prompt, system_prompt)
+        # Use optimized configuration for Ollama call
+        response = call_ollama_optimized(user_prompt, system_prompt, ollama_config)
         
         if response:
             return response
@@ -1191,4 +1241,5 @@ IMPORTANT: Use ONLY the data provided in the user's message. Do not invent or ha
             
     except Exception as e:
         current_app.logger.error(f"Error in enhanced Ollama call: {e}")
-        return "I apologize, but I'm experiencing some technical difficulties. Please try your question again - I'm here to help you understand and optimize your medical billing data."
+        # Fallback to regular call_ollama
+        return call_ollama(user_prompt, system_prompt if 'system_prompt' in locals() else None)

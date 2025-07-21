@@ -1,0 +1,231 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+4337,7/31/2023,9/4/2023,,Amy Burrell,Paid at session,150,,Dustin Nisley
+4338,,,,Amy Burrell,Sess:07-31-2023(Amy Burrell),,150,Dustin Nisley
+4339,8/14/2023,9/7/2023,,Shannon Allison,Paid at session,10,,Dustin Nisley
+4340,,,,Shannon Allison,Sess:08-14-2023(Shannon Allison),,10,Dustin Nisley
+4341,8/16/2023,9/7/2023,,Melissa Martin,Paid at session,10,,Dustin Nisley
+4342,,,,Melissa Martin,Sess:08-16-2023(Melissa Martin),,10,Dustin Nisley
+4343,8/18/2023,9/7/2023,,Sarah Gaitskill,Paid at session,50,,Dustin Nisley
+4344,,,,Sarah Gaitskill,Sess:08-18-2023(Sarah Gaitskill),,50,Dustin Nisley
+4345,8/21/2023,9/1/2023,,Benjamin Melton,Paid at session,30,,Dustin Nisley
+4346,,,,Benjamin Melton,Sess:08-21-2023(Benjamin Melton),,30,Dustin Nisley
+4347,8/21/2023,9/4/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4348,,,,Justin Lovelace,Sess:08-21-2023(Justin Lovelace),,34.48,Dustin Nisley
+4349,8/22/2023,9/1/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4350,,,,Ashley Giordano,Sess:08-22-2023(Ashley Giordano),,10,Dustin Nisley
+4351,8/22/2023,9/7/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4352,,,,Charles Whitehouse,Sess:08-22-2023(Charles Whitehouse),,30,Dustin Nisley
+4353,8/22/2023,9/7/2023,,John Muus,Paid at session,30,,Dustin Nisley
+4354,,,,John Muus,Sess:08-22-2023(John Muus),,30,Dustin Nisley
+4355,8/23/2023,9/1/2023,,Jessica Parce,Paid at session,30,,Dustin Nisley
+4356,,,,Jessica Parce,Sess:08-23-2023(Jessica Parce),,30,Dustin Nisley
+4357,8/23/2023,9/7/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4358,,,,Aurora Palmer,Sess:08-23-2023(Aurora Palmer),,30,Dustin Nisley
+4359,8/24/2023,9/4/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4360,,,,Joseph Thomas,Sess:08-24-2023(Joseph Thomas),,35,Dustin Nisley
+4361,8/28/2023,9/8/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4362,,,,Justin Lovelace,Sess:08-28-2023(Justin Lovelace),,34.48,Dustin Nisley
+4363,8/28/2023,9/8/2023,,Jessica Parce,Paid at session,30,,Dustin Nisley
+4364,,,,Jessica Parce,Sess:08-28-2023(Jessica Parce),,30,Dustin Nisley
+4365,8/28/2023,9/8/2023,,Benjamin Melton,Paid at session,30,,Dustin Nisley
+4366,,,,Benjamin Melton,Sess:08-28-2023(Benjamin Melton),,30,Dustin Nisley
+4367,8/29/2023,9/1/2023,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+4368,,,,Tyrel Keplinger,Sess:08-29-2023(Tyrel Keplinger),,150,Dustin Nisley
+4369,9/1/2023,9/1/2023,4882856,BCBS NC (North Carolina),ERAM_BCBS_NC_4882856_083123_0185.MCP.xml,288.26,,Dustin Nisley
+4370,,,,BCBS NC (North Carolina),Sess:08-22-2023(Ashley Giordano),,102.41,Dustin Nisley
+4371,,,,BCBS NC (North Carolina),Sess:08-23-2023(Jessica Parce),,82.41,Dustin Nisley
+4372,,,,BCBS NC (North Carolina),Sess:08-21-2023(Benjamin Melton),,103.44,Dustin Nisley
+4373,9/1/2023,9/4/2023,390711666,MedCost Inc,ERAM_RELAY_HEALTH_390711666_090323_0000.MCP.xml,0,,Dustin Nisley
+4374,,,,MedCost Inc,Sess:07-31-2023(Amy Burrell),,0,Dustin Nisley
+4375,9/6/2023,9/4/2023,23244B100008903200,BCBS NC (North Carolina),ERAM_BCBS_NC_23244B100008903200_090323_0071.MCP.xm,167.86,,Dustin Nisley
+4376,,,,BCBS NC (North Carolina),Sess:08-25-2023(Taylor Purdy),,89.93,Dustin Nisley
+4377,,,,BCBS NC (North Carolina),Sess:08-21-2023(Justin Lovelace),,77.93,Dustin Nisley
+4378,9/6/2023,9/4/2023,23244B100002297400,BCBS NC (North Carolina),ERAM_BCBS_NC_23244B100002297400_090323_0093.MCP.xm,178.58,,Dustin Nisley
+4379,,,,BCBS NC (North Carolina),Sess:08-24-2023(Joseph Thomas),,77.41,Dustin Nisley
+4380,,,,BCBS NC (North Carolina),Sess:08-23-2023(Jocelin Ordonez),,101.17,Dustin Nisley
+4381,9/6/2023,9/7/2023,23247B100025271400,BCBS NC (North Carolina),ERAM_BCBS_NC_23247B100025271400_090523_0137.MCP.xm,247.23,,Dustin Nisley
+4382,,,,BCBS NC (North Carolina),Sess:08-23-2023(Aurora Palmer),,82.41,Dustin Nisley
+4383,,,,BCBS NC (North Carolina),Sess:08-22-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4384,,,,BCBS NC (North Carolina),Sess:08-22-2023(John Muus),,82.41,Dustin Nisley
+4385,9/6/2023,9/7/2023,23247B100006821200,BCBS NC (North Carolina),ERAM_BCBS_NC_23247B100006821200_090523_0119.MCP.xm,364.83,,Dustin Nisley
+4386,,,,BCBS NC (North Carolina),Sess:08-18-2023(Sarah Gaitskill),,62.41,Dustin Nisley
+4387,,,,BCBS NC (North Carolina),Sess:08-16-2023(Melissa Martin),,66.57,Dustin Nisley
+4388,,,,BCBS NC (North Carolina),Sess:08-14-2023(Shannon Allison),,102.41,Dustin Nisley
+4389,,,,BCBS NC (North Carolina),Sess:08-15-2023(Rhiannon Barnes),,133.44,Dustin Nisley
+4390,9/6/2023,9/7/2023,23246B100012855200,BCBS NC (North Carolina),ERAM_BCBS_NC_23246B100012855200_090423_0082.MCP.xm,255.25,,Dustin Nisley
+4391,,,,BCBS NC (North Carolina),Sess:08-22-2023(Katherine Henderson),,168.61,Dustin Nisley
+4392,,,,BCBS NC (North Carolina),Sess:08-24-2023(Julianne Freeman),,86.64,Dustin Nisley
+4393,9/7/2023,9/8/2023,,Aubrey Williams,Paid at session,150,,Dustin Nisley
+4394,,,,Aubrey Williams,Sess:09-07-2023(Aubrey Williams),,150,Dustin Nisley
+4395,9/8/2023,9/8/2023,23249B100009612700,BCBS NC (North Carolina),ERAM_BCBS_NC_23249B100009612700_090723_0059.MCP.xm,167.86,,Dustin Nisley
+4396,,,,BCBS NC (North Carolina),Sess:08-30-2023(Taylor Purdy),,89.93,Dustin Nisley
+4397,,,,BCBS NC (North Carolina),Sess:08-28-2023(Justin Lovelace),,77.93,Dustin Nisley
+4398,9/8/2023,9/8/2023,4900997,BCBS NC (North Carolina),ERAM_BCBS_NC_4900997_090723_0180.MCP.xml,164.82,,Dustin Nisley
+4399,,,,BCBS NC (North Carolina),Sess:08-28-2023(Jessica Parce),,82.41,Dustin Nisley
+4400,,,,BCBS NC (North Carolina),Sess:08-28-2023(Benjamin Melton),,82.41,Dustin Nisley
+4401,9/8/2023,9/8/2023,,Taylor Purdy,Amber,3.91,,Dustin Nisley
+4402,,,,Taylor Purdy,Sess:06-09-2023(Taylor Purdy),,-108.49,Dustin Nisley
+4403,,,,Taylor Purdy,Sess:06-30-2023(Taylor Purdy),,22.48,Dustin Nisley
+4404,,,,Taylor Purdy,Sess:07-14-2023(Taylor Purdy),,22.48,Dustin Nisley
+4405,,,,Taylor Purdy,Sess:07-28-2023(Taylor Purdy),,22.48,Dustin Nisley
+4406,,,,Taylor Purdy,Sess:08-25-2023(Taylor Purdy),,22.48,Dustin Nisley
+4407,,,,Taylor Purdy,Sess:08-30-2023(Taylor Purdy),,22.48,Dustin Nisley
+4408,7/10/2023,9/11/2023,,Amy Burrell,Paid at session,150,,Dustin Nisley
+4409,,,,Amy Burrell,Sess:07-10-2023(Amy Burrell),,150,Dustin Nisley
+4410,7/24/2023,9/11/2023,,Amy Burrell,Paid at session,150,,Dustin Nisley
+4411,,,,Amy Burrell,Sess:07-24-2023(Amy Burrell),,150,Dustin Nisley
+4412,8/16/2023,9/11/2023,,Amy Burrell,Paid at session,150,,Dustin Nisley
+4413,,,,Amy Burrell,Sess:08-16-2023(Amy Burrell),,150,Dustin Nisley
+4414,8/23/2023,9/14/2023,,Melissa Martin,Paid at session,10,,Dustin Nisley
+4415,,,,Melissa Martin,Sess:08-23-2023(Melissa Martin),,10,Dustin Nisley
+4416,8/24/2023,9/14/2023,,Melissa Tinkler,Paid at session,4,,Dustin Nisley
+4417,,,,Melissa Tinkler,Sess:08-24-2023(Melissa Tinkler),,4,Dustin Nisley
+4418,8/25/2023,9/14/2023,,Sarah Gaitskill,Paid at session,50,,Dustin Nisley
+4419,,,,Sarah Gaitskill,Sess:08-25-2023(Sarah Gaitskill),,50,Dustin Nisley
+4420,8/29/2023,9/10/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4421,,,,Charles Whitehouse,Sess:08-29-2023(Charles Whitehouse),,30,Dustin Nisley
+4422,8/29/2023,9/14/2023,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+4423,,,,Jeffrey Victor,Sess:08-29-2023(Jeffrey Victor),,25,Dustin Nisley
+4424,8/30/2023,9/10/2023,,John Muus,Paid at session,30,,Dustin Nisley
+4425,,,,John Muus,Sess:08-30-2023(John Muus),,30,Dustin Nisley
+4426,8/31/2023,9/10/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4427,,,,Joseph Thomas,Sess:08-31-2023(Joseph Thomas),,35,Dustin Nisley
+4428,8/31/2023,9/10/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4429,,,,Aurora Palmer,Sess:08-31-2023(Aurora Palmer),,30,Dustin Nisley
+4430,8/31/2023,9/11/2023,,Amy Burrell,Paid at session,150,,Dustin Nisley
+4431,,,,Amy Burrell,Sess:08-31-2023(Amy Burrell),,150,Dustin Nisley
+4432,9/5/2023,9/14/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4433,,,,Ashley Giordano,Sess:09-05-2023(Ashley Giordano),,10,Dustin Nisley
+4434,9/11/2023,9/10/2023,23250B100013190400,BCBS NC (North Carolina),ERAM_BCBS_NC_23250B100013190400_090823_0164.MCP.xm,247.23,,Dustin Nisley
+4435,,,,BCBS NC (North Carolina),Sess:08-31-2023(Aurora Palmer),,82.41,Dustin Nisley
+4436,,,,BCBS NC (North Carolina),Sess:08-29-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4437,,,,BCBS NC (North Carolina),Sess:08-30-2023(John Muus),,82.41,Dustin Nisley
+4438,9/11/2023,9/10/2023,23250B100005450100,BCBS NC (North Carolina),ERAM_BCBS_NC_23250B100005450100_090823_0169.MCP.xm,290.99,,Dustin Nisley
+4439,,,,BCBS NC (North Carolina),Sess:08-31-2023(Joseph Thomas),,77.41,Dustin Nisley
+4440,,,,BCBS NC (North Carolina),Sess:08-31-2023(Bryce Calton),,112.41,Dustin Nisley
+4441,,,,BCBS NC (North Carolina),Sess:08-30-2023(Jocelin Ordonez),,101.17,Dustin Nisley
+4442,9/11/2023,9/11/2023,,MedCost Inc,,0,,Dustin Nisley
+4443,,,,MedCost Inc,Sess:07-10-2023(Amy Burrell),,0,Dustin Nisley
+4444,,,,MedCost Inc,Sess:07-24-2023(Amy Burrell),,0,Dustin Nisley
+4445,,,,MedCost Inc,Sess:08-16-2023(Amy Burrell),,0,Dustin Nisley
+4446,,,,MedCost Inc,Sess:08-31-2023(Amy Burrell),,0,Dustin Nisley
+4447,9/11/2023,9/11/2023,,Amy Burrell,,0,,Dustin Nisley
+4448,,,,Amy Burrell,Sess:07-31-2023(Amy Burrell),,0,Dustin Nisley
+4449,9/12/2023,9/14/2023,23253B100011575700,BCBS NC (North Carolina),ERAM_BCBS_NC_23253B100011575700_091123_0250.MCP.xm,283.15,,Dustin Nisley
+4450,,,,BCBS NC (North Carolina),Sess:08-29-2023(Katherine Henderson),,114.54,Dustin Nisley
+4451,,,,BCBS NC (North Carolina),Sess:08-31-2023(Julianne Freeman),,168.61,Dustin Nisley
+4452,9/12/2023,9/14/2023,23251B100007245700,BCBS NC (North Carolina),ERAM_BCBS_NC_23251B100007245700_091123_0245.MCP.xm,87.41,,Dustin Nisley
+4453,,,,BCBS NC (North Carolina),Sess:08-29-2023(Jeffrey Victor),,87.41,Dustin Nisley
+4454,9/13/2023,9/14/2023,23254B100007291800,BCBS NC (North Carolina),ERAM_BCBS_NC_23254B100007291800_091223_0091.MCP.xm,349.8,,Dustin Nisley
+4455,,,,BCBS NC (North Carolina),Sess:08-25-2023(Sarah Gaitskill),,62.41,Dustin Nisley
+4456,,,,BCBS NC (North Carolina),Sess:08-23-2023(Melissa Martin),,66.57,Dustin Nisley
+4457,,,,BCBS NC (North Carolina),Sess:08-24-2023(Melissa Tinkler),,108.41,Dustin Nisley
+4458,,,,BCBS NC (North Carolina),Sess:08-21-2023(Rhiannon Barnes),,112.41,Dustin Nisley
+4459,9/14/2023,9/14/2023,4913415,BCBS NC (North Carolina),ERAM_BCBS_NC_4913415_091323_0153.MCP.xml,102.41,,Dustin Nisley
+4460,,,,BCBS NC (North Carolina),Sess:09-05-2023(Ashley Giordano),,102.41,Dustin Nisley
+4461,8/30/2023,9/20/2023,,Abbigaile Martin,Paid at session,10,,Dustin Nisley
+4462,,,,Abbigaile Martin,Sess:08-30-2023(Abbigaile Martin),,10,Dustin Nisley
+4463,8/30/2023,9/20/2023,,Sydney Sewell,Paid at session,10,,Dustin Nisley
+4464,,,,Sydney Sewell,Sess:08-30-2023(Sydney Sewell),,10,Dustin Nisley
+4465,9/1/2023,9/20/2023,,Sarah Gaitskill,Paid at session,50,,Dustin Nisley
+4466,,,,Sarah Gaitskill,Sess:09-01-2023(Sarah Gaitskill),,50,Dustin Nisley
+4467,9/5/2023,9/20/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4468,,,,Charles Whitehouse,Sess:09-05-2023(Charles Whitehouse),,30,Dustin Nisley
+4469,9/6/2023,9/20/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4470,,,,Aurora Palmer,Sess:09-06-2023(Aurora Palmer),,30,Dustin Nisley
+4471,9/6/2023,9/20/2023,,John Muus,Paid at session,30,,Dustin Nisley
+4472,,,,John Muus,Sess:09-06-2023(John Muus),,30,Dustin Nisley
+4473,9/7/2023,9/20/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4474,,,,Joseph Thomas,Sess:09-07-2023(Joseph Thomas),,35,Dustin Nisley
+4475,9/8/2023,9/20/2023,,Taylor Purdy,Paid at session,22.48,,Dustin Nisley
+4476,,,,Taylor Purdy,Sess:09-08-2023(Taylor Purdy),,22.48,Dustin Nisley
+4477,9/11/2023,9/21/2023,,Benjamin Melton,Paid at session,30,,Dustin Nisley
+4478,,,,Benjamin Melton,Sess:09-11-2023(Benjamin Melton),,30,Dustin Nisley
+4479,9/12/2023,9/21/2023,,Ashley Giordano,Paid at session,10,,Dustin Nisley
+4480,,,,Ashley Giordano,Sess:09-12-2023(Ashley Giordano),,10,Dustin Nisley
+4481,9/15/2023,9/20/2023,23256B100010962600,BCBS NC (North Carolina),ERAM_BCBS_NC_23256B100010962600_091423_0004.MCP.xm,89.93,,Dustin Nisley
+4482,,,,BCBS NC (North Carolina),Sess:09-08-2023(Taylor Purdy),,89.93,Dustin Nisley
+4483,9/18/2023,9/20/2023,23257B100016236400,BCBS NC (North Carolina),ERAM_BCBS_NC_23257B100016236400_091523_0208.MCP.xm,247.23,,Dustin Nisley
+4484,,,,BCBS NC (North Carolina),Sess:09-06-2023(Aurora Palmer),,82.41,Dustin Nisley
+4485,,,,BCBS NC (North Carolina),Sess:09-05-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4486,,,,BCBS NC (North Carolina),Sess:09-06-2023(John Muus),,82.41,Dustin Nisley
+4487,9/18/2023,9/20/2023,23257B100006758300,BCBS NC (North Carolina),ERAM_BCBS_NC_23257B100006758300_091523_0057.MCP.xm,178.58,,Dustin Nisley
+4488,,,,BCBS NC (North Carolina),Sess:09-07-2023(Joseph Thomas),,77.41,Dustin Nisley
+4489,,,,BCBS NC (North Carolina),Sess:09-06-2023(Jocelin Ordonez),,101.17,Dustin Nisley
+4490,9/18/2023,9/21/2023,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+4491,,,,Tyrel Keplinger,Sess:09-18-2023(Tyrel Keplinger),,150,Dustin Nisley
+4492,9/19/2023,9/20/2023,23260B100012531000,BCBS NC (North Carolina),ERAM_BCBS_NC_23260B100012531000_091823_0157.MCP.xm,86.64,,Dustin Nisley
+4493,,,,BCBS NC (North Carolina),Sess:09-05-2023(Katherine Henderson),,86.64,Dustin Nisley
+4494,9/19/2023,9/20/2023,23258B100009569300,BCBS NC (North Carolina),ERAM_BCBS_NC_23258B100009569300_091823_0332.MCP.xm,92.41,,Dustin Nisley
+4495,,,,BCBS NC (North Carolina),Sess:08-29-2023(Josiah Simpson),,92.41,Dustin Nisley
+4496,9/20/2023,9/20/2023,23261B100005074600,BCBS NC (North Carolina),ERAM_BCBS_NC_23261B100005074600_091923_0165.MCP.xm,176.53,,Dustin Nisley
+4497,,,,BCBS NC (North Carolina),Sess:09-01-2023(Sarah Gaitskill),,62.41,Dustin Nisley
+4498,,,,BCBS NC (North Carolina),Sess:08-30-2023(Abbigaile Martin),,66.36,Dustin Nisley
+4499,,,,BCBS NC (North Carolina),Sess:08-30-2023(Sydney Sewell),,47.76,Dustin Nisley
+4500,9/21/2023,9/21/2023,4924928,BCBS NC (North Carolina),ERAM_BCBS_NC_4924928_092023_0199.MCP.xml,82.41,,Dustin Nisley
+4501,,,,BCBS NC (North Carolina),Sess:09-12-2023(Ashley Giordano),,0,Dustin Nisley
+4502,,,,BCBS NC (North Carolina),Sess:09-11-2023(Benjamin Melton),,82.41,Dustin Nisley
+4503,9/21/2023,9/21/2023,,Ashley Giordano,Amber,102.41,,Dustin Nisley
+4504,,,,Ashley Giordano,Sess:09-12-2023(Ashley Giordano),,102.41,Dustin Nisley
+4505,9/21/2023,9/21/2023,,Aubrey Williams,Paid at session,150,,Dustin Nisley
+4506,,,,Aubrey Williams,Sess:09-21-2023(Aubrey Williams),,150,Dustin Nisley
+4507,9/6/2023,9/29/2023,,Melissa Martin,Paid at session,10,,Dustin Nisley
+4508,,,,Melissa Martin,Sess:09-06-2023(Melissa Martin),,10,Dustin Nisley
+4509,9/7/2023,9/29/2023,,Melissa Tinkler,Paid at session,4,,Dustin Nisley
+4510,,,,Melissa Tinkler,Sess:09-07-2023(Melissa Tinkler),,4,Dustin Nisley
+4511,9/7/2023,9/29/2023,,Sydney Sewell,Paid at session,10,,Dustin Nisley
+4512,,,,Sydney Sewell,Sess:09-07-2023(Sydney Sewell),,10,Dustin Nisley
+4513,9/11/2023,9/25/2023,,Justin Lovelace,Paid at session,34.48,,Dustin Nisley
+4514,,,,Justin Lovelace,Sess:09-11-2023(Justin Lovelace),,34.48,Dustin Nisley
+4515,9/12/2023,9/29/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4516,,,,Charles Whitehouse,Sess:09-12-2023(Charles Whitehouse),,30,Dustin Nisley
+4517,9/12/2023,9/29/2023,,Jeffrey Victor,Paid at session,25,,Dustin Nisley
+4518,,,,Jeffrey Victor,Sess:09-12-2023(Jeffrey Victor),,25,Dustin Nisley
+4519,9/14/2023,9/25/2023,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+4520,,,,Joseph Thomas,Sess:09-14-2023(Joseph Thomas),,35,Dustin Nisley
+4521,9/15/2023,9/29/2023,,John Muus,Paid at session,30,,Dustin Nisley
+4522,,,,John Muus,Sess:09-15-2023(John Muus),,30,Dustin Nisley
+4523,9/18/2023,9/25/2023,,Shannon Allison,Paid at session,75,,Dustin Nisley
+4524,,,,Shannon Allison,Sess:09-18-2023(Shannon Allison),,75,Dustin Nisley
+4525,9/18/2023,9/29/2023,,Benjamin Melton,Paid at session,30,,Dustin Nisley
+4526,,,,Benjamin Melton,Sess:09-18-2023(Benjamin Melton),,30,Dustin Nisley
+4527,9/19/2023,9/25/2023,,Rhiannon Barnes,Paid at session,75,,Dustin Nisley
+4528,,,,Rhiannon Barnes,Sess:09-19-2023(Rhiannon Barnes),,75,Dustin Nisley
+4529,9/19/2023,9/29/2023,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+4530,,,,Charles Whitehouse,Sess:09-19-2023(Charles Whitehouse),,30,Dustin Nisley
+4531,9/19/2023,9/29/2023,,Ashley Giordano,Paid at session,112.41,,Dustin Nisley
+4532,,,,Ashley Giordano,Sess:09-19-2023(Ashley Giordano),,112.41,Dustin Nisley
+4533,9/20/2023,9/29/2023,,Aurora Palmer,Paid at session,30,,Dustin Nisley
+4534,,,,Aurora Palmer,Sess:09-20-2023(Aurora Palmer),,30,Dustin Nisley
+4535,9/21/2023,9/29/2023,,John Muus,Paid at session,30,,Dustin Nisley
+4536,,,,John Muus,Sess:09-21-2023(John Muus),,30,Dustin Nisley
+4537,9/25/2023,9/25/2023,23264B100006101000,BCBS NC (North Carolina),ERAM_BCBS_NC_23264B100006101000_092223_0016.MCP.xm,290.99,,Dustin Nisley
+4538,,,,BCBS NC (North Carolina),Sess:09-14-2023(Joseph Thomas),,77.41,Dustin Nisley
+4539,,,,BCBS NC (North Carolina),Sess:09-14-2023(Bryce Calton),,112.41,Dustin Nisley
+4540,,,,BCBS NC (North Carolina),Sess:09-13-2023(Jocelin Ordonez),,101.17,Dustin Nisley
+4541,9/25/2023,9/25/2023,23264B100013429100,BCBS NC (North Carolina),ERAM_BCBS_NC_23264B100013429100_092223_0136.MCP.xm,77.93,,Dustin Nisley
+4542,,,,BCBS NC (North Carolina),Sess:09-11-2023(Justin Lovelace),,77.93,Dustin Nisley
+4543,9/25/2023,9/29/2023,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+4544,,,,Tyrel Keplinger,Sess:09-25-2023(Tyrel Keplinger),,150,Dustin Nisley
+4545,9/25/2023,9/29/2023,,Rhiannon Barnes,Paid at session,75,,Dustin Nisley
+4546,,,,Rhiannon Barnes,Sess:09-25-2023(Rhiannon Barnes),,75,Dustin Nisley
+4547,9/26/2023,9/29/2023,23265B100013071800,BCBS NC (North Carolina),ERAM_BCBS_NC_23265B100013071800_092523_0063.MCP.xm,252.23,,Dustin Nisley
+4548,,,,BCBS NC (North Carolina),Sess:09-12-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4549,,,,BCBS NC (North Carolina),Sess:09-12-2023(Jeffrey Victor),,87.41,Dustin Nisley
+4550,,,,BCBS NC (North Carolina),Sess:09-15-2023(John Muus),,82.41,Dustin Nisley
+4551,9/27/2023,9/29/2023,23268B100006766600,BCBS NC (North Carolina),ERAM_BCBS_NC_23268B100006766600_092623_0202.MCP.xm,299.1,,Dustin Nisley
+4552,,,,BCBS NC (North Carolina),Sess:09-06-2023(Melissa Martin),,66.57,Dustin Nisley
+4553,,,,BCBS NC (North Carolina),Sess:09-07-2023(Melissa Tinkler),,72.36,Dustin Nisley
+4554,,,,BCBS NC (North Carolina),Sess:09-07-2023(Sydney Sewell),,47.76,Dustin Nisley
+4555,,,,BCBS NC (North Carolina),Sess:09-07-2023(Rhiannon Barnes),,112.41,Dustin Nisley
+4556,9/27/2023,9/29/2023,23268B100012766400,BCBS NC (North Carolina),ERAM_BCBS_NC_23268B100012766400_092623_0078.MCP.xm,101.17,,Dustin Nisley
+4557,,,,BCBS NC (North Carolina),Sess:09-20-2023(Jocelin Ordonez),,101.17,Dustin Nisley
+4558,9/27/2023,9/29/2023,23268B100024266800,BCBS NC (North Carolina),ERAM_BCBS_NC_23268B100024266800_092623_0061.MCP.xm,247.23,,Dustin Nisley
+4559,,,,BCBS NC (North Carolina),Sess:09-20-2023(Aurora Palmer),,82.41,Dustin Nisley
+4560,,,,BCBS NC (North Carolina),Sess:09-19-2023(Charles Whitehouse),,82.41,Dustin Nisley
+4561,,,,BCBS NC (North Carolina),Sess:09-21-2023(John Muus),,82.41,Dustin Nisley
+4562,9/27/2023,9/29/2023,4942448,BCBS NC (North Carolina),ERAM_BCBS_NC_4942448_092623_0305.MCP.xml,82.41,,Dustin Nisley
+4563,,,,BCBS NC (North Carolina),Sess:09-19-2023(Ashley Giordano),,0,Dustin Nisley
+4564,,,,BCBS NC (North Carolina),Sess:09-18-2023(Benjamin Melton),,82.41,Dustin Nisley
+4565,9/29/2023,9/29/2023,23270B100010356800,BCBS NC (North Carolina),ERAM_BCBS_NC_23270B100010356800_092823_0152.MCP.xm,92.41,,Dustin Nisley
+4566,,,,BCBS NC (North Carolina),Sess:09-12-2023(Josiah Simpson),,92.41,Dustin Nisley

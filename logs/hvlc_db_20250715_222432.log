@@ -1,0 +1,10 @@
+2025-07-15 22:24:32,438 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-15 22:24:32,583 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-15 22:24:32,583 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 22:24:40,811 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:24:40] "GET /api/ada/presets HTTP/1.1" 200 -
+2025-07-15 22:24:47,660 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-15 22:24:47,660 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:24:47] "GET /api/ada/personality HTTP/1.1" 200 -
+2025-07-15 22:24:54,937 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-15 22:25:25,101 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:25:25] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:26:07,191 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:26:07] "POST /api/ai/chat HTTP/1.1" 200 -

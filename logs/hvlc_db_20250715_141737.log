@@ -1,0 +1,10 @@
+2025-07-15 14:17:37,598 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-15 14:17:37,599 - hvlc_db - INFO - Improved Medical Billing AI initialized successfully
+2025-07-15 14:17:37,599 - hvlc_db - INFO - Processing provider_analysis query
+2025-07-15 14:17:37,603 - hvlc_db - INFO - Using timeout of 60s for attempt 1
+2025-07-15 14:17:37,648 - hvlc_db - ERROR - LLM request error on attempt 1: HTTPConnectionPool(host='ada.tailf21bf8.ts.net', port=11434): Max retries exceeded with url: /api/generate (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x117b33880>: Failed to resolve 'ada.tailf21bf8.ts.net' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-15 14:17:38,654 - hvlc_db - INFO - Using timeout of 30s for attempt 2
+2025-07-15 14:17:38,658 - hvlc_db - ERROR - LLM request error on attempt 2: HTTPConnectionPool(host='ada.tailf21bf8.ts.net', port=11434): Max retries exceeded with url: /api/generate (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x117b842e0>: Failed to resolve 'ada.tailf21bf8.ts.net' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-15 14:17:40,664 - hvlc_db - INFO - Using timeout of 15s for attempt 3
+2025-07-15 14:17:40,669 - hvlc_db - ERROR - LLM request error on attempt 3: HTTPConnectionPool(host='ada.tailf21bf8.ts.net', port=11434): Max retries exceeded with url: /api/generate (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x117b84dc0>: Failed to resolve 'ada.tailf21bf8.ts.net' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-15 14:17:40,669 - hvlc_db - INFO - Query processed successfully in 3.07s

@@ -1,0 +1,80 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+1628,6/11/2024,7/5/2024,,Amelia Gordon,Paid at session,35,,Ardelle Bland
+1629,,,,Amelia Gordon,Sess:06-11-2024(Amelia Gordon),,35,Ardelle Bland
+1630,6/13/2024,7/5/2024,,Cyrus Hardin,Paid at session,60,,Ardelle Bland
+1631,,,,Cyrus Hardin,Sess:06-13-2024(Cyrus Hardin),,60,Ardelle Bland
+1632,6/24/2024,7/6/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1633,,,,Lara Gminder,Sess:06-24-2024(Lara Gminder),,40,Ardelle Bland
+1634,7/3/2024,7/5/2024,24183B100012002200,BCBS NC (North Carolina),ERAM_BCBS_NC_24183B100012002200_070224_0238.MCP.xm,169.71,,Ardelle Bland
+1635,,,,BCBS NC (North Carolina),Sess:06-13-2024(Cyrus Hardin),,64.28,Ardelle Bland
+1636,,,,BCBS NC (North Carolina),Sess:06-11-2024(Amelia Gordon),,105.43,Ardelle Bland
+1637,7/8/2024,7/6/2024,24186B100012702800,BCBS NC (North Carolina),ERAM_BCBS_NC_24186B100012702800_070524_0057.MCP.xm,84.28,,Ardelle Bland
+1638,,,,BCBS NC (North Carolina),Sess:06-24-2024(Lara Gminder),,84.28,Ardelle Bland
+1639,7/8/2024,7/5/2024,TZ86322082,UBH - United Behavioral Health,ERAM_OPTUM_TZ86322082_070324_0000.MCP.xml,104.79,,Ardelle Bland
+1640,,,,UBH - United Behavioral Health,Sess:06-19-2024(Alexis Hoots),,104.79,Ardelle Bland
+1641,6/19/2024,7/12/2024,,Amelia Gordon,Paid at session,35,,Ardelle Bland
+1642,,,,Amelia Gordon,Sess:06-19-2024(Amelia Gordon),,35,Ardelle Bland
+1643,6/25/2024,7/10/2024,,Jaclyn Wengerd,Paid at session,124.28,,Ardelle Bland
+1644,,,,Jaclyn Wengerd,Sess:06-25-2024(Jaclyn Wengerd),,124.28,Ardelle Bland
+1645,7/1/2024,7/12/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1646,,,,Lara Gminder,Sess:07-01-2024(Lara Gminder),,40,Ardelle Bland
+1647,7/3/2024,7/12/2024,,Janeellen Ward,Paid at session,35,,Ardelle Bland
+1648,,,,Janeellen Ward,Sess:07-03-2024(Janeellen Ward),,35,Ardelle Bland
+1649,7/9/2024,7/10/2024,24187B100014455700,BCBS NC (North Carolina),ERAM_BCBS_NC_24187B100014455700_070724_0065.MCP.xm,0,,Ardelle Bland
+1650,,,,BCBS NC (North Carolina),Sess:06-25-2024(Jaclyn Wengerd),,0,Ardelle Bland
+1651,7/10/2024,7/12/2024,24190B100011850500,BCBS NC (North Carolina),ERAM_BCBS_NC_24190B100011850500_071124_0067.MCP.xm,229.71,,Ardelle Bland
+1652,,,,BCBS NC (North Carolina),Sess:06-19-2024(Amelia Gordon),,89.28,Ardelle Bland
+1653,,,,BCBS NC (North Carolina),Sess:06-19-2024(Ellen Echevarria),,140.43,Ardelle Bland
+1654,7/11/2024,7/12/2024,5631011,BCBS NC (North Carolina),ERAM_BCBS_NC_5631011_071024_0118.MCP.xml,89.28,,Ardelle Bland
+1655,,,,BCBS NC (North Carolina),Sess:07-03-2024(Janeellen Ward),,89.28,Ardelle Bland
+1656,7/12/2024,7/12/2024,24192B100010132900,BCBS NC (North Carolina),ERAM_BCBS_NC_24192B100010132900_071124_0179.MCP.xm,84.28,,Ardelle Bland
+1657,,,,BCBS NC (North Carolina),Sess:07-01-2024(Lara Gminder),,84.28,Ardelle Bland
+1658,7/12/2024,7/16/2024,TZ87025589,UBH - United Behavioral Health,ERAM_OPTUM_TZ87025589_071124_0000.MCP.xml,104.79,,Ardelle Bland
+1659,,,,UBH - United Behavioral Health,Sess:06-25-2024(Alexis Hoots),,104.79,Ardelle Bland
+1660,7/16/2024,7/16/2024,24196B100012127200,BCBS NC (North Carolina),ERAM_BCBS_NC_24196B100012127200_071524_0129.MCP.xm,198.25,,Ardelle Bland
+1661,,,,BCBS NC (North Carolina),Sess:07-05-2024(Natalie Kornblum),,198.25,Ardelle Bland
+1662,6/26/2024,7/18/2024,,Amelia Gordon,Paid at session,35,,Ardelle Bland
+1663,,,,Amelia Gordon,Sess:06-26-2024(Amelia Gordon),,35,Ardelle Bland
+1664,7/8/2024,7/19/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1665,,,,Lara Gminder,Sess:07-08-2024(Lara Gminder),,40,Ardelle Bland
+1666,7/10/2024,7/19/2024,,Christy Shearin,Paid at session,25,,Ardelle Bland
+1667,,,,Christy Shearin,Sess:07-10-2024(Christy Shearin),,25,Ardelle Bland
+1668,7/11/2024,7/19/2024,,Jennifer Skogh,Paid at session,15,,Ardelle Bland
+1669,,,,Jennifer Skogh,Sess:07-11-2024(Jennifer Skogh),,15,Ardelle Bland
+1670,7/17/2024,7/18/2024,24197B100010634500,BCBS NC (North Carolina),ERAM_BCBS_NC_24197B100010634500_071624_0278.MCP.xm,89.28,,Ardelle Bland
+1671,,,,BCBS NC (North Carolina),Sess:06-26-2024(Amelia Gordon),,89.28,Ardelle Bland
+1672,7/18/2024,7/18/2024,5655338,BCBS NC (North Carolina),ERAM_BCBS_NC_5655338_071724_0146.MCP.xml,89.28,,Ardelle Bland
+1673,,,,BCBS NC (North Carolina),Sess:07-11-2024(Janeellen Ward),,89.28,Ardelle Bland
+1674,7/19/2024,7/19/2024,24199B100010366900,BCBS NC (North Carolina),ERAM_BCBS_NC_24199B100010366900_071824_0132.MCP.xm,193.56,,Ardelle Bland
+1675,,,,BCBS NC (North Carolina),Sess:07-08-2024(Lara Gminder),,84.28,Ardelle Bland
+1676,,,,BCBS NC (North Carolina),Sess:07-11-2024(Jennifer Skogh),,109.28,Ardelle Bland
+1677,7/19/2024,7/18/2024,TZ87687318,UBH - United Behavioral Health,ERAM_OPTUM_TZ87687318_071624_0000.MCP.xml,104.79,,Ardelle Bland
+1678,,,,UBH - United Behavioral Health,Sess:07-01-2024(Alexis Hoots),,104.79,Ardelle Bland
+1679,7/23/2024,7/19/2024,824200000065915,Aetna,ERAM_AVAILITY_824200000065915_071824_1029.MCP.xml,111.7,,Ardelle Bland
+1680,,,,Aetna,Sess:07-10-2024(Christy Shearin),,111.7,Ardelle Bland
+1681,7/2/2024,7/25/2024,,Amelia Gordon,Paid at session,35,,Ardelle Bland
+1682,,,,Amelia Gordon,Sess:07-02-2024(Amelia Gordon),,35,Ardelle Bland
+1683,7/9/2024,7/24/2024,,Jaclyn Wengerd,Paid at session,124.28,,Ardelle Bland
+1684,,,,Jaclyn Wengerd,Sess:07-09-2024(Jaclyn Wengerd),,124.28,Ardelle Bland
+1685,7/11/2024,7/24/2024,,Lillian Huggins,Paid at session,124.28,,Ardelle Bland
+1686,,,,Lillian Huggins,Sess:07-11-2024(Lillian Huggins),,124.28,Ardelle Bland
+1687,7/11/2024,7/24/2024,,Kathryn Braga,Paid at session,124.28,,Ardelle Bland
+1688,,,,Kathryn Braga,Sess:07-11-2024(Kathryn Braga),,124.28,Ardelle Bland
+1689,7/22/2024,7/24/2024,24200B100014677400,BCBS NC (North Carolina),ERAM_BCBS_NC_24200B100014677400_072224_0267.MCP.xm,0,,Ardelle Bland
+1690,,,,BCBS NC (North Carolina),Sess:07-09-2024(Jaclyn Wengerd),,0,Ardelle Bland
+1691,7/23/2024,7/24/2024,NC77004268,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77004268_072224_0002.MCP.xml,0,,Ardelle Bland
+1692,,,,BCBS NC (North Carolina),Sess:07-11-2024(Lillian Huggins),,0,Ardelle Bland
+1693,,,,BCBS NC (North Carolina),Sess:07-11-2024(Kathryn Braga),,0,Ardelle Bland
+1694,7/24/2024,7/24/2024,5663972,BCBS NC (North Carolina),ERAM_BCBS_NC_5663972_072324_0015.MCP.xml,89.28,,Ardelle Bland
+1695,,,,BCBS NC (North Carolina),Sess:07-18-2024(Janeellen Ward),,89.28,Ardelle Bland
+1696,7/24/2024,7/25/2024,24204B100009229800,BCBS NC (North Carolina),ERAM_BCBS_NC_24204B100009229800_072424_0107.MCP.xm,229.71,,Ardelle Bland
+1697,,,,BCBS NC (North Carolina),Sess:07-02-2024(Amelia Gordon),,89.28,Ardelle Bland
+1698,,,,BCBS NC (North Carolina),Sess:07-02-2024(Ellen Echevarria),,140.43,Ardelle Bland
+1699,7/15/2024,7/29/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1700,,,,Lara Gminder,Sess:07-15-2024(Lara Gminder),,40,Ardelle Bland
+1701,7/17/2024,7/29/2024,,June Coykendall,Paid at session,50,,Ardelle Bland
+1702,,,,June Coykendall,Sess:07-17-2024(June Coykendall),,50,Ardelle Bland
+1703,7/26/2024,7/29/2024,77004344,BCBS NC (North Carolina),ERAM_BCBS_NC_77004344_072524_0007.MCP.xml,90.43,,Ardelle Bland
+1704,,,,BCBS NC (North Carolina),Sess:07-17-2024(June Coykendall),,90.43,Ardelle Bland
+1705,7/29/2024,7/29/2024,24207B100017583800,BCBS NC (North Carolina),ERAM_BCBS_NC_24207B100017583800_072624_0021.MCP.xm,84.28,,Ardelle Bland
+1706,,,,BCBS NC (North Carolina),Sess:07-15-2024(Lara Gminder),,84.28,Ardelle Bland

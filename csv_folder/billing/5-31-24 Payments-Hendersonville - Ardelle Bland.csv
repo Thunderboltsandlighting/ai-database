@@ -1,0 +1,102 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+1233,4/18/2024,5/10/2024,,Cyrus Hardin,Paid at session,60,,Ardelle Bland
+1234,,,,Cyrus Hardin,Sess:04-18-2024(Cyrus Hardin),,60,Ardelle Bland
+1235,4/22/2024,5/10/2024,,Monica Carlos Covarrubias,Paid at session,25,,Ardelle Bland
+1236,,,,Monica Carlos Covarrubias,Sess:04-22-2024(Monica Carlos Covarrubias),,25,Ardelle Bland
+1237,4/24/2024,5/10/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1238,,,,Lara Gminder,Sess:04-24-2024(Lara Gminder),,40,Ardelle Bland
+1239,4/25/2024,5/3/2024,,Janeellen Ward,Paid at session,35,,Ardelle Bland
+1240,,,,Janeellen Ward,Sess:04-25-2024(Janeellen Ward),,35,Ardelle Bland
+1241,4/30/2024,5/7/2024,,Mary Drake,Paid at session,150,,Ardelle Bland
+1242,,,,Mary Drake,Sess:04-30-2024(Mary Drake),,150,Ardelle Bland
+1243,5/3/2024,5/3/2024,5470767,BCBS NC (North Carolina),ERAM_BCBS_NC_5470767_050224_0193.MCP.xml,89.28,,Ardelle Bland
+1244,,,,BCBS NC (North Carolina),Sess:04-25-2024(Janeellen Ward),,89.28,Ardelle Bland
+1245,5/6/2024,5/10/2024,24123B100013811100,BCBS NC (North Carolina),ERAM_BCBS_NC_24123B100013811100_050324_0195.MCP.xm,184.71,,Ardelle Bland
+1246,,,,BCBS NC (North Carolina),Sess:04-24-2024(Lara Gminder),,84.28,Ardelle Bland
+1247,,,,BCBS NC (North Carolina),Sess:04-25-2024(Mackenzie Wiseman),,100.43,Ardelle Bland
+1248,5/7/2024,5/10/2024,24124B100007299300,BCBS NC (North Carolina),ERAM_BCBS_NC_24124B100007299300_050524_0053.MCP.xm,115.43,,Ardelle Bland
+1249,,,,BCBS NC (North Carolina),Sess:04-22-2024(Monica Carlos Covarrubias),,115.43,Ardelle Bland
+1250,5/7/2024,5/10/2024,,Mary Drake,Paid at session,150,,Ardelle Bland
+1251,,,,Mary Drake,Sess:05-07-2024(Mary Drake),,150,Ardelle Bland
+1252,5/8/2024,5/10/2024,24127B100012606400,BCBS NC (North Carolina),ERAM_BCBS_NC_24127B100012606400_050724_0279.MCP.xm,64.28,,Ardelle Bland
+1253,,,,BCBS NC (North Carolina),Sess:04-18-2024(Cyrus Hardin),,64.28,Ardelle Bland
+1254,5/10/2024,5/10/2024,24129B100011166300,BCBS NC (North Carolina),ERAM_BCBS_NC_24129B100011166300_050924_0022.MCP.xm,99.43,,Ardelle Bland
+1255,,,,BCBS NC (North Carolina),Sess:04-09-2024(Chrisele Nelson),,99.43,Ardelle Bland
+1256,4/25/2024,5/14/2024,,Cyrus Hardin,Paid at session,60,,Ardelle Bland
+1257,,,,Cyrus Hardin,Sess:04-25-2024(Cyrus Hardin),,60,Ardelle Bland
+1258,4/29/2024,5/14/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1259,,,,Lara Gminder,Sess:04-29-2024(Lara Gminder),,40,Ardelle Bland
+1260,4/30/2024,5/14/2024,,Jennifer Skogh,Paid at session,15,,Ardelle Bland
+1261,,,,Jennifer Skogh,Sess:04-30-2024(Jennifer Skogh),,15,Ardelle Bland
+1262,4/30/2024,5/14/2024,,Lillian Huggins,Paid at session,124.28,,Ardelle Bland
+1263,,,,Lillian Huggins,Sess:04-30-2024(Lillian Huggins),,124.28,Ardelle Bland
+1264,5/1/2024,5/14/2024,,Monica Carlos Covarrubias,Paid at session,25,,Ardelle Bland
+1265,,,,Monica Carlos Covarrubias,Sess:05-01-2024(Monica Carlos Covarrubias),,25,Ardelle Bland
+1266,5/2/2024,5/12/2024,,Janeellen Ward,Paid at session,35,,Ardelle Bland
+1267,,,,Janeellen Ward,Sess:05-02-2024(Janeellen Ward),,35,Ardelle Bland
+1268,5/2/2024,5/14/2024,,Meg Nygren,Paid at session,12.42,,Ardelle Bland
+1269,,,,Meg Nygren,Sess:05-02-2024(Meg Nygren),,12.42,Ardelle Bland
+1270,5/2/2024,5/17/2024,,Lisa Gilt,Paid at session,50,,Ardelle Bland
+1271,,,,Lisa Gilt,Sess:05-02-2024(Lisa Gilt),,50,Ardelle Bland
+1272,5/6/2024,5/17/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1273,,,,Lara Gminder,Sess:05-06-2024(Lara Gminder),,40,Ardelle Bland
+1274,5/9/2024,5/17/2024,,Janeellen Ward,Paid at session,35,,Ardelle Bland
+1275,,,,Janeellen Ward,Sess:05-09-2024(Janeellen Ward),,35,Ardelle Bland
+1276,5/13/2024,5/12/2024,5488488,BCBS NC (North Carolina),ERAM_BCBS_NC_5488488_051024_0251.MCP.xml,89.28,,Ardelle Bland
+1277,,,,BCBS NC (North Carolina),Sess:05-02-2024(Janeellen Ward),,89.28,Ardelle Bland
+1278,5/14/2024,5/14/2024,NC77002559,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77002559_051324_0004.MCP.xml,0,,Ardelle Bland
+1279,,,,BCBS NC (North Carolina),Sess:04-30-2024(Lillian Huggins),,0,Ardelle Bland
+1280,5/14/2024,5/14/2024,24132B100005298200,BCBS NC (North Carolina),ERAM_BCBS_NC_24132B100005298200_051324_0035.MCP.xm,99.28,,Ardelle Bland
+1281,,,,BCBS NC (North Carolina),Sess:05-01-2024(Monica Carlos Covarrubias),,99.28,Ardelle Bland
+1282,5/14/2024,5/14/2024,24131B100012149200,BCBS NC (North Carolina),ERAM_BCBS_NC_24131B100012149200_051224_0134.MCP.xm,272.84,,Ardelle Bland
+1283,,,,BCBS NC (North Carolina),Sess:04-29-2024(Lara Gminder),,84.28,Ardelle Bland
+1284,,,,BCBS NC (North Carolina),Sess:05-02-2024(Meg Nygren),,79.28,Ardelle Bland
+1285,,,,BCBS NC (North Carolina),Sess:04-30-2024(Jennifer Skogh),,109.28,Ardelle Bland
+1286,5/15/2024,5/14/2024,24134B100011852200,BCBS NC (North Carolina),ERAM_BCBS_NC_24134B100011852200_051424_0085.MCP.xm,64.28,,Ardelle Bland
+1287,,,,BCBS NC (North Carolina),Sess:04-25-2024(Cyrus Hardin),,64.28,Ardelle Bland
+1288,5/16/2024,5/17/2024,5497391,BCBS NC (North Carolina),ERAM_BCBS_NC_5497391_051524_0135.MCP.xml,89.28,,Ardelle Bland
+1289,,,,BCBS NC (North Carolina),Sess:05-09-2024(Janeellen Ward),,89.28,Ardelle Bland
+1290,5/17/2024,5/17/2024,77002631,BCBS NC (North Carolina),ERAM_BCBS_NC_77002631_051624_0005.MCP.xml,74.28,,Ardelle Bland
+1291,,,,BCBS NC (North Carolina),Sess:05-02-2024(Lisa Gilt),,74.28,Ardelle Bland
+1292,5/17/2024,5/17/2024,24136B100012354700,BCBS NC (North Carolina),ERAM_BCBS_NC_24136B100012354700_051624_0100.MCP.xm,84.28,,Ardelle Bland
+1293,,,,BCBS NC (North Carolina),Sess:05-06-2024(Lara Gminder),,84.28,Ardelle Bland
+1294,5/2/2024,5/24/2024,,Cyrus Hardin,Paid at session,60,,Ardelle Bland
+1295,,,,Cyrus Hardin,Sess:05-02-2024(Cyrus Hardin),,60,Ardelle Bland
+1296,5/7/2024,5/19/2024,,Monica Carlos Covarrubias,Paid at session,25,,Ardelle Bland
+1297,,,,Monica Carlos Covarrubias,Sess:05-07-2024(Monica Carlos Covarrubias),,25,Ardelle Bland
+1298,5/8/2024,5/19/2024,,Jaclyn Wengerd,Paid at session,141.78,,Ardelle Bland
+1299,,,,Jaclyn Wengerd,Sess:05-08-2024(Jaclyn Wengerd),,141.78,Ardelle Bland
+1300,5/9/2024,5/24/2024,,Lillian Huggins,Paid at session,124.28,,Ardelle Bland
+1301,,,,Lillian Huggins,Sess:05-09-2024(Lillian Huggins),,124.28,Ardelle Bland
+1302,5/9/2024,5/24/2024,,Kathryn Braga,Paid at session,141.78,,Ardelle Bland
+1303,,,,Kathryn Braga,Sess:05-09-2024(Kathryn Braga),,141.78,Ardelle Bland
+1304,5/20/2024,5/19/2024,24137B100016844500,BCBS NC (North Carolina),ERAM_BCBS_NC_24137B100016844500_051724_0073.MCP.xm,0,,Ardelle Bland
+1305,,,,BCBS NC (North Carolina),Sess:05-08-2024(Jaclyn Wengerd),,0,Ardelle Bland
+1306,5/20/2024,5/19/2024,24137B100009240900,BCBS NC (North Carolina),ERAM_BCBS_NC_24137B100009240900_051724_0208.MCP.xm,99.28,,Ardelle Bland
+1307,,,,BCBS NC (North Carolina),Sess:05-07-2024(Monica Carlos Covarrubias),,99.28,Ardelle Bland
+1308,5/21/2024,5/24/2024,NC77002711,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77002711_052024_0003.MCP.xml,0,,Ardelle Bland
+1309,,,,BCBS NC (North Carolina),Sess:05-09-2024(Lillian Huggins),,0,Ardelle Bland
+1310,,,,BCBS NC (North Carolina),Sess:05-09-2024(Kathryn Braga),,0,Ardelle Bland
+1311,5/21/2024,5/24/2024,24140B100014976400,BCBS NC (North Carolina),ERAM_BCBS_NC_24140B100014976400_052024_0089.MCP.xm,198.25,,Ardelle Bland
+1312,,,,BCBS NC (North Carolina),Sess:05-08-2024(Dustin Byers),,198.25,Ardelle Bland
+1313,5/23/2024,5/24/2024,24142B100002726800,BCBS NC (North Carolina),ERAM_BCBS_NC_24142B100002726800_052224_0033.MCP.xm,64.28,,Ardelle Bland
+1314,,,,BCBS NC (North Carolina),Sess:05-02-2024(Cyrus Hardin),,64.28,Ardelle Bland
+1315,5/24/2024,5/24/2024,24143B100009498400,BCBS NC (North Carolina),ERAM_BCBS_NC_24143B100009498400_052324_0127.MCP.xm,99.43,,Ardelle Bland
+1316,,,,BCBS NC (North Carolina),Sess:04-23-2024(Chrisele Nelson),,99.43,Ardelle Bland
+1317,5/24/2024,5/24/2024,,Meg Nygren,Jituzu electronic payment,32.58,,Ardelle Bland
+1318,,,,Meg Nygren,Sess:05-02-2024(Meg Nygren),,32.58,Ardelle Bland
+1319,5/9/2024,5/29/2024,,Cyrus Hardin,Paid at session,60,,Ardelle Bland
+1320,,,,Cyrus Hardin,Sess:05-09-2024(Cyrus Hardin),,60,Ardelle Bland
+1321,5/15/2024,5/27/2024,,Lara Gminder,Paid at session,40,,Ardelle Bland
+1322,,,,Lara Gminder,Sess:05-15-2024(Lara Gminder),,40,Ardelle Bland
+1323,5/16/2024,5/27/2024,,Jennifer Skogh,Paid at session,15,,Ardelle Bland
+1324,,,,Jennifer Skogh,Sess:05-16-2024(Jennifer Skogh),,15,Ardelle Bland
+1325,5/17/2024,5/27/2024,,Jaclyn Wengerd,Paid at session,141.78,,Ardelle Bland
+1326,,,,Jaclyn Wengerd,Sess:05-17-2024(Jaclyn Wengerd),,141.78,Ardelle Bland
+1327,5/28/2024,5/27/2024,24144B100016419500,BCBS NC (North Carolina),ERAM_BCBS_NC_24144B100016419500_052424_0018.MCP.xm,193.56,,Ardelle Bland
+1328,,,,BCBS NC (North Carolina),Sess:05-15-2024(Lara Gminder),,84.28,Ardelle Bland
+1329,,,,BCBS NC (North Carolina),Sess:05-16-2024(Jennifer Skogh),,109.28,Ardelle Bland
+1330,5/29/2024,5/27/2024,24145B100015739400,BCBS NC (North Carolina),ERAM_BCBS_NC_24145B100015739400_052624_0134.MCP.xm,0,,Ardelle Bland
+1331,,,,BCBS NC (North Carolina),Sess:05-17-2024(Jaclyn Wengerd),,0,Ardelle Bland
+1332,5/29/2024,5/29/2024,24148B100014228200,BCBS NC (North Carolina),ERAM_BCBS_NC_24148B100014228200_052824_0188.MCP.xm,64.28,,Ardelle Bland
+1333,,,,BCBS NC (North Carolina),Sess:05-09-2024(Cyrus Hardin),,64.28,Ardelle Bland

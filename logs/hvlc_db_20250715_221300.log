@@ -1,0 +1,10 @@
+2025-07-15 22:13:00,785 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-15 22:13:00,926 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-15 22:13:00,926 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 22:13:27,234 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:13:27] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:13:59,445 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:13:59] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:15:15,826 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:15:15] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:16:36,496 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:16:36] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:18:31,991 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:18:31] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-15 22:20:53,965 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 22:20:53] "POST /api/ai/chat HTTP/1.1" 200 -

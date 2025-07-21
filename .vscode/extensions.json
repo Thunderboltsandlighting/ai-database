@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "bradlc.vscode-tailwindcss",
+    "ms-python.python",
+    "ms-python.flake8",
+    "ms-python.black-formatter"
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur"
+  ]
+} 

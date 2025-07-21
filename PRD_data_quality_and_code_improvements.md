@@ -20,7 +20,37 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
 
 ## Prioritized Issues & Next Steps
 
-### 1. Lack of Automated Testing and Validation (**High Priority**)
+### 1. Provider Compensation and Contract Management System (**High Priority**)
+- **Problem:** Current provider table lacks compensation logic needed for accurate revenue calculations and business intelligence.
+- **Business Requirements:**
+  - **Revenue-Based Tiered System:** $0-$6,000/month = 60%, $6,001-$8,000/month = 65%, $8,000+/month = 70%
+  - **Provider-Specific Rules:**
+    - Dustin Nisley: Follows tiered system (60%/65%/70% based on monthly revenue)
+    - Sidney Snipes: Follows tiered system (60%/65%/70% based on monthly revenue)
+    - Tammy Maxey: 100% (previous owner, minus 2.9% credit card fee + $35 monthly jitsu fee)
+    - Isabel Rehak: 100% (new owner, minus 2.9% credit card fee + $35 monthly jitsu fee)
+  - **Fee Structure:** 2.9% credit card fee applied to "paid at session" transactions, $35 monthly jitsu fee
+- **Technical Components:**
+  1. **Option A:** Add compensation columns to existing `providers` table
+     - `contract_type` (Owner/Independent Contractor)
+     - `compensation_type` (Tiered/Fixed/100%)
+     - `base_percentage` (for fixed rates)
+     - `owner_fees` (2.9% CC + $35 jitsu for owners)
+  2. **Option B:** Create separate `provider_contracts` table for business rules
+  3. **Option C:** Hybrid approach with both tables
+- **Success Criteria:**
+  - Accurate provider compensation calculations based on monthly revenue
+  - Proper fee application (2.9% CC fee on session payments, $35 monthly fee)
+  - Integration with business intelligence system for break-even analysis
+  - Support for dynamic provider additions and contract changes
+- **Testing Method:**
+  - Validate compensation calculations against manual calculations
+  - Test fee application logic with sample transaction data
+  - Verify tiered system calculations for different revenue levels
+  - Test owner vs contractor compensation differences
+- **Completion**: 2025-07-19 - 100% Pass Rate. Implemented provider compensation system with revenue-based tiered calculations for contractors (60%/65%/70% based on monthly revenue) and owner compensation with fee deductions (2.9% credit card fee on session payments + $35 monthly jitsu fee). Added compensation columns to existing providers table and created ProviderCompensationCalculator class with comprehensive business logic. Successfully tested with real data showing Dustin Nisley's September 2023 compensation calculation ($14,365.14 revenue × 70% = $10,055.60) and owner fee calculations.
+
+### 2. Lack of Automated Testing and Validation (**High Priority**)
 - **Problem:** No unit or integration tests present, risking undetected bugs and regressions.
 - **Next Steps:**
   1. Set up a `tests/` directory.
@@ -28,7 +58,7 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
   3. Integrate tests into the development workflow (e.g., pre-commit or CI).
 - **Completed:** 2025-07-13 - Tests directory created with initial tests for medical_billing_db.py, including fixtures and ORM-based testing.
 
-### 2. Insufficient Error Handling (**High Priority**)
+### 3. Insufficient Error Handling (**High Priority**)
 - **Problem:** Errors are mostly printed, not logged or handled gracefully. User feedback is limited.
 - **Next Steps:**
   1. Replace print statements with Python's `logging` module.
@@ -36,7 +66,7 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
   3. Log errors with context for easier debugging.
 - **Completed:** 2025-07-12 - Implemented structured logging in utils/logger.py with separate loggers for application and data quality issues.
 
-### 3. Hardcoded Paths and Configurations (**High Priority**)
+### 4. Hardcoded Paths and Configurations (**High Priority**)
 - **Problem:** Paths and settings are hardcoded, reducing portability and flexibility.
 - **Next Steps:**
   1. Move paths and settings to a config file (e.g., `config.json` or `.env`).
@@ -44,7 +74,7 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
   3. Update code to read from config.
 - **Completed:** 2025-07-12 - Created utils/config.py module that loads settings from config.json with environment variable overrides.
 
-### 4. Data Privacy and Security (**High Priority**)
+### 5. Data Privacy and Security (**High Priority**)
 - **Problem:** No explicit handling of sensitive data or privacy guidelines.
 - **Next Steps:**
   1. Document data privacy practices in a new markdown file.
@@ -52,28 +82,28 @@ This PRD outlines the key faults identified in the HVLC_DB codebase, prioritizes
   3. Add access controls or encryption as needed.
 - **Completed:** 2025-07-12 - Added utils/privacy.py with anonymize_dataframe, mask_patient_id, and generate_privacy_report functions.
 
-### 5. Scalability and Performance (**Medium Priority**)
+### 6. Scalability and Performance (**Medium Priority**)
 - **Problem:** All CSVs are loaded into memory, which may not scale for large datasets.
 - **Next Steps:**
   1. Implement chunked reading for large CSVs.
   2. Use database queries for large data operations instead of loading all data into Pandas.
 - **Completed:** 2025-07-12 - 100% Pass Rate. Implemented chunked CSV processing in the `utils/csv_processor.py` module, adding `count_csv_rows`, `estimate_memory_usage`, `get_optimal_chunksize`, and `process_csv_in_chunks` functions. Added `upload_csv_file` method to `MedicalBillingDB` class that processes CSV files in chunks to minimize memory usage. Updated main application and quick_start script to use the new chunked processing functionality. All tests pass.
 
-### 6. Code Duplication (**Medium Priority**)
+### 7. Code Duplication (**Medium Priority**)
 - **Problem:** Duplicate code for banners, prompts, and UI logic.
 - **Next Steps:**
   1. Refactor shared code into utility modules.
   2. Remove redundant code from scripts.
 - **Completed:** 2025-07-12 - Extracted common UI functions into utils/ui.py and removed duplicate code from main.py and medical_billing_ai.py.
 
-### 7. Lack of Linting and Type Checking (**Medium Priority**)
+### 8. Lack of Linting and Type Checking (**Medium Priority**)
 - **Problem:** No static analysis tools are set up.
 - **Next Steps:**
   1. Add `flake8` for linting and `mypy` for type checking.
   2. Fix any issues found by these tools.
 - **Completed:** 2025-07-14 - Added linting configuration and fixed primary linting issues in core modules.
 
-### 8. User Experience Improvements (**Low Priority**)
+### 9. User Experience Improvements (**Low Priority**)
 - **Problem:** CLI input validation and help messages could be improved; no web UI.
 - **Next Steps:**
   1. Add robust input validation and clearer help messages.

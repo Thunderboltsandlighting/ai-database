@@ -1,0 +1,138 @@
+{
+  "profiles": [
+    {
+      "name": "credit_card_payment",
+      "description": "Credit card payment transaction format",
+      "header_patterns": {
+        "transaction_id": [
+          "trans.?\\s*#",
+          "transaction\\s*id",
+          "id"
+        ],
+        "transaction_date": [
+          "trans.?\\s*date",
+          "date"
+        ],
+        "amount": [
+          "gross\\s*amt",
+          "amount",
+          "payment"
+        ],
+        "payment_type": [
+          "acct\\s*type",
+          "card\\s*type",
+          "type"
+        ],
+        "patient_name": [
+          "client\\s*name",
+          "patient",
+          "name"
+        ],
+        "provider_name": [
+          "provider"
+        ]
+      },
+      "column_mappings": {
+        "Trans. #": "transaction_id",
+        "Trans. Date": "transaction_date",
+        "Gross Amt": "amount",
+        "Acct Type": "payment_type",
+        "Client Name": "patient_name",
+        "Provider": "provider_name"
+      },
+      "sample_values": {},
+      "data_types": {},
+      "metadata": {}
+    },
+    {
+      "name": "insurance_claims",
+      "description": "Insurance claims payment format",
+      "header_patterns": {
+        "transaction_id": [
+          "row\\s*id",
+          "claim\\s*id",
+          "id"
+        ],
+        "transaction_date": [
+          "check\\s*date",
+          "date"
+        ],
+        "amount": [
+          "check\\s*amount",
+          "amount",
+          "payment"
+        ],
+        "cash_applied": [
+          "cash\\s*applied",
+          "applied\\s*amount"
+        ],
+        "payer_name": [
+          "payment\\s*from",
+          "payer",
+          "insurance"
+        ],
+        "provider_name": [
+          "provider"
+        ]
+      },
+      "column_mappings": {
+        "RowId": "transaction_id",
+        "Check Date": "transaction_date",
+        "Check Amount": "amount",
+        "Cash Applied": "cash_applied",
+        "Payment From": "payer_name",
+        "Provider": "provider_name"
+      },
+      "sample_values": {},
+      "data_types": {},
+      "metadata": {}
+    },
+    {
+      "name": "hendersonville_payments",
+      "description": "Hendersonville payment files with complex structure",
+      "header_patterns": {
+        "transaction_date": [
+          "check\\s*date",
+          "date"
+        ],
+        "posted_date": [
+          "date\\s*posted"
+        ],
+        "check_amount": [
+          "check\\s*amount",
+          "amount"
+        ],
+        "cash_applied": [
+          "cash\\s*applied",
+          "applied"
+        ],
+        "payer_name": [
+          "payment\\s*from",
+          "payer",
+          "reference"
+        ],
+        "provider_name": [
+          "provider"
+        ]
+      },
+      "column_mappings": {
+        "RowId": "transaction_id",
+        "Check Date": "transaction_date",
+        "Date Posted": "posted_date",
+        "Check Number": "check_number",
+        "Payment From": "payer_name",
+        "Reference": "reference",
+        "Check Amount": "check_amount",
+        "Cash Applied": "cash_applied",
+        "Provider": "provider_name"
+      },
+      "sample_values": {},
+      "data_types": {},
+      "metadata": {
+        "handles_continuation_rows": true,
+        "forward_fill_dates": true,
+        "use_check_amount_as_cash_applied": true
+      }
+    }
+  ]
+}

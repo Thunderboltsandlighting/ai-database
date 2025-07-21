@@ -1,0 +1,1135 @@
+2025-07-19 14:23:49,672 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-19 14:23:49,809 - hvlc_db - INFO - Loaded 3 format profiles from registry
+2025-07-19 14:23:49,809 - hvlc_db - INFO - Connecting to database at medical_billing.db
+2025-07-19 14:23:49,810 - hvlc_db - INFO - Database connection established and tables verified
+2025-07-19 14:23:49,810 - hvlc_db - INFO - Importing file csv_folder/billing/1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,810 - hvlc_db - INFO - Transforming file csv_folder/billing/1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,820 - hvlc_db - INFO - Starting upload of CSV data from 1-31-23 Payments-Hendersonville - Tammy M.csv with 161 records
+2025-07-19 14:23:49,820 - hvlc_db - WARNING - Row 0: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,821 - hvlc_db - ERROR - Error processing row 0 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,821 - hvlc_db - WARNING - Row 1: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,822 - hvlc_db - ERROR - Error processing row 1 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,822 - hvlc_db - WARNING - Row 2: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,822 - hvlc_db - ERROR - Error processing row 2 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,822 - hvlc_db - WARNING - Row 3: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,822 - hvlc_db - ERROR - Error processing row 3 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,822 - hvlc_db - WARNING - Row 4: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,823 - hvlc_db - ERROR - Error processing row 4 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,823 - hvlc_db - WARNING - Row 5: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,823 - hvlc_db - ERROR - Error processing row 5 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,823 - hvlc_db - WARNING - Row 6: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,824 - hvlc_db - ERROR - Error processing row 6 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,824 - hvlc_db - WARNING - Row 7: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,824 - hvlc_db - ERROR - Error processing row 7 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,824 - hvlc_db - WARNING - Row 8: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,824 - hvlc_db - ERROR - Error processing row 8 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,824 - hvlc_db - WARNING - Row 9: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,825 - hvlc_db - ERROR - Error processing row 9 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,825 - hvlc_db - WARNING - Row 10: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,825 - hvlc_db - ERROR - Error processing row 10 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,825 - hvlc_db - WARNING - Row 11: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,825 - hvlc_db - ERROR - Error processing row 11 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,825 - hvlc_db - WARNING - Row 12: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,826 - hvlc_db - ERROR - Error processing row 12 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,826 - hvlc_db - WARNING - Row 13: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,826 - hvlc_db - ERROR - Error processing row 13 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,826 - hvlc_db - WARNING - Row 14: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,827 - hvlc_db - ERROR - Error processing row 14 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,827 - hvlc_db - WARNING - Row 15: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,827 - hvlc_db - ERROR - Error processing row 15 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,827 - hvlc_db - WARNING - Row 16: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,828 - hvlc_db - ERROR - Error processing row 16 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,828 - hvlc_db - WARNING - Row 17: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,828 - hvlc_db - ERROR - Error processing row 17 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,828 - hvlc_db - WARNING - Row 18: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,828 - hvlc_db - ERROR - Error processing row 18 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,828 - hvlc_db - WARNING - Row 19: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,829 - hvlc_db - ERROR - Error processing row 19 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,829 - hvlc_db - WARNING - Row 20: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,829 - hvlc_db - ERROR - Error processing row 20 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,829 - hvlc_db - WARNING - Row 21: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,829 - hvlc_db - ERROR - Error processing row 21 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,829 - hvlc_db - WARNING - Row 22: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,830 - hvlc_db - ERROR - Error processing row 22 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,830 - hvlc_db - WARNING - Row 23: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,830 - hvlc_db - ERROR - Error processing row 23 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,830 - hvlc_db - WARNING - Row 24: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,830 - hvlc_db - ERROR - Error processing row 24 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,830 - hvlc_db - WARNING - Row 25: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,831 - hvlc_db - ERROR - Error processing row 25 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,831 - hvlc_db - WARNING - Row 26: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,831 - hvlc_db - ERROR - Error processing row 26 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,831 - hvlc_db - WARNING - Row 27: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,832 - hvlc_db - ERROR - Error processing row 27 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,832 - hvlc_db - WARNING - Row 28: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,832 - hvlc_db - ERROR - Error processing row 28 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,832 - hvlc_db - WARNING - Row 29: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,832 - hvlc_db - ERROR - Error processing row 29 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,832 - hvlc_db - WARNING - Row 30: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,833 - hvlc_db - ERROR - Error processing row 30 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,833 - hvlc_db - WARNING - Row 31: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,833 - hvlc_db - ERROR - Error processing row 31 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,833 - hvlc_db - WARNING - Row 32: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,833 - hvlc_db - ERROR - Error processing row 32 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,833 - hvlc_db - WARNING - Row 33: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,834 - hvlc_db - ERROR - Error processing row 33 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,834 - hvlc_db - WARNING - Row 34: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,834 - hvlc_db - ERROR - Error processing row 34 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,834 - hvlc_db - WARNING - Row 35: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,834 - hvlc_db - ERROR - Error processing row 35 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,834 - hvlc_db - WARNING - Row 36: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,835 - hvlc_db - ERROR - Error processing row 36 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,835 - hvlc_db - WARNING - Row 37: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,835 - hvlc_db - ERROR - Error processing row 37 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,835 - hvlc_db - WARNING - Row 38: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,835 - hvlc_db - ERROR - Error processing row 38 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,835 - hvlc_db - WARNING - Row 39: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,836 - hvlc_db - ERROR - Error processing row 39 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,836 - hvlc_db - WARNING - Row 40: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,836 - hvlc_db - ERROR - Error processing row 40 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,836 - hvlc_db - WARNING - Row 41: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,836 - hvlc_db - ERROR - Error processing row 41 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,836 - hvlc_db - WARNING - Row 42: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,837 - hvlc_db - ERROR - Error processing row 42 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,837 - hvlc_db - WARNING - Row 43: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,837 - hvlc_db - ERROR - Error processing row 43 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,837 - hvlc_db - WARNING - Row 44: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,837 - hvlc_db - ERROR - Error processing row 44 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,837 - hvlc_db - WARNING - Row 45: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,838 - hvlc_db - ERROR - Error processing row 45 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,838 - hvlc_db - WARNING - Row 46: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,839 - hvlc_db - ERROR - Error processing row 46 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,839 - hvlc_db - WARNING - Row 47: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,839 - hvlc_db - ERROR - Error processing row 47 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,839 - hvlc_db - WARNING - Row 48: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,840 - hvlc_db - ERROR - Error processing row 48 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,840 - hvlc_db - WARNING - Row 49: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,840 - hvlc_db - ERROR - Error processing row 49 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,840 - hvlc_db - WARNING - Row 50: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,840 - hvlc_db - ERROR - Error processing row 50 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,840 - hvlc_db - WARNING - Row 51: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,841 - hvlc_db - ERROR - Error processing row 51 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,841 - hvlc_db - WARNING - Row 52: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,841 - hvlc_db - ERROR - Error processing row 52 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,841 - hvlc_db - WARNING - Row 53: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,842 - hvlc_db - ERROR - Error processing row 53 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,842 - hvlc_db - WARNING - Row 54: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,842 - hvlc_db - ERROR - Error processing row 54 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,842 - hvlc_db - WARNING - Row 55: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,842 - hvlc_db - ERROR - Error processing row 55 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,842 - hvlc_db - WARNING - Row 56: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,843 - hvlc_db - ERROR - Error processing row 56 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,843 - hvlc_db - WARNING - Row 57: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,843 - hvlc_db - ERROR - Error processing row 57 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,843 - hvlc_db - WARNING - Row 58: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,843 - hvlc_db - ERROR - Error processing row 58 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,843 - hvlc_db - WARNING - Row 59: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,844 - hvlc_db - ERROR - Error processing row 59 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,844 - hvlc_db - WARNING - Row 60: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,844 - hvlc_db - ERROR - Error processing row 60 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,844 - hvlc_db - WARNING - Row 61: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,844 - hvlc_db - ERROR - Error processing row 61 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,845 - hvlc_db - WARNING - Row 62: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,845 - hvlc_db - ERROR - Error processing row 62 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,845 - hvlc_db - WARNING - Row 63: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,845 - hvlc_db - ERROR - Error processing row 63 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,845 - hvlc_db - WARNING - Row 64: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,845 - hvlc_db - ERROR - Error processing row 64 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,845 - hvlc_db - WARNING - Row 65: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,846 - hvlc_db - ERROR - Error processing row 65 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,846 - hvlc_db - WARNING - Row 66: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,846 - hvlc_db - ERROR - Error processing row 66 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,846 - hvlc_db - WARNING - Row 67: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,846 - hvlc_db - ERROR - Error processing row 67 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,847 - hvlc_db - WARNING - Row 68: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,847 - hvlc_db - ERROR - Error processing row 68 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,847 - hvlc_db - WARNING - Row 69: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,847 - hvlc_db - ERROR - Error processing row 69 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,847 - hvlc_db - WARNING - Row 70: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,847 - hvlc_db - ERROR - Error processing row 70 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,847 - hvlc_db - WARNING - Row 71: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,848 - hvlc_db - ERROR - Error processing row 71 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,848 - hvlc_db - WARNING - Row 72: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,848 - hvlc_db - ERROR - Error processing row 72 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,848 - hvlc_db - WARNING - Row 73: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,848 - hvlc_db - ERROR - Error processing row 73 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,848 - hvlc_db - WARNING - Row 74: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,849 - hvlc_db - ERROR - Error processing row 74 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,849 - hvlc_db - WARNING - Row 75: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,849 - hvlc_db - ERROR - Error processing row 75 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,849 - hvlc_db - WARNING - Row 76: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,849 - hvlc_db - ERROR - Error processing row 76 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,849 - hvlc_db - WARNING - Row 77: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,850 - hvlc_db - ERROR - Error processing row 77 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,850 - hvlc_db - WARNING - Row 78: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,850 - hvlc_db - ERROR - Error processing row 78 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,850 - hvlc_db - WARNING - Row 79: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,850 - hvlc_db - ERROR - Error processing row 79 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,850 - hvlc_db - WARNING - Row 80: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,851 - hvlc_db - ERROR - Error processing row 80 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,851 - hvlc_db - WARNING - Row 81: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,851 - hvlc_db - ERROR - Error processing row 81 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,851 - hvlc_db - WARNING - Row 82: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,852 - hvlc_db - ERROR - Error processing row 82 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,852 - hvlc_db - WARNING - Row 83: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,852 - hvlc_db - ERROR - Error processing row 83 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,852 - hvlc_db - WARNING - Row 84: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,852 - hvlc_db - ERROR - Error processing row 84 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,852 - hvlc_db - WARNING - Row 85: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,853 - hvlc_db - ERROR - Error processing row 85 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,853 - hvlc_db - WARNING - Row 86: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,853 - hvlc_db - ERROR - Error processing row 86 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,853 - hvlc_db - WARNING - Row 87: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,853 - hvlc_db - ERROR - Error processing row 87 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,853 - hvlc_db - WARNING - Row 88: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,854 - hvlc_db - ERROR - Error processing row 88 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,854 - hvlc_db - WARNING - Row 89: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,854 - hvlc_db - ERROR - Error processing row 89 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,854 - hvlc_db - WARNING - Row 90: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,854 - hvlc_db - ERROR - Error processing row 90 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,854 - hvlc_db - WARNING - Row 91: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,855 - hvlc_db - ERROR - Error processing row 91 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,855 - hvlc_db - WARNING - Row 92: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,855 - hvlc_db - ERROR - Error processing row 92 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,855 - hvlc_db - WARNING - Row 93: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,855 - hvlc_db - ERROR - Error processing row 93 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,855 - hvlc_db - WARNING - Row 94: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,856 - hvlc_db - ERROR - Error processing row 94 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,856 - hvlc_db - WARNING - Row 95: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,856 - hvlc_db - ERROR - Error processing row 95 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,856 - hvlc_db - WARNING - Row 96: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,856 - hvlc_db - ERROR - Error processing row 96 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,856 - hvlc_db - WARNING - Row 97: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,857 - hvlc_db - ERROR - Error processing row 97 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,857 - hvlc_db - WARNING - Row 98: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,857 - hvlc_db - ERROR - Error processing row 98 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,857 - hvlc_db - WARNING - Row 99: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,857 - hvlc_db - ERROR - Error processing row 99 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,857 - hvlc_db - WARNING - Row 100: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,858 - hvlc_db - ERROR - Error processing row 100 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,858 - hvlc_db - WARNING - Row 101: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,858 - hvlc_db - ERROR - Error processing row 101 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,858 - hvlc_db - WARNING - Row 102: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,858 - hvlc_db - ERROR - Error processing row 102 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,858 - hvlc_db - WARNING - Row 103: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,859 - hvlc_db - ERROR - Error processing row 103 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,859 - hvlc_db - WARNING - Row 104: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,859 - hvlc_db - ERROR - Error processing row 104 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,859 - hvlc_db - WARNING - Row 105: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,860 - hvlc_db - ERROR - Error processing row 105 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,860 - hvlc_db - WARNING - Row 106: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,860 - hvlc_db - ERROR - Error processing row 106 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,860 - hvlc_db - WARNING - Row 107: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,860 - hvlc_db - ERROR - Error processing row 107 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,860 - hvlc_db - WARNING - Row 108: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,861 - hvlc_db - ERROR - Error processing row 108 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,861 - hvlc_db - WARNING - Row 109: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,861 - hvlc_db - ERROR - Error processing row 109 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,861 - hvlc_db - WARNING - Row 110: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,861 - hvlc_db - ERROR - Error processing row 110 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,861 - hvlc_db - WARNING - Row 111: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,862 - hvlc_db - ERROR - Error processing row 111 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,862 - hvlc_db - WARNING - Row 112: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,862 - hvlc_db - ERROR - Error processing row 112 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,862 - hvlc_db - WARNING - Row 113: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,862 - hvlc_db - ERROR - Error processing row 113 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,862 - hvlc_db - WARNING - Row 114: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,863 - hvlc_db - ERROR - Error processing row 114 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,863 - hvlc_db - WARNING - Row 115: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,863 - hvlc_db - ERROR - Error processing row 115 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,863 - hvlc_db - WARNING - Row 116: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,863 - hvlc_db - ERROR - Error processing row 116 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,863 - hvlc_db - WARNING - Row 117: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,864 - hvlc_db - ERROR - Error processing row 117 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,864 - hvlc_db - WARNING - Row 118: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,864 - hvlc_db - ERROR - Error processing row 118 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,864 - hvlc_db - WARNING - Row 119: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,864 - hvlc_db - ERROR - Error processing row 119 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,864 - hvlc_db - WARNING - Row 120: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,865 - hvlc_db - ERROR - Error processing row 120 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,865 - hvlc_db - WARNING - Row 121: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,865 - hvlc_db - ERROR - Error processing row 121 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,865 - hvlc_db - WARNING - Row 122: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,865 - hvlc_db - ERROR - Error processing row 122 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,865 - hvlc_db - WARNING - Row 123: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,866 - hvlc_db - ERROR - Error processing row 123 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,866 - hvlc_db - WARNING - Row 124: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,866 - hvlc_db - ERROR - Error processing row 124 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,866 - hvlc_db - WARNING - Row 125: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,866 - hvlc_db - ERROR - Error processing row 125 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,866 - hvlc_db - WARNING - Row 126: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,867 - hvlc_db - ERROR - Error processing row 126 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,867 - hvlc_db - WARNING - Row 127: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,867 - hvlc_db - ERROR - Error processing row 127 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,867 - hvlc_db - WARNING - Row 128: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,867 - hvlc_db - ERROR - Error processing row 128 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,867 - hvlc_db - WARNING - Row 129: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,868 - hvlc_db - ERROR - Error processing row 129 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,868 - hvlc_db - WARNING - Row 130: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,868 - hvlc_db - ERROR - Error processing row 130 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,868 - hvlc_db - WARNING - Row 131: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,868 - hvlc_db - ERROR - Error processing row 131 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,868 - hvlc_db - WARNING - Row 132: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,869 - hvlc_db - ERROR - Error processing row 132 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,869 - hvlc_db - WARNING - Row 133: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,870 - hvlc_db - ERROR - Error processing row 133 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,870 - hvlc_db - WARNING - Row 134: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,871 - hvlc_db - ERROR - Error processing row 134 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,873 - hvlc_db - WARNING - Row 135: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,876 - hvlc_db - ERROR - Error processing row 135 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,876 - hvlc_db - WARNING - Row 136: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,876 - hvlc_db - ERROR - Error processing row 136 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,876 - hvlc_db - WARNING - Row 137: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,877 - hvlc_db - ERROR - Error processing row 137 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,877 - hvlc_db - WARNING - Row 138: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,934 - hvlc_db - ERROR - Error processing row 138 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,935 - hvlc_db - WARNING - Row 139: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,936 - hvlc_db - ERROR - Error processing row 139 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,936 - hvlc_db - WARNING - Row 140: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,937 - hvlc_db - ERROR - Error processing row 140 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,937 - hvlc_db - WARNING - Row 141: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,939 - hvlc_db - ERROR - Error processing row 141 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,939 - hvlc_db - WARNING - Row 142: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,939 - hvlc_db - ERROR - Error processing row 142 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,939 - hvlc_db - WARNING - Row 143: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,940 - hvlc_db - ERROR - Error processing row 143 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,940 - hvlc_db - WARNING - Row 144: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,941 - hvlc_db - ERROR - Error processing row 144 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,941 - hvlc_db - WARNING - Row 145: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,941 - hvlc_db - ERROR - Error processing row 145 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,941 - hvlc_db - WARNING - Row 146: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,941 - hvlc_db - ERROR - Error processing row 146 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,942 - hvlc_db - WARNING - Row 147: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,942 - hvlc_db - ERROR - Error processing row 147 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,942 - hvlc_db - WARNING - Row 148: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,943 - hvlc_db - ERROR - Error processing row 148 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,943 - hvlc_db - WARNING - Row 149: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,943 - hvlc_db - ERROR - Error processing row 149 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,943 - hvlc_db - WARNING - Row 150: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,944 - hvlc_db - ERROR - Error processing row 150 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,944 - hvlc_db - WARNING - Row 151: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,944 - hvlc_db - ERROR - Error processing row 151 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,944 - hvlc_db - WARNING - Row 152: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,944 - hvlc_db - ERROR - Error processing row 152 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,944 - hvlc_db - WARNING - Row 153: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,945 - hvlc_db - ERROR - Error processing row 153 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,945 - hvlc_db - WARNING - Row 154: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,945 - hvlc_db - ERROR - Error processing row 154 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,945 - hvlc_db - WARNING - Row 155: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,945 - hvlc_db - ERROR - Error processing row 155 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,946 - hvlc_db - WARNING - Row 156: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,946 - hvlc_db - ERROR - Error processing row 156 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,946 - hvlc_db - WARNING - Row 157: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,946 - hvlc_db - ERROR - Error processing row 157 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,946 - hvlc_db - WARNING - Row 158: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,947 - hvlc_db - ERROR - Error processing row 158 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,947 - hvlc_db - WARNING - Row 159: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,947 - hvlc_db - ERROR - Error processing row 159 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,947 - hvlc_db - WARNING - Row 160: Missing cash_applied value in 1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:23:49,947 - hvlc_db - ERROR - Error processing row 160 in 1-31-23 Payments-Hendersonville - Tammy M.csv: NOT NULL constraint failed: payment_transactions.transaction_date
+Traceback (most recent call last):
+  File "/Users/tim/Desktop/DB/HVLC_DB/medical_billing_db.py", line 386, in _process_dataframe
+    self.conn.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: payment_transactions.transaction_date
+
+2025-07-19 14:23:49,961 - hvlc_db - INFO - CSV upload completed: 0 successful, 161 failed, 322 issues

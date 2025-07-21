@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Upload CSV File</h5>
+    </div>
+    <div class="card-body">
+        <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="file" class="form-label">Select CSV File</label>
+                <input type="file" class="form-control" id="file" name="file" accept=".csv">
+            </div>
+            
+            {% if format_detection and formats %}
+            <div class="mb-3">
+                <label for="format_name" class="form-label">Format (optional)</label>
+                <select class="form-select" id="format_name" name="format_name">
+                    <option value="">Auto-detect</option>
+                    {% for format in formats %}
+                    <option value="{{ format }}">{{ format }}</option>
+                    {% endfor %}
+                </select>
+                <div class="form-text">If you know the format, select it. Otherwise, the system will try to detect it automatically.</div>
+            </div>
+            {% endif %}
+            
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+</div>
+
+{% if format_detection %}
+<div class="card mt-4">
+    <div class="card-header">
+        <h5 class="card-title">Format Detection</h5>
+    </div>
+    <div class="card-body">
+        <p>This system supports automatic detection of CSV formats. Upload a file to detect its format.</p>
+        
+        <div class="mt-3" id="formatDetection" style="display: none;">
+            <h6>Format Detection Results</h6>
+            <div class="alert alert-primary" id="detectionResult">
+                <div class="spinner-border spinner-border-sm" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                Detecting format...
+            </div>
+            
+            <div id="formatDetails" style="display: none;">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>Detected Format</th>
+                            <td id="detectedFormat"></td>
+                        </tr>
+                        <tr>
+                            <th>Confidence</th>
+                            <td id="confidence"></td>
+                        </tr>
+                        <tr>
+                            <th>Column Mappings</th>
+                            <td id="columnMappings"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if format_detection %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const fileInput = document.getElementById('file');
+        
+        fileInput.addEventListener('change', function() {
+            const file = fileInput.files[0];
+            if (file) {
+                // Only show format detection for CSV files
+                if (file.name.toLowerCase().endsWith('.csv')) {
+                    document.getElementById('formatDetection').style.display = 'block';
+                    document.getElementById('detectionResult').innerHTML = '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Loading...</span></div> Detecting format...';
+                    document.getElementById('formatDetails').style.display = 'none';
+                    
+                    // Create form data
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    
+                    // Send request
+                    fetch('/api/detect_format', {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.error) {
+                            document.getElementById('detectionResult').innerHTML = `<strong>Error:</strong> ${data.error}`;
+                        } else {
+                            document.getElementById('detectionResult').innerHTML = `Format detected!`;
+                            document.getElementById('formatDetails').style.display = 'block';
+                            document.getElementById('detectedFormat').textContent = data.format_name || 'Unknown';
+                            document.getElementById('confidence').textContent = data.confidence ? `${(data.confidence * 100).toFixed(1)}%` : 'N/A';
+                            
+                            // Show column mappings
+                            if (data.column_mappings) {
+                                let mappingHtml = '<ul class="list-group">';
+                                for (const [original, mapped] of Object.entries(data.column_mappings)) {
+                                    mappingHtml += `<li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>${original}</span>
+                                        <span class="badge bg-primary">${mapped}</span>
+                                    </li>`;
+                                }
+                                mappingHtml += '</ul>';
+                                document.getElementById('columnMappings').innerHTML = mappingHtml;
+                            } else {
+                                document.getElementById('columnMappings').textContent = 'None';
+                            }
+                            
+                            // Update format dropdown if format was detected
+                            if (data.format_name) {
+                                const formatSelect = document.getElementById('format_name');
+                                for (let i = 0; i < formatSelect.options.length; i++) {
+                                    if (formatSelect.options[i].value === data.format_name) {
+                                        formatSelect.selectedIndex = i;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        document.getElementById('detectionResult').innerHTML = `<strong>Error:</strong> ${error.message}`;
+                    });
+                } else {
+                    document.getElementById('formatDetection').style.display = 'none';
+                }
+            } else {
+                document.getElementById('formatDetection').style.display = 'none';
+            }
+        });
+    });
+</script>
+{% endif %}
+{% endblock %}

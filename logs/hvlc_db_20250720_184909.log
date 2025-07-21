@@ -1,0 +1,16 @@
+2025-07-20 18:49:09,877 - utils.multi_office_operations - INFO - Logger initialized with level INFO
+2025-07-20 18:49:09,880 - utils.multi_office_operations - INFO - Multi-office operations tables initialized
+2025-07-20 18:49:09,880 - utils.multi_office_operations - INFO - Provider analytics tables initialized
+2025-07-20 18:49:09,881 - utils.multi_office_operations - ERROR - Error calculating comfort zones: Execution failed on sql '
+                    SELECT 
+                        provider_id,
+                        AVG(session_count) as avg_sessions,
+                        MIN(session_count) as min_sessions,
+                        MAX(session_count) as max_sessions,
+                        COUNT(*) as data_points,
+                        STDDEV(session_count) as session_variance
+                    FROM office_provider_revenue
+                    WHERE provider_id = 'Dustin Nisley'
+                    GROUP BY provider_id
+                    HAVING COUNT(*) >= 5
+                ': no such function: STDDEV

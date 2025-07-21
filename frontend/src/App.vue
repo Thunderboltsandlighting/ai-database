@@ -1,5 +1,5 @@
 <template>
-  <v-app :theme="themeStore.currentTheme">
+  <v-app :theme="themeStore.effectiveTheme">
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
@@ -32,8 +32,8 @@
       <v-btn icon>
         <v-icon>mdi-help-circle</v-icon>
       </v-btn>
-      <v-btn icon @click="toggleTheme">
-        <v-icon>{{ themeStore.isDarkMode ? 'mdi-white-balance-sunny' : 'mdi-moon-waning-crescent' }}</v-icon>
+      <v-btn icon @click="toggleTheme" :title="themeTooltip">
+        <v-icon>{{ themeIcon }}</v-icon>
       </v-btn>
     </v-app-bar>
 
@@ -67,6 +67,8 @@ export default {
         { title: 'AI Chat', icon: 'mdi-chat', to: '/chat' },
         { title: 'File Upload', icon: 'mdi-file-upload', to: '/upload' },
         { title: 'Analysis', icon: 'mdi-chart-bar', to: '/analysis' },
+        { title: 'Operations', icon: 'mdi-office-building', to: '/operations' },
+        { title: 'Ada Settings', icon: 'mdi-robot', to: '/ada-settings' },
         { title: 'Settings', icon: 'mdi-cog', to: '/settings' },
       ],
     };
@@ -76,6 +78,32 @@ export default {
       const route = this.$route.path;
       const item = this.items.find(item => item.to === route);
       return item ? item.title : 'HVLC DB';
+    },
+    
+    themeIcon() {
+      switch(this.themeStore.currentTheme) {
+        case 'light':
+          return 'mdi-moon-waning-crescent';
+        case 'dark':
+          return 'mdi-white-balance-sunny';
+        case 'system':
+          return 'mdi-theme-light-dark';
+        default:
+          return 'mdi-theme-light-dark';
+      }
+    },
+    
+    themeTooltip() {
+      switch(this.themeStore.currentTheme) {
+        case 'light':
+          return 'Switch to dark mode';
+        case 'dark':
+          return 'Switch to system theme';
+        case 'system':
+          return 'Switch to light mode';
+        default:
+          return 'Toggle theme';
+      }
     }
   },
   methods: {

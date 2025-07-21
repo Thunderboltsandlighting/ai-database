@@ -1,0 +1,5 @@
+2025-07-20 13:42:50,952 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-20 13:42:51,061 - hvlc_db - INFO - Connecting to database at medical_billing.db
+2025-07-20 13:42:51,063 - hvlc_db - INFO - Database connection established and tables verified
+2025-07-20 13:42:51,071 - hvlc_db - INFO - Database backup created: backups/pre_historical_upload
+2025-07-20 13:42:51,071 - hvlc_db - WARNING - No year directories found in csv_folder/billing

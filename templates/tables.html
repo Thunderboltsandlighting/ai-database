@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Tables</h5>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    {% for table in tables %}
+                    <a href="{{ url_for('tables', table=table) }}" class="list-group-item list-group-item-action {% if table == selected_table %}active{% endif %}">
+                        {{ table }}
+                    </a>
+                    {% else %}
+                    <div class="list-group-item">No tables found</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-9">
+        {% if selected_table %}
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">{{ selected_table }}</h5>
+                <span class="badge bg-primary">{{ row_count }} rows</span>
+            </div>
+            <div class="card-body">
+                {% if table_data %}
+                <div class="table-responsive">
+                    {{ table_data.html|safe }}
+                </div>
+                
+                {% if row_count > limit %}
+                <nav aria-label="Table pagination">
+                    <ul class="pagination justify-content-center">
+                        {% if offset > 0 %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('tables', table=selected_table, offset=max(0, offset-limit), limit=limit) }}">Previous</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        {% endif %}
+                        
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">
+                                Page {{ (offset // limit) + 1 }} of {{ (row_count // limit) + 1 }}
+                            </a>
+                        </li>
+                        
+                        {% if offset + limit < row_count %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('tables', table=selected_table, offset=offset+limit, limit=limit) }}">Next</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                {% endif %}
+                {% else %}
+                <p>No data available for this table.</p>
+                {% endif %}
+            </div>
+        </div>
+        {% else %}
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Select a table from the list to view its contents.</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

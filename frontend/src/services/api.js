@@ -86,46 +86,33 @@ const databaseApi = {
   }
 };
 
-// AI API
-const aiApi = {
+// AI API endpoints
+export const aiApi = {
   /**
-   * Chat with the AI assistant
-   * @param {string} message - User message
-   * @param {Array} history - Chat history
-   */
-  chat(message, history = []) {
-    return apiClient.post('/ai/chat', { message, history });
-  },
-  
-  /**
-   * Send a query to the AI
-   * @param {string} query - Query text
-   */
-  query(query) {
-    return apiClient.post('/ai/query', { query });
-  },
-  
-  /**
-   * Get AI status
+   * Get AI service status
    */
   getStatus() {
     return apiClient.get('/ai/status');
   },
-  
+
   /**
-   * Get specialized analysis from AI
-   * @param {string} analysisType - Type of analysis
-   * @param {object} params - Analysis parameters
+   * Send message to AI chat
+   * @param {Object} data - Message data with message and history
    */
-  getAnalysis(analysisType, params = {}) {
-    return apiClient.post('/ai/specialized', {
-      analysis_type: analysisType,
-      parameters: params
-    });
+  sendMessage(data) {
+    return apiClient.post('/ai/chat', data);
   },
-  
+
   /**
-   * Get information about available data files and database content
+   * Legacy chat method for backward compatibility
+   * @param {string} message - Message to send
+   */
+  chat(message) {
+    return this.sendMessage({ message, history: [] });
+  },
+
+  /**
+   * Get data information
    */
   getDataInfo() {
     return apiClient.get('/ai/data-info');

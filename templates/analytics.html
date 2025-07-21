@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    {% for viz in visualizations %}
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">{{ viz.title }}</h5>
+            </div>
+            <div class="card-body">
+                <div id="{{ viz.id }}" style="height: 400px;"></div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+        <div class="alert alert-info">
+            No visualizations available. Try running some queries first.
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Custom Visualization</h5>
+            </div>
+            <div class="card-body">
+                <form id="visualization-form" class="mb-4">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="sql-query" class="form-label">SQL Query</label>
+                            <textarea class="form-control" id="sql-query" rows="4" placeholder="SELECT month, SUM(cash_applied) as revenue FROM payment_transactions GROUP BY month ORDER BY month"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row g-3">
+                                <div class="col-md-12">
+                                    <label for="viz-type" class="form-label">Visualization Type</label>
+                                    <select class="form-select" id="viz-type">
+                                        <option value="bar">Bar Chart</option>
+                                        <option value="line">Line Chart</option>
+                                        <option value="pie">Pie Chart</option>
+                                        <option value="scatter">Scatter Plot</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="x-column" class="form-label">X-Axis Column</label>
+                                    <input type="text" class="form-control" id="x-column" placeholder="month">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="y-column" class="form-label">Y-Axis Column</label>
+                                    <input type="text" class="form-control" id="y-column" placeholder="revenue">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">Generate Visualization</button>
+                        </div>
+                    </div>
+                </form>
+                
+                <div id="custom-visualization" style="height: 500px; display: none;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load predefined visualizations
+        {% for viz in visualizations %}
+        const data{{ loop.index }} = {{ viz.visualization|tojson }};
+        Plotly.newPlot('{{ viz.id }}', data{{ loop.index }}.data, data{{ loop.index }}.layout);
+        {% endfor %}
+        
+        // Custom visualization form
+        const vizForm = document.getElementById('visualization-form');
+        const customVizContainer = document.getElementById('custom-visualization');
+        
+        vizForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const sqlQuery = document.getElementById('sql-query').value;
+            const vizType = document.getElementById('viz-type').value;
+            const xColumn = document.getElementById('x-column').value;
+            const yColumn = document.getElementById('y-column').value;
+            
+            if (!sqlQuery) {
+                alert('Please enter a SQL query');
+                return;
+            }
+            
+            // Execute query and generate visualization
+            fetch('/api/query', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    query: sqlQuery,
+                    type: 'sql'
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(`Error: ${data.error}`);
+                    return;
+                }
+                
+                if (data.type !== 'dataframe' || !data.data || !data.data.length) {
+                    alert('Query must return tabular data for visualization');
+                    return;
+                }
+                
+                // Determine x and y columns if not provided
+                let x = xColumn || data.columns[0];
+                let y = yColumn || (data.columns.length > 1 ? data.columns[1] : data.columns[0]);
+                
+                // Create Plotly data
+                let plotData;
+                if (vizType === 'bar') {
+                    plotData = [{
+                        type: 'bar',
+                        x: data.data.map(row => row[x]),
+                        y: data.data.map(row => row[y]),
+                        text: data.data.map(row => row[y]),
+                        textposition: 'auto'
+                    }];
+                } else if (vizType === 'line') {
+                    plotData = [{
+                        type: 'scatter',
+                        mode: 'lines+markers',
+                        x: data.data.map(row => row[x]),
+                        y: data.data.map(row => row[y])
+                    }];
+                } else if (vizType === 'pie') {
+                    plotData = [{
+                        type: 'pie',
+                        labels: data.data.map(row => row[x]),
+                        values: data.data.map(row => row[y])
+                    }];
+                } else if (vizType === 'scatter') {
+                    plotData = [{
+                        type: 'scatter',
+                        mode: 'markers',
+                        x: data.data.map(row => row[x]),
+                        y: data.data.map(row => row[y])
+                    }];
+                }
+                
+                // Create layout
+                const layout = {
+                    title: 'Custom Visualization',
+                    xaxis: {
+                        title: x
+                    },
+                    yaxis: {
+                        title: y
+                    }
+                };
+                
+                // Display visualization
+                customVizContainer.style.display = 'block';
+                Plotly.newPlot('custom-visualization', plotData, layout);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert(`Error: ${error.message || 'Failed to generate visualization'}`);
+            });
+        });
+    });
+</script>
+{% endblock %}

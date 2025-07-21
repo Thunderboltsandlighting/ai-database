@@ -1,0 +1,5 @@
+2025-07-16 18:03:39,123 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-16 18:03:39,126 - hvlc_db - INFO - All required tables found
+2025-07-16 18:03:39,153 - hvlc_db - INFO - Database backed up to: medical_billing.db.backup_20250716_180339
+2025-07-16 18:03:39,156 - hvlc_db - INFO - Expense tables created successfully
+2025-07-16 18:03:39,157 - hvlc_db - ERROR - Failed to add expense tables: no such table: expense_categories

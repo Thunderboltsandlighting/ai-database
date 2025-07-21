@@ -1,0 +1,14 @@
+npm warn Unknown user config "python". This will stop working in the next major version of npm.
+
+> hvlc-db-frontend@0.1.0 dev
+> vite
+
+
+  VITE v4.5.14  ready in 225 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+(node:33861) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+10:28:56 PM [vite] page reload src/router/index.js
+10:29:18 PM [vite] hmr update /src/App.vue

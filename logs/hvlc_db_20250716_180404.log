@@ -1,0 +1,6 @@
+2025-07-16 18:04:04,150 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-16 18:04:04,151 - hvlc_db - INFO - All required tables found
+2025-07-16 18:04:04,177 - hvlc_db - INFO - Database backed up to: medical_billing.db.backup_20250716_180404
+2025-07-16 18:04:04,177 - hvlc_db - INFO - Expense tables created successfully
+2025-07-16 18:04:04,179 - hvlc_db - INFO - Expense tables and sample categories added successfully
+2025-07-16 18:04:04,180 - hvlc_db - INFO - Migration validation successful

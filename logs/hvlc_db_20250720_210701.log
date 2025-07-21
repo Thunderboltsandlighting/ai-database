@@ -1,0 +1,46 @@
+2025-07-20 21:07:01,589 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-20 21:07:01,900 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-20 21:07:01,901 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 21:07:07,801 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:07:07] "GET /api/ai/status HTTP/1.1" 200 -
+2025-07-20 21:07:13,336 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:08:12,177 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:08:12] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:08:19,197 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:08:47,425 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:08:47] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:11:36,308 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:12:00,403 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:12:00] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:24:45,595 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:25:23,795 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:25:23] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:31:48,464 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:32:17,768 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:32:17] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:35:37,956 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:36:09,348 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:36:09] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:38:39,459 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:39:07,700 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:39:07] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:44:08,974 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:44:57,121 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:44:57] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:45:23,966 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:45:50,938 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:45:50] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:50:07,402 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:50:42,363 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:50:42] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:52:20,606 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:52:54,655 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:52:54] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:53:52,507 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:54:14,055 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:14] "GET /api/ada/presets HTTP/1.1" 200 -
+2025-07-20 21:54:14,079 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:54:14,080 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:14] "GET /api/ada/personality HTTP/1.1" 200 -
+2025-07-20 21:54:14,097 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:14] "GET /api/ada/user-context HTTP/1.1" 200 -
+2025-07-20 21:54:14,109 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:14] "GET /api/ada/instructions HTTP/1.1" 200 -
+2025-07-20 21:54:14,225 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:14] "GET /api/ada/memories?limit=10 HTTP/1.1" 200 -
+2025-07-20 21:54:23,475 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:23] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 21:54:24,439 - utils.ada_memory - INFO - Updated personality: communication.tone = technical_detailed
+2025-07-20 21:54:24,440 - utils.ada_memory - INFO - Updated personality: analysis.depth = deep_analytical
+2025-07-20 21:54:24,441 - utils.ada_memory - INFO - Updated personality: analysis.proactivity = high
+2025-07-20 21:54:24,442 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "POST /api/ada/presets/technical HTTP/1.1" 200 -
+2025-07-20 21:54:24,459 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "GET /api/ada/presets HTTP/1.1" 200 -
+2025-07-20 21:54:24,481 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "GET /api/ada/personality HTTP/1.1" 200 -
+2025-07-20 21:54:24,491 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "GET /api/ada/user-context HTTP/1.1" 200 -
+2025-07-20 21:54:24,499 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "GET /api/ada/instructions HTTP/1.1" 200 -
+2025-07-20 21:54:24,600 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:54:24] "GET /api/ada/memories?limit=10 HTTP/1.1" 200 -
+2025-07-20 21:55:46,679 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 21:56:13,321 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 21:56:13] "POST /api/ai/chat HTTP/1.1" 200 -

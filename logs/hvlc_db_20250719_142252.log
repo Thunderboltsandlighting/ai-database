@@ -1,0 +1,8 @@
+2025-07-19 14:22:52,433 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-19 14:22:52,558 - hvlc_db - INFO - Loaded 3 format profiles from registry
+2025-07-19 14:22:52,558 - hvlc_db - INFO - Connecting to database at medical_billing.db
+2025-07-19 14:22:52,559 - hvlc_db - INFO - Database connection established and tables verified
+2025-07-19 14:22:52,559 - hvlc_db - INFO - Importing file csv_folder/billing/1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:22:52,559 - hvlc_db - INFO - Transforming file csv_folder/billing/1-31-23 Payments-Hendersonville - Tammy M.csv
+2025-07-19 14:22:52,559 - hvlc_db - ERROR - No transformation pipeline defined for format hendersonville_payments
+2025-07-19 14:22:52,560 - hvlc_db - ERROR - Transformation failed: No transformation pipeline defined for format hendersonville_payments

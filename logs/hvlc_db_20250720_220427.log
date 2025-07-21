@@ -1,0 +1,26 @@
+2025-07-20 22:04:27,070 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-20 22:04:27,208 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-20 22:04:27,208 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 22:04:34,036 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:04:34] "GET /api/analytics/dustin-overhead-analysis HTTP/1.1" 200 -
+2025-07-20 22:04:39,460 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:04:39] "GET /api/analytics/dustin-overhead-analysis HTTP/1.1" 200 -
+2025-07-20 22:09:00,036 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:09:00] "[33mGET /api/analytics/provider-overhead-analysis/Dustin HTTP/1.1[0m" 404 -
+2025-07-20 22:09:05,725 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:09:05] "[33mGET /api/analytics/provider-overhead-analysis/Dustin HTTP/1.1[0m" 404 -
+2025-07-20 22:09:12,777 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:09:12,779 - api.app - INFO - Dustin routing check - Dustin terms: False, Overhead terms: True
+2025-07-20 22:10:06,171 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:10:06] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:10:12,166 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:10:12,167 - api.app - INFO - Routing to provider comparison: ['Another Provider', 'Isabel Rehak']
+2025-07-20 22:10:12,170 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:10:12] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:12:24,299 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:12:24,303 - api.app - INFO - Dustin routing check - Dustin terms: True, Overhead terms: False
+2025-07-20 22:12:58,501 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:12:58] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:13:20,396 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:13:20,398 - api.app - INFO - Dustin routing check - Dustin terms: False, Overhead terms: False
+2025-07-20 22:13:55,262 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:13:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:18:03,158 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:18:03,162 - api.app - INFO - Dustin routing check - Dustin terms: False, Overhead terms: False
+2025-07-20 22:18:33,554 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:18:33] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 22:19:58,125 - utils.ada_memory - INFO - Ada memory database initialized successfully
+2025-07-20 22:19:58,129 - api.app - INFO - Dustin routing check - Dustin terms: False, Overhead terms: False
+2025-07-20 22:20:35,754 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 22:20:35] "POST /api/ai/chat HTTP/1.1" 200 -

@@ -1,0 +1,14 @@
+2025-07-20 11:51:24,683 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-20 11:51:24,840 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-20 11:51:24,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 11:52:12,564 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:52:12] "[33mPOST /api/ai/functions HTTP/1.1[0m" 404 -
+2025-07-20 11:52:15,815 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:52:15] "GET /api/ai/status HTTP/1.1" 200 -
+2025-07-20 11:52:29,246 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:52:29] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 12:39:55,361 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 12:39:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 12:48:19,628 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 12:48:19] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 12:48:28,895 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 12:48:28] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 12:48:59,996 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 12:48:59] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:13:42,858 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:13:42] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:14:09,436 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:14:09] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-20 13:31:34,158 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 13:31:34] "POST /api/ai/chat HTTP/1.1" 200 -

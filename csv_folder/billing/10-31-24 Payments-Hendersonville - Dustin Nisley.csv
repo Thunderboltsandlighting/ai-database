@@ -1,0 +1,156 @@
+RowId,Check Date,Date Posted,Check Number,Payment From,Reference,Check Amount,Cash Applied,Provider
+3491,9/2/2024,10/1/2024,,Amy Allen,Paid at session,75,,Dustin Nisley
+3492,,,,Amy Allen,Sess:09-02-2024(Amy Allen),,75,Dustin Nisley
+3493,9/4/2024,10/1/2024,,Hunter Stamps,Paid at session,30,,Dustin Nisley
+3494,,,,Hunter Stamps,Sess:09-04-2024(Hunter Stamps),,30,Dustin Nisley
+3495,9/5/2024,10/1/2024,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+3496,,,,Joseph Thomas,Sess:09-05-2024(Joseph Thomas),,35,Dustin Nisley
+3497,9/5/2024,10/1/2024,,Melissa Tinkler,Paid at session,10,,Dustin Nisley
+3498,,,,Melissa Tinkler,Sess:09-05-2024(Melissa Tinkler),,10,Dustin Nisley
+3499,9/6/2024,10/1/2024,,Michael Feige,Paid at session,124.28,,Dustin Nisley
+3500,,,,Michael Feige,Sess:09-06-2024(Michael Feige),,124.28,Dustin Nisley
+3501,9/9/2024,10/4/2024,,Connor Martin,Paid at session,10,,Dustin Nisley
+3502,,,,Connor Martin,Sess:09-09-2024(Connor Martin),,10,Dustin Nisley
+3503,9/10/2024,10/1/2024,,Josiah Simpson,Paid at session,20,,Dustin Nisley
+3504,,,,Josiah Simpson,Sess:09-10-2024(Josiah Simpson),,20,Dustin Nisley
+3505,9/10/2024,10/10/2024,,Shannon Allison,Paid at session,10,,Dustin Nisley
+3506,,,,Shannon Allison,Sess:09-10-2024(Shannon Allison),,10,Dustin Nisley
+3507,9/11/2024,10/4/2024,,Pete Martin,Paid at session,10,,Dustin Nisley
+3508,,,,Pete Martin,Sess:09-11-2024(Pete Martin),,10,Dustin Nisley
+3509,9/11/2024,10/4/2024,,Hunter Stamps,Paid at session,30,,Dustin Nisley
+3510,,,,Hunter Stamps,Sess:09-11-2024(Hunter Stamps),,30,Dustin Nisley
+3511,9/17/2024,10/4/2024,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+3512,,,,Matthew Dorman,Sess:09-17-2024(Matthew Dorman),,25,Dustin Nisley
+3513,9/18/2024,10/4/2024,,Jessica Parce,Paid at session,35,,Dustin Nisley
+3514,,,,Jessica Parce,Sess:09-18-2024(Jessica Parce),,35,Dustin Nisley
+3515,9/20/2024,10/4/2024,,Brandon Trivette,Paid at session,25,,Dustin Nisley
+3516,,,,Brandon Trivette,Sess:09-20-2024(Brandon Trivette),,25,Dustin Nisley
+3517,9/23/2024,10/1/2024,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+3518,,,,Tyrel Keplinger,Sess:09-23-2024(Tyrel Keplinger),,150,Dustin Nisley
+3519,9/23/2024,10/7/2024,,Benjamin Melton,Paid at session,35,,Dustin Nisley
+3520,,,,Benjamin Melton,Sess:09-23-2024(Benjamin Melton),,35,Dustin Nisley
+3521,9/24/2024,10/10/2024,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+3522,,,,Charles Whitehouse,Sess:09-24-2024(Charles Whitehouse),,30,Dustin Nisley
+3523,9/24/2024,10/8/2024,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+3524,,,,Matthew Dorman,Sess:09-24-2024(Matthew Dorman),,25,Dustin Nisley
+3525,9/24/2024,10/1/2024,,Alyssa ODette,Paid at session,57,,Dustin Nisley
+3526,,,,Alyssa ODette,Sess:09-24-2024(Alyssa ODette),,57,Dustin Nisley
+3527,9/25/2024,10/1/2024,,Roman Langston,Paid at session,150,,Dustin Nisley
+3528,,,,Roman Langston,Sess:09-25-2024(Roman Langston),,150,Dustin Nisley
+3529,9/26/2024,10/7/2024,,Justin Lovelace,Paid at session,36.85,,Dustin Nisley
+3530,,,,Justin Lovelace,Sess:09-26-2024(Justin Lovelace),,36.85,Dustin Nisley
+3531,9/27/2024,10/1/2024,24269B100002257400,BCBS NC (North Carolina),ERAM_BCBS_NC_24269B100002257400_092624_0104.MCP.xm,208.56,,Dustin Nisley
+3532,,,,BCBS NC (North Carolina),Sess:09-05-2024(Melissa Tinkler),,114.28,Dustin Nisley
+3533,,,,BCBS NC (North Carolina),Sess:09-06-2024(Michael Feige),,0,Dustin Nisley
+3534,,,,BCBS NC (North Carolina),Sess:09-02-2024(Amy Allen),,0,Dustin Nisley
+3535,,,,BCBS NC (North Carolina),Sess:09-04-2024(Hunter Stamps),,94.28,Dustin Nisley
+3536,9/27/2024,10/1/2024,24269B100009424200,BCBS NC (North Carolina),ERAM_BCBS_NC_24269B100009424200_092624_0039.MCP.xm,104.28,,Dustin Nisley
+3537,,,,BCBS NC (North Carolina),Sess:09-10-2024(Josiah Simpson),,104.28,Dustin Nisley
+3538,9/27/2024,10/1/2024,550483103,UMR - Wausau/UHIS,ERAM_UMR_550483103_092724_0000.MCP.xml,69.79,,Dustin Nisley
+3539,,,,UMR - Wausau/UHIS,Sess:09-05-2024(Joseph Thomas),,69.79,Dustin Nisley
+3540,10/1/2024,10/4/2024,240928090066011,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_240928090066011_100124_0,72,,Dustin Nisley
+3541,,,,CIGNA,Sess:09-20-2024(Brandon Trivette),,72,Dustin Nisley
+3542,10/2/2024,10/4/2024,5835330,BCBS NC (North Carolina),ERAM_BCBS_NC_5835330_100124_0338.MCP.xml,176.28,,Dustin Nisley
+3543,,,,BCBS NC (North Carolina),Sess:09-17-2024(Ashley Giordano),,87,Dustin Nisley
+3544,,,,BCBS NC (North Carolina),Sess:09-18-2024(Jessica Parce),,89.28,Dustin Nisley
+3545,10/2/2024,10/4/2024,24274B100019286600,BCBS NC (North Carolina),ERAM_BCBS_NC_24274B100019286600_100124_0015.MCP.xm,211.13,,Dustin Nisley
+3546,,,,BCBS NC (North Carolina),Sess:09-18-2024(Joceline Ordonez),,111.85,Dustin Nisley
+3547,,,,BCBS NC (North Carolina),Sess:09-17-2024(Matthew Dorman),,99.28,Dustin Nisley
+3548,10/2/2024,10/4/2024,24274B100011647400,BCBS NC (North Carolina),ERAM_BCBS_NC_24274B100011647400_100124_0064.MCP.xm,282.86,,Dustin Nisley
+3549,,,,BCBS NC (North Carolina),Sess:09-09-2024(Connor Martin),,74.3,Dustin Nisley
+3550,,,,BCBS NC (North Carolina),Sess:09-11-2024(Pete Martin),,114.28,Dustin Nisley
+3551,,,,BCBS NC (North Carolina),Sess:09-11-2024(Hunter Stamps),,94.28,Dustin Nisley
+3552,10/4/2024,10/4/2024,24276B100010117900,BCBS NC (North Carolina),ERAM_BCBS_NC_24276B100010117900_100324_0051.MCP.xm,94.28,,Dustin Nisley
+3553,,,,BCBS NC (North Carolina),Sess:09-18-2024(Aurora Palmer),,94.28,Dustin Nisley
+3554,10/7/2024,10/7/2024,5853580,BCBS NC (North Carolina),ERAM_BCBS_NC_5853580_100424_0204.MCP.xml,89.28,,Dustin Nisley
+3555,,,,BCBS NC (North Carolina),Sess:09-23-2024(Benjamin Melton),,89.28,Dustin Nisley
+3556,10/8/2024,10/7/2024,24278B100012688400,BCBS NC (North Carolina),ERAM_BCBS_NC_24278B100012688400_100624_0080.MCP.xm,87.43,,Dustin Nisley
+3557,,,,BCBS NC (North Carolina),Sess:09-26-2024(Justin Lovelace),,87.43,Dustin Nisley
+3558,10/8/2024,10/8/2024,NC77006286,BCBS NC (North Carolina),ERAM_BCBS_NC_NC77006286_100724_0002.MCP.xml,0,,Dustin Nisley
+3559,,,,BCBS NC (North Carolina),Sess:08-29-2024(Karli Wood),,0,Dustin Nisley
+3560,10/8/2024,10/8/2024,24279B100005792500,BCBS NC (North Carolina),ERAM_BCBS_NC_24279B100005792500_100724_0051.MCP.xm,99.28,,Dustin Nisley
+3561,,,,BCBS NC (North Carolina),Sess:09-24-2024(Matthew Dorman),,99.28,Dustin Nisley
+3562,10/8/2024,10/8/2024,,CIGNA,Carol / Teri,194,,Dustin Nisley
+3563,,,,CIGNA,Sess:08-06-2024(Shannon Allison),,97,Dustin Nisley
+3564,,,,CIGNA,Sess:08-27-2024(Shannon Allison),,97,Dustin Nisley
+3565,10/10/2024,10/10/2024,,CIGNA,Carol / Teri,72,,Dustin Nisley
+3566,,,,CIGNA,Sess:09-10-2024(Shannon Allison),,72,Dustin Nisley
+3567,10/11/2024,10/10/2024,W300272022,UBH - United Behavioral Health,ERAM_OPTUM_W300272022_100924_0000.MCP.xml,74.79,,Dustin Nisley
+3568,,,,UBH - United Behavioral Health,Sess:09-24-2024(Charles Whitehouse),,74.79,Dustin Nisley
+3569,9/18/2024,10/14/2024,,Abbigaile Martin,Paid at session,10,,Dustin Nisley
+3570,,,,Abbigaile Martin,Sess:09-18-2024(Abbigaile Martin),,10,Dustin Nisley
+3571,9/18/2024,10/14/2024,,Hunter Stamps,Paid at session,30,,Dustin Nisley
+3572,,,,Hunter Stamps,Sess:09-18-2024(Hunter Stamps),,30,Dustin Nisley
+3573,9/19/2024,10/14/2024,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+3574,,,,Joseph Thomas,Sess:09-19-2024(Joseph Thomas),,35,Dustin Nisley
+3575,9/19/2024,10/14/2024,,Melissa Tinkler,Paid at session,10,,Dustin Nisley
+3576,,,,Melissa Tinkler,Sess:09-19-2024(Melissa Tinkler),,10,Dustin Nisley
+3577,9/20/2024,10/14/2024,,Michael Feige,Paid at session,124.28,,Dustin Nisley
+3578,,,,Michael Feige,Sess:09-20-2024(Michael Feige),,124.28,Dustin Nisley
+3579,9/23/2024,10/17/2024,,Amy Allen,Paid at session,100,,Dustin Nisley
+3580,,,,Amy Allen,Sess:09-23-2024(Amy Allen),,100,Dustin Nisley
+3581,9/23/2024,10/17/2024,,Connor Martin,Paid at session,10,,Dustin Nisley
+3582,,,,Connor Martin,Sess:09-23-2024(Connor Martin),,10,Dustin Nisley
+3583,9/24/2024,10/14/2024,,Josiah Simpson,Paid at session,20,,Dustin Nisley
+3584,,,,Josiah Simpson,Sess:09-24-2024(Josiah Simpson),,20,Dustin Nisley
+3585,9/25/2024,10/17/2024,,Pete Martin,Paid at session,10,,Dustin Nisley
+3586,,,,Pete Martin,Sess:09-25-2024(Pete Martin),,10,Dustin Nisley
+3587,9/25/2024,10/17/2024,,Hunter Stamps,Paid at session,30,,Dustin Nisley
+3588,,,,Hunter Stamps,Sess:09-25-2024(Hunter Stamps),,30,Dustin Nisley
+3589,10/7/2024,10/17/2024,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+3590,,,,Tyrel Keplinger,Sess:10-07-2024(Tyrel Keplinger),,150,Dustin Nisley
+3591,10/8/2024,10/17/2024,,Alyssa ODette,Paid at session,75,,Dustin Nisley
+3592,,,,Alyssa ODette,Sess:10-08-2024(Alyssa ODette),,75,Dustin Nisley
+3593,10/9/2024,10/17/2024,,Roman Langston,Paid at session,150,,Dustin Nisley
+3594,,,,Roman Langston,Sess:10-09-2024(Roman Langston),,150,Dustin Nisley
+3595,10/11/2024,10/14/2024,557290894,UMR - Wausau/UHIS,ERAM_RELAY_HEALTH_557290894_101124_0000.MCP.xml,69.79,,Dustin Nisley
+3596,,,,UMR - Wausau/UHIS,Sess:09-19-2024(Joseph Thomas),,69.79,Dustin Nisley
+3597,10/15/2024,10/14/2024,24284B100004194200,BCBS NC (North Carolina),ERAM_BCBS_NC_24284B100004194200_101124_0086.MCP.xm,332.84,,Dustin Nisley
+3598,,,,BCBS NC (North Carolina),Sess:09-19-2024(Melissa Tinkler),,124.28,Dustin Nisley
+3599,,,,BCBS NC (North Carolina),Sess:09-18-2024(Abbigaile Martin),,114.28,Dustin Nisley
+3600,,,,BCBS NC (North Carolina),Sess:09-20-2024(Michael Feige),,0,Dustin Nisley
+3601,,,,BCBS NC (North Carolina),Sess:09-18-2024(Hunter Stamps),,94.28,Dustin Nisley
+3602,10/16/2024,10/14/2024,24285B100011550200,BCBS NC (North Carolina),ERAM_BCBS_NC_24285B100011550200_101324_0022.MCP.xm,104.28,,Dustin Nisley
+3603,,,,BCBS NC (North Carolina),Sess:09-24-2024(Josiah Simpson),,104.28,Dustin Nisley
+3604,10/17/2024,10/17/2024,24289B100004766700,BCBS NC (North Carolina),ERAM_BCBS_NC_24289B100004766700_101624_0053.MCP.xm,222.16,,Dustin Nisley
+3605,,,,BCBS NC (North Carolina),Sess:09-23-2024(Connor Martin),,53.87,Dustin Nisley
+3606,,,,BCBS NC (North Carolina),Sess:09-25-2024(Pete Martin),,74.01,Dustin Nisley
+3607,,,,BCBS NC (North Carolina),Sess:09-25-2024(Hunter Stamps),,94.28,Dustin Nisley
+3608,,,,BCBS NC (North Carolina),Sess:09-23-2024(Amy Allen),,0,Dustin Nisley
+3609,7/1/2024,10/25/2024,,Amy Allen,Paid at session,104.04,,Dustin Nisley
+3610,,,,Amy Allen,Sess:07-01-2024(Amy Allen),,104.04,Dustin Nisley
+3611,10/2/2024,10/25/2024,,Abbigaile Martin,Paid at session,10,,Dustin Nisley
+3612,,,,Abbigaile Martin,Sess:10-02-2024(Abbigaile Martin),,10,Dustin Nisley
+3613,10/7/2024,10/25/2024,,Jacob Kandrak,Paid at session,30,,Dustin Nisley
+3614,,,,Jacob Kandrak,Sess:10-07-2024(Jacob Kandrak),,30,Dustin Nisley
+3615,10/8/2024,10/25/2024,,Charles Whitehouse,Paid at session,30,,Dustin Nisley
+3616,,,,Charles Whitehouse,Sess:10-08-2024(Charles Whitehouse),,30,Dustin Nisley
+3617,10/8/2024,10/25/2024,,Justin Lovelace,Paid at session,36.85,,Dustin Nisley
+3618,,,,Justin Lovelace,Sess:10-08-2024(Justin Lovelace),,36.85,Dustin Nisley
+3619,10/8/2024,10/25/2024,,Matthew Dorman,Paid at session,25,,Dustin Nisley
+3620,,,,Matthew Dorman,Sess:10-08-2024(Matthew Dorman),,25,Dustin Nisley
+3621,10/9/2024,10/25/2024,,Joceline Ordonez,Paid at session,12.43,,Dustin Nisley
+3622,,,,Joceline Ordonez,Sess:10-09-2024(Joceline Ordonez),,12.43,Dustin Nisley
+3623,10/23/2024,10/25/2024,24295B100017388100,BCBS NC (North Carolina),ERAM_BCBS_NC_24295B100017388100_102224_0062.MCP.xm,171.15,,Dustin Nisley
+3624,,,,BCBS NC (North Carolina),Sess:10-09-2024(Joceline Ordonez),,111.85,Dustin Nisley
+3625,,,,BCBS NC (North Carolina),Sess:10-08-2024(Matthew Dorman),,59.3,Dustin Nisley
+3626,10/23/2024,10/25/2024,24295B100010243000,BCBS NC (North Carolina),ERAM_BCBS_NC_24295B100010243000_102224_0082.MCP.xm,74.3,,Dustin Nisley
+3627,,,,BCBS NC (North Carolina),Sess:10-02-2024(Abbigaile Martin),,74.3,Dustin Nisley
+3628,10/23/2024,10/25/2024,241019090065436,CIGNA,ERAM_EVERNORTH_BEHAVIORAL_241019090065436_102324_0,67,,Dustin Nisley
+3629,,,,CIGNA,Sess:10-07-2024(Jacob Kandrak),,67,Dustin Nisley
+3630,10/24/2024,10/25/2024,24296B100012495300,BCBS NC (North Carolina),ERAM_BCBS_NC_24296B100012495300_102324_0147.MCP.xm,87.43,,Dustin Nisley
+3631,,,,BCBS NC (North Carolina),Sess:10-08-2024(Justin Lovelace),,87.43,Dustin Nisley
+3632,10/25/2024,10/25/2024,,BCBS NC (North Carolina),Amber-client not cvd for dos,0,,Dustin Nisley
+3633,,,,BCBS NC (North Carolina),Sess:07-01-2024(Amy Allen),,0,Dustin Nisley
+3634,10/25/2024,10/25/2024,W301765367,UBH - United Behavioral Health,ERAM_OPTUM_W301765367_102324_0000.MCP.xml,74.79,,Dustin Nisley
+3635,,,,UBH - United Behavioral Health,Sess:10-08-2024(Charles Whitehouse),,74.79,Dustin Nisley
+3636,10/3/2024,10/30/2024,,Joseph Thomas,Paid at session,35,,Dustin Nisley
+3637,,,,Joseph Thomas,Sess:10-03-2024(Joseph Thomas),,35,Dustin Nisley
+3638,10/14/2024,10/28/2024,,Susan Wilson,Paid at session,75,,Dustin Nisley
+3639,,,,Susan Wilson,Sess:10-14-2024(Susan Wilson),,75,Dustin Nisley
+3640,10/15/2024,10/28/2024,,Alyssa ODette,Paid at session,57,,Dustin Nisley
+3641,,,,Alyssa ODette,Sess:10-15-2024(Alyssa ODette),,57,Dustin Nisley
+3642,10/21/2024,10/28/2024,,Tyrel Keplinger,Paid at session,150,,Dustin Nisley
+3643,,,,Tyrel Keplinger,Sess:10-21-2024(Tyrel Keplinger),,150,Dustin Nisley
+3644,10/25/2024,10/30/2024,564113727,UMR - Wausau/UHIS,ERAM_UMR_564113727_102624_0000.MCP.xml,69.79,,Dustin Nisley
+3645,,,,UMR - Wausau/UHIS,Sess:10-03-2024(Joseph Thomas),,69.79,Dustin Nisley

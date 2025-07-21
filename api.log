@@ -1,0 +1,27 @@
+✅ Loaded configuration from config.json
+2025-07-14 15:36:32,576 - hvlc_db - INFO - Logger initialized with level INFO
+Starting HVLC_DB API Server at http://127.0.0.1:5001
+Running in development mode
+Debug mode: disabled
+Press Ctrl+C to stop
+ * Serving Flask app 'api.app'
+ * Debug mode: off
+2025-07-14 15:36:32,713 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-14 15:36:32,713 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 15:36:41,383 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:36:41] "GET /api/ai/status HTTP/1.1" 200 -
+2025-07-14 15:37:11,064 - api.app - ERROR - Error getting top provider: no such column: p.name
+2025-07-14 15:37:11,064 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:37:11] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-14 15:37:39,533 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:37:39] "GET /api/database/stats HTTP/1.1" 200 -
+2025-07-14 15:37:39,595 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:37:39] "OPTIONS /api/database/query HTTP/1.1" 200 -
+2025-07-14 15:37:39,653 - api.app - ERROR - Error executing query: Execution failed on sql 'SELECT SUM(amount) as total, AVG(amount) as average FROM payment_transactions': no such column: amount
+2025-07-14 15:37:39,653 - api.app - ERROR - Error executing query: Execution failed on sql 'SELECT SUM(amount) as total, AVG(amount) as average FROM payment_transactions': no such column: amount
+2025-07-14 15:37:39,653 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:37:39] "[31m[1mPOST /api/database/query HTTP/1.1[0m" 400 -
+2025-07-14 15:38:14,496 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:14] "GET /api/database/stats HTTP/1.1" 200 -
+2025-07-14 15:38:14,503 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:14] "OPTIONS /api/database/query HTTP/1.1" 200 -
+2025-07-14 15:38:14,507 - api.app - ERROR - Error executing query: Execution failed on sql 'SELECT SUM(amount) as total, AVG(amount) as average FROM payment_transactions': no such column: amount
+2025-07-14 15:38:14,507 - api.app - ERROR - Error executing query: Execution failed on sql 'SELECT SUM(amount) as total, AVG(amount) as average FROM payment_transactions': no such column: amount
+2025-07-14 15:38:14,507 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:14] "[31m[1mPOST /api/database/query HTTP/1.1[0m" 400 -
+2025-07-14 15:38:22,258 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:22] "GET /api/database/tables HTTP/1.1" 200 -
+2025-07-14 15:38:22,272 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:22] "GET /api/database/tables/providers HTTP/1.1" 200 -
+2025-07-14 15:38:30,464 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 15:38:30] "GET /api/ai/status HTTP/1.1" 200 -

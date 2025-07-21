@@ -1,0 +1,36 @@
+{
+  "file_path": "docs/menu_flow.md",
+  "file_type": "markdown",
+  "filename": "menu_flow.md",
+  "processed_time": 1752459094.863852,
+  "metadata": {
+    "title": "HVLC_DB Menu Flow and Query Routing",
+    "headers": [
+      {
+        "level": 1,
+        "text": "HVLC_DB Menu Flow and Query Routing"
+      },
+      {
+        "level": 2,
+        "text": "Main Menu Structure"
+      },
+      {
+        "level": 2,
+        "text": "Query Routing Logic"
+      },
+      {
+        "level": 2,
+        "text": "Medical Billing AI Query Classification"
+      },
+      {
+        "level": 2,
+        "text": "Improved AI Timeout Handling"
+      },
+      {
+        "level": 2,
+        "text": "Using the SQL Agent"
+      }
+    ]
+  },
+  "full_text": "# HVLC_DB Menu Flow and Query Routing\n\nThis document outlines the menu structure and query routing logic of the HVLC_DB application.\n\n## Main Menu Structure\n\n```\nHVLC_DB Main Menu\n\u2502\n\u251c\u2500\u2500 1. Ask a question\n\u2502   \u2514\u2500\u2500 Routes query based on content:\n\u2502       \u251c\u2500\u2500 SQL Agent (if available and query is complex)\n\u2502       \u251c\u2500\u2500 Direct Database Query (for revenue, provider analysis, etc.)\n\u2502       \u251c\u2500\u2500 Vector Search (for document-related queries)\n\u2502       \u2514\u2500\u2500 General Analysis (for other types of queries)\n\u2502\n\u251c\u2500\u2500 2. Show data overview\n\u2502   \u2514\u2500\u2500 Displays summary statistics about the database\n\u2502\n\u251c\u2500\u2500 3. Show suggested questions\n\u2502   \u2514\u2500\u2500 Lists example queries and allows selection\n\u2502\n\u251c\u2500\u2500 4. Show available columns\n\u2502   \u2514\u2500\u2500 Lists all columns in the dataset\n\u2502\n\u251c\u2500\u2500 5. Show session clarifications\n\u2502   \u2514\u2500\u2500 Shows how ambiguous terms are mapped to database columns\n\u2502\n\u251c\u2500\u2500 6. Upload CSV file\n\u2502   \u2514\u2500\u2500 Processes and imports CSV data into the database\n\u2502\n\u251c\u2500\u2500 7. Help\n\u2502   \u2514\u2500\u2500 Displays detailed help information\n\u2502\n\u251c\u2500\u2500 8. Ask advanced SQL question (if SQL Agent available)\n\u2502   \u2514\u2500\u2500 Direct access to the SQL Agent for complex queries\n\u2502\n\u251c\u2500\u2500 9/10. Launch Medical Billing AI Assistant\n\u2502   \u2514\u2500\u2500 Interactive chat with the standard AI assistant\n\u2502\n\u251c\u2500\u2500 10/11. Launch Improved Medical Billing AI (if available)\n\u2502   \u2514\u2500\u2500 Interactive chat with enhanced AI with better timeout handling\n\u2502\n\u2514\u2500\u2500 Exit\n```\n\n## Query Routing Logic\n\nWhen you ask a question, the system determines the best way to handle it:\n\n```\nUser Query\n\u2502\n\u251c\u2500\u2500 Starts with \"sql:\" and SQL Agent available?\n\u2502   \u2514\u2500\u2500 YES \u2192 Process with SQL Agent\n\u2502\n\u251c\u2500\u2500 Contains complex analytical keywords and SQL Agent available?\n\u2502   \u2514\u2500\u2500 YES \u2192 Process with SQL Agent (with timeout protection)\n\u2502\n\u251c\u2500\u2500 Contains database query indicators (revenue, providers, etc.)?\n\u2502   \u2514\u2500\u2500 YES \u2192 Use direct database query for efficiency\n\u2502\n\u251c\u2500\u2500 Contains document query indicators (find file, where is, etc.)?\n\u2502   \u2514\u2500\u2500 YES \u2192 Use vector search for document retrieval\n\u2502\n\u251c\u2500\u2500 Clarification needed for ambiguous terms?\n\u2502   \u2514\u2500\u2500 YES \u2192 Ask user to clarify terms like \"revenue\", \"date\", etc.\n\u2502\n\u2514\u2500\u2500 Process with general query engine\n```\n\n## Medical Billing AI Query Classification\n\nThe Medical Billing AI classifies queries into the following types:\n\n1. **Performance Review**: Reviews for providers or company-wide performance\n2. **Revenue Analysis**: Questions about revenue, totals, and earnings\n3. **Provider Analysis**: Information about specific providers\n4. **Time Analysis**: Trends over time (monthly, yearly, etc.)\n5. **Payer Analysis**: Information about insurance payers\n6. **Executive Summary**: High-level overviews and reports\n7. **Data Quality**: Analysis of data quality issues\n8. **General Analysis**: Any other type of question\n\n## Improved AI Timeout Handling\n\nThe Improved Medical Billing AI handles timeouts with these steps:\n\n1. First attempt: Use full prompt\n2. If timeout occurs:\n   - First retry: Truncate prompt to half size\n   - Second retry: Extract just the question and key data points\n   - Final retry: Ultra-simplified prompt with just the question\n3. If all retries fail, fallback to simpler processing\n\n## Using the SQL Agent\n\nFor complex analytical queries, prefix with \"sql:\" to ensure the SQL agent processes your query. Example:\n\n```\nsql: What is the correlation between provider specialty and average payment amount?\n```\n\nThe SQL agent provides these advantages:\n- Handles complex queries without predefined patterns\n- Translates natural language to SQL automatically\n- Provides schema-aware responses\n- Supports relational queries across tables"
+}

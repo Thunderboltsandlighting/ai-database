@@ -1,0 +1,5 @@
+2025-07-15 14:10:19,689 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-15 14:10:19,806 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 14:10:19,806 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 14:12:57,246 - werkzeug - INFO - 127.0.0.1 - - [15/Jul/2025 14:12:57] "[33mGET / HTTP/1.1[0m" 404 -

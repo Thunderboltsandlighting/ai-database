@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Application Settings</h5>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div class="mb-4">
+                <h6 class="fw-bold">Database Settings</h6>
+                <div class="mb-3">
+                    <label class="form-label">Database Type</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="db_type" id="sqlite" value="sqlite" {% if settings.db_type == 'sqlite' %}checked{% endif %}>
+                        <label class="form-check-label" for="sqlite">
+                            SQLite (Local file)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="db_type" id="postgresql" value="postgresql" {% if settings.db_type == 'postgresql' %}checked{% endif %} {% if not multi_db %}disabled{% endif %}>
+                        <label class="form-check-label" for="postgresql">
+                            PostgreSQL
+                            {% if not multi_db %}
+                            <span class="badge bg-secondary">Requires multi-database support</span>
+                            {% endif %}
+                        </label>
+                    </div>
+                </div>
+                
+                <div id="sqlite-settings" class="mb-3 {% if settings.db_type != 'sqlite' %}d-none{% endif %}">
+                    <label for="sqlite_path" class="form-label">Database File Path</label>
+                    <input type="text" class="form-control" id="sqlite_path" name="sqlite_path" value="{{ settings.sqlite_path }}">
+                    <div class="form-text">Absolute path to the SQLite database file</div>
+                </div>
+                
+                <div id="postgresql-settings" class="{% if settings.db_type != 'postgresql' %}d-none{% endif %}">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="pg_host" class="form-label">Host</label>
+                            <input type="text" class="form-control" id="pg_host" name="pg_host" value="{{ settings.pg_host }}">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="pg_port" class="form-label">Port</label>
+                            <input type="text" class="form-control" id="pg_port" name="pg_port" value="{{ settings.pg_port }}">
+                        </div>
+                    </div>
+                    <div class="row g-3 mt-1">
+                        <div class="col-md-4">
+                            <label for="pg_db" class="form-label">Database</label>
+                            <input type="text" class="form-control" id="pg_db" name="pg_db" value="{{ settings.pg_db }}">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="pg_user" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="pg_user" name="pg_user" value="{{ settings.pg_user }}">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="pg_pass" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="pg_pass" name="pg_pass" value="{{ settings.pg_pass }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4">
+                <h6 class="fw-bold">Ollama Settings</h6>
+                <div class="mb-3">
+                    <label for="ollama_url" class="form-label">Ollama URL</label>
+                    <input type="text" class="form-control" id="ollama_url" name="ollama_url" value="{{ settings.ollama_url }}">
+                    <div class="form-text">URL of the Ollama server (e.g., http://localhost:11434)</div>
+                </div>
+                <div class="mb-3">
+                    <label for="model_name" class="form-label">Model Name</label>
+                    <input type="text" class="form-control" id="model_name" name="model_name" value="{{ settings.model_name }}">
+                    <div class="form-text">Name of the Ollama model to use (e.g., llama3.1:8b)</div>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Save Settings</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sqliteRadio = document.getElementById('sqlite');
+        const postgresqlRadio = document.getElementById('postgresql');
+        const sqliteSettings = document.getElementById('sqlite-settings');
+        const postgresqlSettings = document.getElementById('postgresql-settings');
+        
+        sqliteRadio.addEventListener('change', function() {
+            if (this.checked) {
+                sqliteSettings.classList.remove('d-none');
+                postgresqlSettings.classList.add('d-none');
+            }
+        });
+        
+        postgresqlRadio.addEventListener('change', function() {
+            if (this.checked) {
+                sqliteSettings.classList.add('d-none');
+                postgresqlSettings.classList.remove('d-none');
+            }
+        });
+    });
+</script>
+{% endblock %}

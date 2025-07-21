@@ -1,0 +1,5 @@
+2025-07-19 15:18:28,338 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-19 15:18:28,338 - hvlc_db - INFO - Loaded 3 format profiles from registry
+2025-07-19 15:18:28,338 - hvlc_db - INFO - Transforming file csv_folder/billing/9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:18:28,338 - hvlc_db - INFO - Detecting format for csv_folder/billing/9-30-23 Payments-Hendersonville - Dustin Nisley.csv
+2025-07-19 15:18:28,348 - hvlc_db - INFO - Detected format: insurance_claims (confidence: 0.88)

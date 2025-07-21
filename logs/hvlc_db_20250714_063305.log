@@ -1,0 +1,5 @@
+2025-07-14 06:33:05,931 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-14 06:33:05,932 - hvlc_db - INFO - Uploads directory: uploads
+2025-07-14 06:33:05,932 - hvlc_db - INFO - Templates directory: templates
+2025-07-14 06:33:05,934 - hvlc_db - ERROR - Error starting web UI: unterminated triple-quoted string literal (detected at line 1775) (web_ui.py, line 1775)
+2025-07-14 06:33:05,934 - hvlc_db - ERROR - Web UI startup error: unterminated triple-quoted string literal (detected at line 1775) (web_ui.py, line 1775)

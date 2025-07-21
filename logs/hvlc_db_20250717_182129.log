@@ -1,0 +1,8 @@
+2025-07-17 18:21:29,271 - utils.ada_memory - INFO - Logger initialized with level INFO
+2025-07-17 18:21:29,410 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-17 18:21:29,410 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 18:21:36,819 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 18:21:36] "GET /api/health HTTP/1.1" 200 -
+2025-07-17 18:21:44,739 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 18:21:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-17 18:21:53,506 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 18:21:53] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-17 18:28:21,865 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 18:28:21] "POST /api/ai/chat HTTP/1.1" 200 -

@@ -1,0 +1,2 @@
+2025-07-14 07:00:44,412 - hvlc_db - INFO - Logger initialized with level INFO
+2025-07-14 07:00:44,747 - hvlc_db - ERROR - Simple Web UI import error: No module named 'flask'
