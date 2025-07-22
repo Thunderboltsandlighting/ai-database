@@ -3,7 +3,9 @@
     <v-row>
       <v-col cols="12">
         <h1 class="text-h4 mb-6">
-          <v-icon left>mdi-office-building</v-icon>
+          <v-icon left>
+            mdi-office-building
+          </v-icon>
           Operations Dashboard
         </h1>
       </v-col>
@@ -11,43 +13,74 @@
 
     <!-- Business Sustainability Overview -->
     <v-row>
-      <v-col cols="12" md="4">
-        <v-card class="sustainability-card" :color="sustainabilityColor">
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-card
+          class="sustainability-card"
+          :color="sustainabilityColor"
+        >
           <v-card-text>
-            <div class="text-h6 mb-2">Business Sustainability</div>
-            <div class="text-h4">{{ sustainabilityStatus }}</div>
+            <div class="text-h6 mb-2">
+              Business Sustainability
+            </div>
+            <div class="text-h4">
+              {{ sustainabilityStatus }}
+            </div>
             <div class="text-body-2 mt-2">
               Monthly Profit: ${{ formatCurrency(dashboard?.summary?.projected_monthly_profit || 0) }}
             </div>
-            <div v-if="dashboard?.summary?.growth_required > 0" class="text-body-2">
+            <div
+              v-if="dashboard?.summary?.growth_required > 0"
+              class="text-body-2"
+            >
               Growth Needed: {{ dashboard.summary.growth_required.toFixed(1) }}%
             </div>
           </v-card-text>
         </v-card>
       </v-col>
       
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-card>
           <v-card-text>
             <div class="text-h6 mb-2">
-              <v-icon left>mdi-office-building-outline</v-icon>
+              <v-icon left>
+                mdi-office-building-outline
+              </v-icon>
               Office Locations
             </div>
-            <div class="text-h4">{{ dashboard?.summary?.total_offices || 0 }}</div>
-            <div class="text-body-2 mt-2">Active locations</div>
+            <div class="text-h4">
+              {{ dashboard?.summary?.total_offices || 0 }}
+            </div>
+            <div class="text-body-2 mt-2">
+              Active locations
+            </div>
           </v-card-text>
         </v-card>
       </v-col>
       
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-card>
           <v-card-text>
             <div class="text-h6 mb-2">
-              <v-icon left>mdi-account-group</v-icon>
+              <v-icon left>
+                mdi-account-group
+              </v-icon>
               Active Providers
             </div>
-            <div class="text-h4">{{ dashboard?.summary?.total_providers || 0 }}</div>
-            <div class="text-body-2 mt-2">Generating revenue</div>
+            <div class="text-h4">
+              {{ dashboard?.summary?.total_providers || 0 }}
+            </div>
+            <div class="text-body-2 mt-2">
+              Generating revenue
+            </div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -58,50 +91,72 @@
       <v-col cols="12">
         <v-card>
           <v-card-title>
-            <v-icon left>mdi-lightning-bolt</v-icon>
+            <v-icon left>
+              mdi-lightning-bolt
+            </v-icon>
             Quick Actions
           </v-card-title>
           <v-card-text>
             <v-row>
-              <v-col cols="12" md="3">
+              <v-col
+                cols="12"
+                md="3"
+              >
                 <v-btn
                   block
                   color="primary"
-                  @click="showBillingSheet = true"
                   :loading="processing"
+                  @click="showBillingSheet = true"
                 >
-                  <v-icon left>mdi-file-document-plus</v-icon>
+                  <v-icon left>
+                    mdi-file-document-plus
+                  </v-icon>
                   Process Billing Sheet
                 </v-btn>
               </v-col>
-              <v-col cols="12" md="3">
+              <v-col
+                cols="12"
+                md="3"
+              >
                 <v-btn
                   block
                   color="secondary"
                   @click="showAddOffice = true"
                 >
-                  <v-icon left>mdi-plus-circle</v-icon>
+                  <v-icon left>
+                    mdi-plus-circle
+                  </v-icon>
                   Add Office Location
                 </v-btn>
               </v-col>
-              <v-col cols="12" md="3">
+              <v-col
+                cols="12"
+                md="3"
+              >
                 <v-btn
                   block
                   color="info"
-                  @click="refreshDashboard"
                   :loading="loading"
+                  @click="refreshDashboard"
                 >
-                  <v-icon left>mdi-refresh</v-icon>
+                  <v-icon left>
+                    mdi-refresh
+                  </v-icon>
                   Refresh Data
                 </v-btn>
               </v-col>
-              <v-col cols="12" md="3">
+              <v-col
+                cols="12"
+                md="3"
+              >
                 <v-btn
                   block
                   color="success"
                   @click="exportReport"
                 >
-                  <v-icon left>mdi-download</v-icon>
+                  <v-icon left>
+                    mdi-download
+                  </v-icon>
                   Export P&L Report
                 </v-btn>
               </v-col>
@@ -116,7 +171,9 @@
       <v-col cols="12">
         <v-card>
           <v-card-title>
-            <v-icon left>mdi-chart-line</v-icon>
+            <v-icon left>
+              mdi-chart-line
+            </v-icon>
             Provider Performance (Last 30 Days)
           </v-card-title>
           <v-card-text>
@@ -126,7 +183,7 @@
               :loading="loading"
               class="elevation-1"
             >
-              <template v-slot:[`item.capacity_utilization`]="{ item }">
+              <template #[`item.capacity_utilization`]="{ item }">
                 <v-chip
                   :color="getCapacityColor(item.capacity_utilization)"
                   small
@@ -136,19 +193,19 @@
                 </v-chip>
               </template>
               
-              <template v-slot:[`item.total_revenue`]="{ item }">
+              <template #[`item.total_revenue`]="{ item }">
                 ${{ formatCurrency(item.total_revenue) }}
               </template>
               
-              <template v-slot:[`item.total_provider_cut`]="{ item }">
+              <template #[`item.total_provider_cut`]="{ item }">
                 ${{ formatCurrency(item.total_provider_cut) }}
               </template>
               
-              <template v-slot:[`item.total_company_cut`]="{ item }">
+              <template #[`item.total_company_cut`]="{ item }">
                 ${{ formatCurrency(item.total_company_cut) }}
               </template>
               
-              <template v-slot:[`item.actions`]="{ item }">
+              <template #[`item.actions`]="{ item }">
                 <v-btn
                   icon
                   small
@@ -168,49 +225,56 @@
       <v-col cols="12">
         <v-card>
           <v-card-title>
-            <v-icon left>mdi-office-building</v-icon>
+            <v-icon left>
+              mdi-office-building
+            </v-icon>
             Office Profitability
           </v-card-title>
           <v-card-text>
-                         <v-data-table
-               :headers="officeHeaders"
-               :items="officeProfitability"
-               :loading="loading"
-               class="elevation-1"
-             >
-               <template v-slot:[`item.profit_margin`]="{ item }">
-                 <v-chip
-                   :color="getProfitColor(item.profit_margin)"
-                   small
-                   text-color="white"
-                 >
-                   {{ item.profit_margin.toFixed(1) }}%
-                 </v-chip>
-               </template>
+            <v-data-table
+              :headers="officeHeaders"
+              :items="officeProfitability"
+              :loading="loading"
+              class="elevation-1"
+            >
+              <template #[`item.profit_margin`]="{ item }">
+                <v-chip
+                  :color="getProfitColor(item.profit_margin)"
+                  small
+                  text-color="white"
+                >
+                  {{ item.profit_margin.toFixed(1) }}%
+                </v-chip>
+              </template>
                
-               <template v-slot:[`item.total_revenue`]="{ item }">
-                 ${{ formatCurrency(item.total_revenue) }}
-               </template>
+              <template #[`item.total_revenue`]="{ item }">
+                ${{ formatCurrency(item.total_revenue) }}
+              </template>
                
-               <template v-slot:[`item.gross_profit`]="{ item }">
-                 ${{ formatCurrency(item.gross_profit) }}
-               </template>
+              <template #[`item.gross_profit`]="{ item }">
+                ${{ formatCurrency(item.gross_profit) }}
+              </template>
                
-               <template v-slot:[`item.period_overhead`]="{ item }">
-                 ${{ formatCurrency(item.period_overhead) }}
-               </template>
-             </v-data-table>
+              <template #[`item.period_overhead`]="{ item }">
+                ${{ formatCurrency(item.period_overhead) }}
+              </template>
+            </v-data-table>
           </v-card-text>
         </v-card>
       </v-col>
     </v-row>
 
     <!-- Recommendations -->
-    <v-row class="mt-4" v-if="dashboard?.recommendations?.length > 0">
+    <v-row
+      v-if="dashboard?.recommendations?.length > 0"
+      class="mt-4"
+    >
       <v-col cols="12">
         <v-card>
           <v-card-title>
-            <v-icon left>mdi-lightbulb</v-icon>
+            <v-icon left>
+              mdi-lightbulb
+            </v-icon>
             Business Recommendations
           </v-card-title>
           <v-card-text>
@@ -219,9 +283,7 @@
                 v-for="(recommendation, index) in dashboard.recommendations"
                 :key="index"
               >
-                <v-list-item-content>
-                  <v-list-item-title>{{ recommendation }}</v-list-item-title>
-                </v-list-item-content>
+                <v-list-item-title>{{ recommendation }}</v-list-item-title>
               </v-list-item>
             </v-list>
           </v-card-text>
@@ -230,41 +292,58 @@
     </v-row>
 
     <!-- Billing Sheet Dialog -->
-    <v-dialog v-model="showBillingSheet" max-width="800">
+    <v-dialog
+      v-model="showBillingSheet"
+      max-width="800"
+    >
       <v-card>
         <v-card-title>Process Billing Sheet</v-card-title>
         <v-card-text>
-          <v-form ref="billingForm" v-model="billingFormValid">
+          <v-form
+            ref="billingForm"
+            v-model="billingFormValid"
+          >
             <v-row>
-              <v-col cols="12" md="6">
+              <v-col
+                cols="12"
+                md="6"
+              >
                 <v-select
                   v-model="billingSheet.provider_id"
                   :items="providerOptions"
                   label="Provider"
                   :rules="[v => !!v || 'Provider is required']"
                   required
-                ></v-select>
+                />
               </v-col>
-              <v-col cols="12" md="6">
+              <v-col
+                cols="12"
+                md="6"
+              >
                 <v-select
                   v-model="billingSheet.office_id"
                   :items="officeOptions"
                   label="Office Location"
                   :rules="[v => !!v || 'Office is required']"
                   required
-                ></v-select>
+                />
               </v-col>
-              <v-col cols="12" md="6">
+              <v-col
+                cols="12"
+                md="6"
+              >
                 <v-text-field
                   v-model="billingSheet.service_date"
                   label="Service Date"
                   type="date"
                   :rules="[v => !!v || 'Service date is required']"
                   required
-                ></v-text-field>
+                />
               </v-col>
               <v-col cols="12">
-                <div class="text-h6 mb-2">Sessions</div>
+                <div class="text-h6 mb-2">
+                  Sessions
+                </div>
                 <v-row
                   v-for="(session, index) in billingSheet.sessions"
                   :key="index"
@@ -278,19 +357,19 @@
                       step="0.01"
                       prefix="$"
                       :rules="[v => v > 0 || 'Amount must be greater than 0']"
-                    ></v-text-field>
+                    />
                   </v-col>
                   <v-col cols="4">
                     <v-text-field
                       v-model="session.service_code"
                       label="Service Code"
-                    ></v-text-field>
+                    />
                   </v-col>
                   <v-col cols="2">
                     <v-btn
                       icon
-                      @click="removeSession(index)"
                       :disabled="billingSheet.sessions.length === 1"
+                      @click="removeSession(index)"
                     >
                       <v-icon>mdi-delete</v-icon>
                     </v-btn>
@@ -301,7 +380,9 @@
                   color="primary"
                   @click="addSession"
                 >
-                  <v-icon left>mdi-plus</v-icon>
+                  <v-icon left>
+                    mdi-plus
+                  </v-icon>
                   Add Session
                 </v-btn>
               </v-col>
@@ -309,13 +390,18 @@
           </v-form>
         </v-card-text>
         <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn text @click="showBillingSheet = false">Cancel</v-btn>
+          <v-spacer />
+          <v-btn
+            text
+            @click="showBillingSheet = false"
+          >
+            Cancel
+          </v-btn>
           <v-btn
             color="primary"
-            @click="processBillingSheet"
             :disabled="!billingFormValid"
             :loading="processing"
+            @click="processBillingSheet"
           >
             Process
           </v-btn>
@@ -324,61 +410,72 @@
     </v-dialog>
 
     <!-- Add Office Dialog -->
-    <v-dialog v-model="showAddOffice" max-width="600">
+    <v-dialog
+      v-model="showAddOffice"
+      max-width="600"
+    >
       <v-card>
         <v-card-title>Add Office Location</v-card-title>
         <v-card-text>
-          <v-form ref="officeForm" v-model="officeFormValid">
+          <v-form
+            ref="officeForm"
+            v-model="officeFormValid"
+          >
             <v-text-field
               v-model="newOffice.office_id"
               label="Office ID"
               :rules="[v => !!v || 'Office ID is required']"
               required
-            ></v-text-field>
+            />
             <v-text-field
               v-model="newOffice.name"
               label="Office Name"
               :rules="[v => !!v || 'Office name is required']"
               required
-            ></v-text-field>
+            />
             <v-text-field
               v-model="newOffice.address"
               label="Address"
-            ></v-text-field>
+            />
             <v-text-field
               v-model="newOffice.phone"
               label="Phone"
-            ></v-text-field>
+            />
             <v-text-field
               v-model.number="newOffice.capacity_sessions_per_day"
               label="Daily Session Capacity"
               type="number"
               :rules="[v => v > 0 || 'Capacity must be greater than 0']"
-            ></v-text-field>
+            />
             <v-text-field
               v-model.number="newOffice.overhead_monthly"
               label="Monthly Overhead"
               type="number"
               step="0.01"
               prefix="$"
-            ></v-text-field>
+            />
             <v-text-field
               v-model.number="newOffice.rent_monthly"
               label="Monthly Rent"
               type="number"
               step="0.01"
               prefix="$"
-            ></v-text-field>
+            />
           </v-form>
         </v-card-text>
         <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn text @click="showAddOffice = false">Cancel</v-btn>
+          <v-spacer />
+          <v-btn
+            text
+            @click="showAddOffice = false"
+          >
+            Cancel
+          </v-btn>
           <v-btn
             color="primary"
-            @click="addOffice"
             :disabled="!officeFormValid"
             :loading="processing"
+            @click="addOffice"
           >
             Add Office
           </v-btn>
@@ -393,7 +490,7 @@
       :timeout="4000"
     >
       {{ snackbar.message }}
-      <template v-slot:action="{ attrs }">
+      <template #action="{ attrs }">
         <v-btn
           text
           v-bind="attrs"
@@ -407,7 +504,7 @@
 </template>
 
 <script>
-import { api } from '@/services/api'
+import { apiClient } from '@/services/api'
 
 export default {
   name: 'OperationsView',
@@ -516,7 +613,7 @@ export default {
     async loadDashboard() {
       this.loading = true
       try {
-        const response = await api.get('/operations/dashboard/operations')
+        const response = await apiClient.get('/operations/dashboard/operations')
         if (response.data.success) {
           this.dashboard = response.data.dashboard
         } else {
@@ -532,7 +629,7 @@ export default {
     
     async loadOffices() {
       try {
-        const response = await api.get('/operations/offices')
+        const response = await apiClient.get('/operations/offices')
         if (response.data.success) {
           this.offices = response.data.offices
         }
@@ -546,7 +643,7 @@ export default {
       
       this.processing = true
       try {
-        const response = await api.post('/operations/billing-sheet/process', this.billingSheet)
+        const response = await apiClient.post('/operations/billing-sheet/process', this.billingSheet)
         if (response.data.success) {
           this.showSuccess('Billing sheet processed successfully!')
           this.showBillingSheet = false
@@ -568,7 +665,7 @@ export default {
       
       this.processing = true
       try {
-        const response = await api.post('/operations/offices', this.newOffice)
+        const response = await apiClient.post('/operations/offices', this.newOffice)
         if (response.data.success) {
           this.showSuccess('Office added successfully!')
           this.showAddOffice = false
@@ -592,7 +689,7 @@ export default {
     
     async exportReport() {
       try {
-        const response = await api.get('/operations/profitability/all-offices')
+        const response = await apiClient.get('/operations/profitability/all-offices')
         if (response.data.success) {
           const report = response.data.profitability_report
           const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' })

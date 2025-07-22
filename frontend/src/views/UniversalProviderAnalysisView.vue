@@ -3,70 +3,119 @@
     <v-row>
       <v-col cols="12">
         <h1 class="text-h4 mb-6">
-          <v-icon left color="primary">mdi-account-cash</v-icon>
+          <v-icon
+            left
+            color="primary"
+          >
+            mdi-account-cash
+          </v-icon>
           {{ providerName }} - Overhead Coverage Analysis
         </h1>
       </v-col>
     </v-row>
 
     <!-- Loading State -->
-    <div v-if="loading" class="d-flex justify-center">
-      <v-progress-circular indeterminate size="64"></v-progress-circular>
+    <div
+      v-if="loading"
+      class="d-flex justify-center"
+    >
+      <v-progress-circular
+        indeterminate
+        size="64"
+      />
     </div>
 
     <!-- Analysis Content -->
     <div v-else-if="analysisData">
-      
       <!-- Status Overview Cards -->
       <v-row class="mb-6">
-        <v-col cols="12" md="3">
-          <v-card :color="statusColor" dark>
+        <v-col
+          cols="12"
+          md="3"
+        >
+          <v-card
+            :color="statusColor"
+            dark
+          >
             <v-card-text>
               <div class="text-h6 mb-2">
-                <v-icon left>mdi-gauge</v-icon>
+                <v-icon left>
+                  mdi-gauge
+                </v-icon>
                 Current Coverage
               </div>
-              <div class="text-h3">{{ latestCoverage }}%</div>
-              <div class="text-body-2 mt-2">{{ statusText }}</div>
+              <div class="text-h3">
+                {{ latestCoverage }}%
+              </div>
+              <div class="text-body-2 mt-2">
+                {{ statusText }}
+              </div>
             </v-card-text>
           </v-card>
         </v-col>
         
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-card>
             <v-card-text>
               <div class="text-h6 mb-2">
-                <v-icon left>mdi-cash</v-icon>
+                <v-icon left>
+                  mdi-cash
+                </v-icon>
                 Monthly Overhead
               </div>
-              <div class="text-h4">${{ formatCurrency(analysisData.monthly_overhead) }}</div>
-              <div class="text-body-2 mt-2">Fixed monthly costs</div>
+              <div class="text-h4">
+                ${{ formatCurrency(analysisData.monthly_overhead) }}
+              </div>
+              <div class="text-body-2 mt-2">
+                Fixed monthly costs
+              </div>
             </v-card-text>
           </v-card>
         </v-col>
         
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-card>
             <v-card-text>
               <div class="text-h6 mb-2">
-                <v-icon left>mdi-percent</v-icon>
+                <v-icon left>
+                  mdi-percent
+                </v-icon>
                 Company Share
               </div>
-              <div class="text-h4">{{ analysisData.company_percentage }}%</div>
-              <div class="text-body-2 mt-2">{{ providerName }}'s revenue to company</div>
+              <div class="text-h4">
+                {{ analysisData.company_percentage }}%
+              </div>
+              <div class="text-body-2 mt-2">
+                {{ providerName }}'s revenue to company
+              </div>
             </v-card-text>
           </v-card>
         </v-col>
         
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-card>
             <v-card-text>
               <div class="text-h6 mb-2">
-                <v-icon left>mdi-target</v-icon>
+                <v-icon left>
+                  mdi-target
+                </v-icon>
                 Break-Even Target
               </div>
-              <div class="text-h4">{{ analysisData.break_even.needed_transactions_per_month }}</div>
-              <div class="text-body-2 mt-2">Transactions/month needed</div>
+              <div class="text-h4">
+                {{ analysisData.break_even.needed_transactions_per_month }}
+              </div>
+              <div class="text-body-2 mt-2">
+                Transactions/month needed
+              </div>
             </v-card-text>
           </v-card>
         </v-col>
@@ -74,10 +123,15 @@
 
       <!-- Charts Section -->
       <v-row class="mb-6">
-        <v-col cols="12" lg="8">
+        <v-col
+          cols="12"
+          lg="8"
+        >
           <v-card>
             <v-card-title>
-              <v-icon left>mdi-chart-bar</v-icon>
+              <v-icon left>
+                mdi-chart-bar
+              </v-icon>
               Overhead Coverage by Year
             </v-card-title>
             <v-card-text style="height: 400px;">
@@ -90,10 +144,15 @@
           </v-card>
         </v-col>
         
-        <v-col cols="12" lg="4">
+        <v-col
+          cols="12"
+          lg="4"
+        >
           <v-card>
             <v-card-title>
-              <v-icon left>mdi-pie-chart</v-icon>
+              <v-icon left>
+                mdi-pie-chart
+              </v-icon>
               Monthly Expenses
             </v-card-title>
             <v-card-text style="height: 400px;">
@@ -111,7 +170,9 @@
         <v-col cols="12">
           <v-card>
             <v-card-title>
-              <v-icon left>mdi-trending-up</v-icon>
+              <v-icon left>
+                mdi-trending-up
+              </v-icon>
               Performance Trend Analysis
             </v-card-title>
             <v-card-text style="height: 350px;">
@@ -130,7 +191,9 @@
         <v-col cols="12">
           <v-card>
             <v-card-title>
-              <v-icon left>mdi-table</v-icon>
+              <v-icon left>
+                mdi-table
+              </v-icon>
               Year-by-Year Breakdown
             </v-card-title>
             <v-card-text>
@@ -140,13 +203,13 @@
                 class="elevation-1"
                 :items-per-page="10"
               >
-                <template v-slot:item.total_revenue="{ item }">
+                <template #item.total_revenue="{ item }">
                   ${{ formatCurrency(item.total_revenue) }}
                 </template>
-                <template v-slot:item.monthly_contribution="{ item }">
+                <template #item.monthly_contribution="{ item }">
                   ${{ formatCurrency(item.monthly_contribution) }}
                 </template>
-                <template v-slot:item.coverage_percentage="{ item }">
+                <template #item.coverage_percentage="{ item }">
                   <v-chip 
                     :color="getCoverageColor(item.coverage_percentage)"
                     dark
@@ -155,7 +218,7 @@
                     {{ item.coverage_percentage.toFixed(1) }}%
                   </v-chip>
                 </template>
-                <template v-slot:item.status="{ item }">
+                <template #item.status="{ item }">
                   <v-chip 
                     :color="item.coverage_percentage >= 100 ? 'success' : 'error'"
                     dark
@@ -175,7 +238,9 @@
         <v-col cols="12">
           <v-card>
             <v-card-title>
-              <v-icon left>mdi-robot</v-icon>
+              <v-icon left>
+                mdi-robot
+              </v-icon>
               AI Analysis & Recommendations
             </v-card-title>
             <v-card-text>
@@ -186,14 +251,16 @@
           </v-card>
         </v-col>
       </v-row>
-
     </div>
 
     <!-- Error State -->
-    <v-alert v-else-if="error" type="error" class="mb-4">
+    <v-alert
+      v-else-if="error"
+      type="error"
+      class="mb-4"
+    >
       {{ error }}
     </v-alert>
-
   </v-container>
 </template>
 

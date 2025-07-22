@@ -159,7 +159,7 @@ class TestReportTransformer:
         assert "provider_name" in df.columns
         
         # Check values
-        assert df["transaction_id"].iloc[0] == "9690"
+        assert df["transaction_id"].iloc[0] == 9690
         assert df["transaction_date"].iloc[0] == "2025-01-04"
         assert df["cash_applied"].iloc[0] == 55.0
         assert df["provider_name"].iloc[0] == "Tammy Maxey"

@@ -1,6 +1,6 @@
 <template>
   <div class="chart-container">
-    <Line
+    <LineChart
       v-if="chartData"
       :data="chartData"
       :options="chartOptions"
@@ -17,7 +17,7 @@ ChartJS.register(Title, Tooltip, Legend, LineElement, PointElement, CategoryScal
 export default {
   name: 'MonthlyRevenueChart',
   components: {
-    Line
+    LineChart: Line
   },
   props: {
     monthlyData: {

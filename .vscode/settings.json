@@ -1,45 +1,33 @@
 {
-  // Vue 3 + Volar Configuration (Modern approach)
-  "vue.codeActions.enabled": true,
-  "vue.complete.casing.props": "kebab",
-  "vue.complete.casing.tags": "kebab",
-  "vue.updateImportsOnFileMove.enabled": true,
-  
-  // TypeScript/JavaScript Configuration
-  "typescript.preferences.includePackageJsonAutoImports": "on",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": true,
-  
-  // ESLint Configuration for Frontend
+  "vetur.config": "./frontend/jsconfig.json",
+  "vetur.ignoreProjectWarning": true,
+  "vetur.validation.template": true,
+  "vetur.validation.script": true,
+  "vetur.validation.style": true,
+  "vetur.format.enable": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.useWorkspaceDependencies": true,
+  "vetur.experimental.templateInterpolationService": true,
   "eslint.workingDirectories": [
     "frontend"
   ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue"
-  ],
-  
-  // File Associations
   "files.associations": {
     "*.vue": "vue"
   },
-  
-  // Python Configuration for Backend
-  "python.defaultInterpreterPath": "/opt/homebrew/opt/python@3.10/libexec/bin/python",
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.formatting.provider": "black",
-  
-  // General Editor Settings
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
   },
-  
-  // Disable Vetur if installed (deprecated)
-  "vetur.validation.template": false,
-  "vetur.validation.style": false,
-  "vetur.validation.script": false
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.nuxt": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  }
 } 

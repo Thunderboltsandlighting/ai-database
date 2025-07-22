@@ -7,7 +7,7 @@ import axios from 'axios';
 
 // Create axios instance with API base URL
 const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5001/api',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
@@ -83,11 +83,18 @@ const databaseApi = {
    */
   getStats() {
     return apiClient.get('/database/stats');
+  },
+
+  /**
+   * Get database summary for dashboard
+   */
+  getSummary() {
+    return apiClient.get('/database/summary');
   }
 };
 
 // AI API endpoints
-export const aiApi = {
+const aiApi = {
   /**
    * Get AI service status
    */
@@ -218,6 +225,20 @@ const analysisApi = {
    */
   getProviderOverheadAnalysis(providerName) {
     return apiClient.get(`/analytics/provider-overhead-analysis/${encodeURIComponent(providerName)}`);
+  },
+
+  /**
+   * Get provider summary for dashboard
+   */
+  getProviderSummary() {
+    return apiClient.get('/analysis/provider-summary');
+  },
+
+  /**
+   * Get analytics data for dashboard
+   */
+  getAnalytics() {
+    return apiClient.get('/analysis/analytics');
   },
 
   /**

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["frontend/src/*"],
+      "~/*": ["frontend/src/*"]
+    }
+  },
+  "include": [
+    "frontend/src/**/*",
+    "frontend/**/*.vue",
+    "frontend/**/*.js",
+    "*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "frontend/node_modules",
+    "dist",
+    "frontend/dist"
+  ]
+} 
